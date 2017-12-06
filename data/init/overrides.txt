@@ -1,0 +1,592 @@
+#::17 ERROR
+#::16 white
+#::15 light magenta
+#::14 light red
+#::13 light brown/yellow
+#::12 light cyan
+#::11 light green
+#::10 light blue
+#::9 dark grey
+#::8 light grey
+#::7 magenta
+#::6 red
+#::5 brown
+#::4 cyan
+#::3 green
+#::2 blue
+#::1 black
+#::0 ERROR
+#:new tile:foreground:background
+
+#new creatures: next underground: Green devourer, creeping eye, plump helmet man, amethyst man, gabbro man, reacher.
+#new creatures: standard: troll, bronze colossus, sea monster.
+#new creatures: subterranean: giant cave spider, fire imp, bat, 
+
+
+[TILESET:_MDF_trees.png:_MDF_trees.png:_MDF_overrides_2]
+
+[OVERRIDE:127:T:TreeDeadTrunkSloping:_MDF_overrides_2:38]
+[OVERRIDE:127:T:TreeTrunkSloping:_MDF_overrides_2:38]
+[OVERRIDE:10:T:TreeDeadTrunkInterior:_MDF_overrides_2:38]*
+[OVERRIDE:10:T:TreeTrunkInterior:_MDF_overrides_2:38]*
+
+[OVERRIDE:196:T:TreeBranchEW:_MDF_overrides_2:23::]
+[OVERRIDE:192:T:TreeBranchNE:_MDF_overrides_2:20::]
+[OVERRIDE:193:T:TreeBranchNEW:_MDF_overrides_2:53::]
+[OVERRIDE:179:T:TreeBranchNS:_MDF_overrides_2:6::]
+[OVERRIDE:195:T:TreeBranchNSE:_MDF_overrides_2:52::]
+[OVERRIDE:158:T:TreeBranchNSEW:_MDF_overrides_2:22::]
+[OVERRIDE:180:T:TreeBranchNSW:_MDF_overrides_2:37::]
+[OVERRIDE:217:T:TreeBranchNW:_MDF_overrides_2:21::]
+[OVERRIDE:218:T:TreeBranchSE:_MDF_overrides_2:4::]
+[OVERRIDE:194:T:TreeBranchSEW:_MDF_overrides_2:36::]
+[OVERRIDE:191:T:TreeBranchSW:_MDF_overrides_2:5::]
+[OVERRIDE:204:T:TreeTrunkBranchE:_MDF_overrides_2:48::]
+[OVERRIDE:202:T:TreeTrunkBranchN:_MDF_overrides_2:50::]
+[OVERRIDE:209:T:TreeTrunkBranchS:_MDF_overrides_2:0::]
+[OVERRIDE:182:T:TreeTrunkBranchW:_MDF_overrides_2:19::]
+[OVERRIDE:186:T:TreeTrunkE:_MDF_overrides_2:17::]
+[OVERRIDE:205:T:TreeTrunkEW:_MDF_overrides_2:34::]
+[OVERRIDE:205:T:TreeTrunkN:_MDF_overrides_2:34::]
+[OVERRIDE:187:T:TreeTrunkNE:_MDF_overrides_2:2::]
+[OVERRIDE:202:T:TreeTrunkNEW:_MDF_overrides_2:50::]
+[OVERRIDE:186:T:TreeTrunkNS:_MDF_overrides_2:17::]
+[OVERRIDE:204:T:TreeTrunkNSE:_MDF_overrides_2:48::]
+[OVERRIDE:206:T:TreeTrunkNSEW:_MDF_overrides_2:1::]
+[OVERRIDE:185:T:TreeTrunkNSW:_MDF_overrides_2:19::]
+[OVERRIDE:201:T:TreeTrunkNW:_MDF_overrides_2:32::]
+[OVERRIDE:10:T:TreeTrunkPillar:_MDF_overrides_2:33::]
+[OVERRIDE:205:T:TreeTrunkS:_MDF_overrides_2:34::]
+[OVERRIDE:188:T:TreeTrunkSE:_MDF_overrides_2:35::]
+[OVERRIDE:203:T:TreeTrunkSEW:_MDF_overrides_2:0::]
+[OVERRIDE:200:T:TreeTrunkSW:_MDF_overrides_2:49::]
+[OVERRIDE:186:T:TreeTrunkW:_MDF_overrides_2:17::]
+[OVERRIDE:158:T:TreeTrunkSloping:_MDF_overrides_2:38::]
+
+[OVERRIDE:196:T:TreeDeadBranchEW:_MDF_overrides_2:23::]
+[OVERRIDE:192:T:TreeDeadBranchNE:_MDF_overrides_2:20::]
+[OVERRIDE:193:T:TreeDeadBranchNEW:_MDF_overrides_2:53::]
+[OVERRIDE:179:T:TreeDeadBranchNS:_MDF_overrides_2:6::]
+[OVERRIDE:195:T:TreeDeadBranchNSE:_MDF_overrides_2:52::]
+[OVERRIDE:158:T:TreeDeadBranchNSEW:_MDF_overrides_2:22::]
+[OVERRIDE:180:T:TreeDeadBranchNSW:_MDF_overrides_2:37::]
+[OVERRIDE:217:T:TreeDeadBranchNW:_MDF_overrides_2:21::]
+[OVERRIDE:218:T:TreeDeadBranchSE:_MDF_overrides_2:4::]
+[OVERRIDE:194:T:TreeDeadBranchSEW:_MDF_overrides_2:36::]
+[OVERRIDE:191:T:TreeDeadBranchSW:_MDF_overrides_2:5::]
+[OVERRIDE:204:T:TreeDeadTrunkBranchE:_MDF_overrides_2:48::]
+[OVERRIDE:202:T:TreeDeadTrunkBranchN:_MDF_overrides_2:50::]
+[OVERRIDE:209:T:TreeDeadTrunkBranchS:_MDF_overrides_2:0::]
+[OVERRIDE:182:T:TreeDeadTrunkBranchW:_MDF_overrides_2:19::]
+[OVERRIDE:186:T:TreeDeadTrunkE:_MDF_overrides_2:17::]
+[OVERRIDE:205:T:TreeDeadTrunkEW:_MDF_overrides_2:34::]
+[OVERRIDE:205:T:TreeDeadTrunkN:_MDF_overrides_2:34::]
+[OVERRIDE:187:T:TreeDeadTrunkNE:_MDF_overrides_2:2::]
+[OVERRIDE:202:T:TreeDeadTrunkNEW:_MDF_overrides_2:50::]
+[OVERRIDE:186:T:TreeDeadTrunkNS:_MDF_overrides_2:17::]
+[OVERRIDE:204:T:TreeDeadTrunkNSE:_MDF_overrides_2:48::]
+[OVERRIDE:206:T:TreeDeadTrunkNSEW:_MDF_overrides_2:1::]
+[OVERRIDE:185:T:TreeDeadTrunkNSW:_MDF_overrides_2:19::]
+[OVERRIDE:201:T:TreeDeadTrunkNW:_MDF_overrides_2:32::]
+[OVERRIDE:10:T:TreeDeadTrunkPillar:_MDF_overrides_2:33::]
+[OVERRIDE:205:T:TreeDeadTrunkS:_MDF_overrides_2:34::]
+[OVERRIDE:188:T:TreeDeadTrunkSE:_MDF_overrides_2:35::]
+[OVERRIDE:203:T:TreeDeadTrunkSEW:_MDF_overrides_2:0::]
+[OVERRIDE:200:T:TreeDeadTrunkSW:_MDF_overrides_2:49::]
+[OVERRIDE:186:T:TreeDeadTrunkW:_MDF_overrides_2:17::]
+[OVERRIDE:158:T:TreeDeadTrunkSloping:_MDF_overrides_2:38::]
+
+[OVERRIDE:10:T:TreeCapPillar:_MDF_overrides_2:25::]
+[OVERRIDE:186:T:TreeCapWallE:_MDF_overrides_2:26::]
+[OVERRIDE:205:T:TreeCapWallN:_MDF_overrides_2:9::]
+[OVERRIDE:187:T:TreeCapWallNE:_MDF_overrides_2:10::]
+[OVERRIDE:201:T:TreeCapWallNW:_MDF_overrides_2:8::]
+[OVERRIDE:205:T:TreeCapWallS:_MDF_overrides_2:41::]
+[OVERRIDE:188:T:TreeCapWallSE:_MDF_overrides_2:42::]
+[OVERRIDE:200:T:TreeCapWallSW:_MDF_overrides_2:40::]
+[OVERRIDE:186:T:TreeCapWallW:_MDF_overrides_2:24::]
+
+[OVERRIDE:10:T:TreeDeadCapPillar:_MDF_overrides_2:25::]
+[OVERRIDE:186:T:TreeDeadCapWallE:_MDF_overrides_2:26::]
+[OVERRIDE:205:T:TreeDeadCapWallN:_MDF_overrides_2:9::]
+[OVERRIDE:187:T:TreeDeadCapWallNE:_MDF_overrides_2:10::]
+[OVERRIDE:201:T:TreeDeadCapWallNW:_MDF_overrides_2:8::]
+[OVERRIDE:205:T:TreeDeadCapWallS:_MDF_overrides_2:41::]
+[OVERRIDE:188:T:TreeDeadCapWallSE:_MDF_overrides_2:42::]
+[OVERRIDE:200:T:TreeDeadCapWallSW:_MDF_overrides_2:40::]
+[OVERRIDE:186:T:TreeDeadCapWallW:_MDF_overrides_2:24::]
+
+
+
+
+
+
+
+##################################################################################
+[TILESET:_MDF_items.png:_MDF_items.png:_MDF_overrides_1]
+
+#[OVERRIDE:206:T:StoneFortification:_MDF_overrides_1:44]
+###[OVERRIDE:50:B:WORKSHOP_CUSTOM:Workshop:DISPLAY_CASE:_MDF_overrides_1:50]
+
+[OVERRIDE:254:B:WORKSHOP_CUSTOM:Workshop:CAMPFIRE:_MDF_overrides_1:121]
+[OVERRIDE:120:B:WORKSHOP_CUSTOM:Workshop:WOODEN_FLOOR:_MDF_overrides_1:120]
+
+remains
+#[OVERRIDE:253:I:REMAINS:REMAINS::_MDF_overrides_1:119]
+dead
+#[OVERRIDE:1:I:CORPSE:CORPSE::_MDF_overrides_1:46] => I could make 256 corpses, by defining a creature tile from 0 to 255 in the raws. At least the civ-creatures?
+bodyparts
+#[OVERRIDE:253:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_1:47]
+
+[OVERRIDE:15:I:ROUGH:ROUGH::_MDF_overrides_1:219::1]
+[OVERRIDE:4:I:SMALLGEM:SMALLGEM::_MDF_overrides_1:218::1]
+[OVERRIDE:4:I:GEM:GEM::_MDF_overrides_1:217::1]
+
+herring looks like meat.
+
+#[OVERRIDE:8:B:NEST:::3:10]
+
+[OVERRIDE:220:B::SiegeEngine::_MDF_overrides_2:128] 
+[OVERRIDE:223:B::SiegeEngine::_MDF_overrides_2:129] 
+[OVERRIDE:205:B::SiegeEngine::_MDF_overrides_2:130] 
+[OVERRIDE:181:B::SiegeEngine::_MDF_overrides_2:131] 
+[OVERRIDE:8:B::SiegeEngine::_MDF_overrides_2:132] 
+[OVERRIDE:221:B::SiegeEngine::_MDF_overrides_2:144]
+[OVERRIDE:186:B::SiegeEngine::_MDF_overrides_2:145]
+[OVERRIDE:222:B::SiegeEngine::_MDF_overrides_2:146]
+[OVERRIDE:198:B::SiegeEngine::_MDF_overrides_2:147]
+[OVERRIDE:177:B::SiegeEngine::_MDF_overrides_1:120]1 cat wood
+[OVERRIDE:92:B::SiegeEngine::_MDF_overrides_2:160]
+[OVERRIDE:208:B::SiegeEngine::_MDF_overrides_2:161]
+[OVERRIDE:47:B::SiegeEngine::_MDF_overrides_2:162]
+[OVERRIDE:210:B::SiegeEngine::_MDF_overrides_2:163]
+
+#[OVERRIDE:17:I:BALLISTAARROWHEAD:BALLISTAARROWHEAD::_MDF_overrides_1:20]
+[OVERRIDE:220:I:BALLISTAPARTS:BALLISTAPARTS::_MDF_overrides_2:129]
+[OVERRIDE:220:I:CATAPULTPARTS:CATAPULTPARTS::_MDF_overrides_1:129]
+
+#[OVERRIDE:178:T:OpenSpace:3:0]
+#[OVERRIDE:249:T:OpenSpace:3:1]
+#[OVERRIDE:250:T:OpenSpace:3:1]
+#[OVERRIDE:242:T:Ashes1:3:6]
+#[OVERRIDE:243:T:Ashes2:3:7]
+#[OVERRIDE:126:T:Ashes3:3:8]
+[OVERRIDE:240:T:Driftwood:_MDF_overrides_2:236]
+[OVERRIDE:39:T:Fire:_MDF_overrides_1:195] was ::7
+[OVERRIDE:44:T:Fire:_MDF_overrides_1:196] was ::7
+[OVERRIDE:46:T:Fire:_MDF_overrides_1:197] was ::7
+[OVERRIDE:96:T:Fire:_MDF_overrides_1:198] was ::7
+[OVERRIDE:15:T:Campfire:_MDF_overrides_1:121] was ::3
+
+#[OVERRIDE:247:T:BrookN:4:164]
+#[OVERRIDE:247:T:BrookE:4:164]
+#[OVERRIDE:247:T:BrookS:4:164]
+#[OVERRIDE:247:T:BrookW:4:164]
+#[OVERRIDE:247:T:BrookNE:4:164]
+#[OVERRIDE:247:T:BrookNW:4:164]
+#[OVERRIDE:247:T:BrookSE:4:164]
+#[OVERRIDE:247:T:BrookSW:4:164]
+#[OVERRIDE:247:T:BrookTop:4:164]
+
+[OVERRIDE:09:B:WELL:Well::_MDF_overrides_1:126]
+
+[OVERRIDE:179:B:WEAPON_UPRIGHT:::_MDF_overrides_2:216]
+[OVERRIDE:46:B:WEAPON_UPRIGHT:::_MDF_overrides_2:217]
+
+[OVERRIDE:205:B:BRIDGE:::_MDF_overrides_2:209] lr =
+[OVERRIDE:186:B:BRIDGE:::_MDF_overrides_2:224] ud ||
+[OVERRIDE:187:B:BRIDGE:::_MDF_overrides_2:210] ur
+[OVERRIDE:200:B:BRIDGE:::_MDF_overrides_2:240] dl
+[OVERRIDE:188:B:BRIDGE:::_MDF_overrides_2:241] br
+[OVERRIDE:201:B:BRIDGE:::_MDF_overrides_2:208] ul
+[OVERRIDE:43:B:BRIDGE:::_MDF_overrides_2:211] floor
+[OVERRIDE:206:B:BRIDGE:::_MDF_overrides_2:227] middle
+[OVERRIDE:198:B:BRIDGE:::_MDF_overrides_2:242] r stop
+[OVERRIDE:181:B:BRIDGE:::_MDF_overrides_2:243] l stop
+[OVERRIDE:210:B:BRIDGE:::_MDF_overrides_2:225] d stop
+[OVERRIDE:208:B:BRIDGE:::_MDF_overrides_2:226] u stop
+[OVERRIDE:111:B:BRIDGE:::_MDF_overrides_2:227] o
+#[OVERRIDE:247:B:BRIDGE:::_MDF_overrides_2:] sand
+
+
+[OVERRIDE:186:B:WINDMILL:::_MDF_overrides_2:232]
+[OVERRIDE:205:B:WINDMILL:::_MDF_overrides_2:233]
+[OVERRIDE:196:B:WINDMILL:::_MDF_overrides_2:234]
+[OVERRIDE:79:B:WINDMILL:::_MDF_overrides_2:235]
+[OVERRIDE:179:B:WINDMILL:::_MDF_overrides_2:248]
+[OVERRIDE:47:B:WINDMILL:::_MDF_overrides_2:249]
+[OVERRIDE:92:B:WINDMILL:::_MDF_overrides_2:250]
+
+[OVERRIDE:15:B:GEAR_ASSEMBLY:::_MDF_overrides_2:228]
+[OVERRIDE:42:B:GEAR_ASSEMBLY:::_MDF_overrides_2:246]
+
+[OVERRIDE:205:B:AXLE_HORIZONTAL:::_MDF_overrides_2:229:16:]
+[OVERRIDE:179:B:AXLE_HORIZONTAL:::_MDF_overrides_2:230:16:]
+[OVERRIDE:186:B:AXLE_HORIZONTAL:::_MDF_overrides_2:244:16:]
+[OVERRIDE:196:B:AXLE_HORIZONTAL:::_MDF_overrides_2:245:16:]
+[OVERRIDE:111:B:AXLE_VERTICAL:::_MDF_overrides_2:231:16:]
+[OVERRIDE:9:B:AXLE_VERTICAL:::_MDF_overrides_2:247:16:]
+
+[OVERRIDE:205:B:WATER_WHEEL:::_MDF_overrides_2:238]
+[OVERRIDE:186:B:WATER_WHEEL:::_MDF_overrides_2:239]
+[OVERRIDE:196:B:WATER_WHEEL:::_MDF_overrides_2:254]
+[OVERRIDE:179:B:WATER_WHEEL:::_MDF_overrides_2:255]
+
+[OVERRIDE:246:B:SCREW_PUMP:::_MDF_overrides_2:251]
+[OVERRIDE:37:B:SCREW_PUMP:::_MDF_overrides_2:252]
+
+[OVERRIDE:182:B:ROLLERS:::_MDF_overrides_2:214]
+[OVERRIDE:199:B:ROLLERS:::_MDF_overrides_2:215]
+[OVERRIDE:207:B:ROLLERS:::_MDF_overrides_2:213]
+[OVERRIDE:209:B:ROLLERS:::_MDF_overrides_2:212]
+
+[OVERRIDE:126:B:FARM_PLOT:::_MDF_overrides_2:218]
+[OVERRIDE:247:B:FARM_PLOT:::_MDF_overrides_2:219]
+[OVERRIDE:205:B:FARM_PLOT:::_MDF_overrides_2:220]
+
+[OVERRIDE:205:T:FurrowedSoil:_MDF_overrides_1:193]
+[OVERRIDE:247:T:FurrowedSoil:_MDF_overrides_1:193]
+[OVERRIDE:126:T:FurrowedSoil:_MDF_overrides_1:193]
+
+[OVERRIDE:126:B:ANY_ROAD:RoadDirt::_MDF_overrides_1:193]
+[OVERRIDE:247:B:ANY_ROAD:RoadDirt::_MDF_overrides_1:193]
+[OVERRIDE:43:B:ANY_ROAD:RoadPaved::_MDF_overrides_1:192]
+[OVERRIDE:247:B:ANY_ROAD:RoadPaved::_MDF_overrides_1:191]
+
+[OVERRIDE:17:I:SIEGEAMMO:SIEGEAMMO:0:_MDF_overrides_1:128]
+[OVERRIDE:196:I:SIEGEAMMO:SIEGEAMMO:0:_MDF_overrides_1:129]
+[OVERRIDE:174:I:SIEGEAMMO:SIEGEAMMO:0:_MDF_overrides_1:130]
+[OVERRIDE:177:B:WINDOW_ANY:WindowGem::_MDF_overrides_1:181]
+[OVERRIDE:177:B:WINDOW_ANY:WindowGlass::_MDF_overrides_1:182]
+
+[OVERRIDE:88:I:FLOODGATE:::_MDF_overrides_1:183:16]
+[OVERRIDE:215:I:FLOODGATE:::_MDF_overrides_1:183:16]
+[OVERRIDE:88:B:FLOODGATE:::_MDF_overrides_1:183:16]
+[OVERRIDE:215:B:FLOODGATE:::_MDF_overrides_1:183:16]
+
+[OVERRIDE:08:B:NEST_BOX:NestBox::_MDF_overrides_1:180]
+
+# artifact gem doors
+[OVERRIDE:15:I:DOOR:DOOR::_MDF_overrides_1:185]
+#glass portal
+[OVERRIDE:79:I:DOOR:DOOR::_MDF_overrides_1:185]
+#wooden doors
+[OVERRIDE:186:I:DOOR:DOOR::_MDF_overrides_1:184]
+#stone doors
+[OVERRIDE:197:I:DOOR:DOOR::_MDF_overrides_1:186]
+#metal doors
+[OVERRIDE:240:I:DOOR:DOOR::_MDF_overrides_1:187]
+
+# artifact gem doors
+[OVERRIDE:15:B:DOOR:Door::_MDF_overrides_1:185:15]
+#glass portal
+[OVERRIDE:79:B:DOOR:Door::_MDF_overrides_1:185:12]
+#wooden doors
+[OVERRIDE:186:B:DOOR:Door::_MDF_overrides_1:184:7]
+#stone doors
+[OVERRIDE:197:B:DOOR:Door::_MDF_overrides_1:186:8]
+#metal doors
+[OVERRIDE:240:B:DOOR:Door::_MDF_overrides_1:187:9]
+
+[OVERRIDE:126:B:WORKSHOP_SIEGE:Workshop::_MDF_overrides_1:127:16]
+[OVERRIDE:92:B:WORKSHOP_SIEGE:Workshop::_MDF_overrides_1:110:16]
+[OVERRIDE:47:B:WORKSHOP_SIEGE:Workshop::_MDF_overrides_1:110:16]
+[OVERRIDE:111:B:WORKSHOP_SIEGE:Workshop::_MDF_overrides_1:125:16]
+[OVERRIDE:176:B:WORKSHOP_SIEGE:Workshop::_MDF_overrides_1:124] no color
+
+[OVERRIDE:177:B:WORKSHOP_LEATHER:Workshop::_MDF_overrides_1:131:16]
+[OVERRIDE:176:B:WORKSHOP_LEATHER:Workshop::_MDF_overrides_1:139:16]
+[OVERRIDE:92:B:WORKSHOP_LEATHER:Workshop::_MDF_overrides_1:160:16]
+
+[OVERRIDE:176:B:WORKSHOP_MASON:Workshop::_MDF_overrides_1:161:16]
+[OVERRIDE:91:B:WORKSHOP_MASON:Workshop::_MDF_overrides_1:163:16]
+[OVERRIDE:111:B:WORKSHOP_MASON:Workshop::_MDF_overrides_1:162:16]
+
+[OVERRIDE:42:B:WORKSHOP_JEWELER:Workshop::_MDF_overrides_1:136:16]
+[OVERRIDE:176:B:WORKSHOP_JEWELER:Workshop::_MDF_overrides_1:135:16] 
+[OVERRIDE:91:B:WORKSHOP_JEWELER:Workshop::_MDF_overrides_1:134:16] 
+
+[OVERRIDE:238:B:WORKSHOP_BOWYER:Workshop::_MDF_overrides_1:62:16]
+[OVERRIDE:176:B:WORKSHOP_BOWYER:Workshop::_MDF_overrides_1:141:16]
+
+[OVERRIDE:178:B:WORKSHOP_BUTCHER:Workshop::_MDF_overrides_1:143:16]
+[OVERRIDE:236:B:WORKSHOP_BUTCHER:Workshop::_MDF_overrides_1:142:16]
+[OVERRIDE:247:B:WORKSHOP_BUTCHER:Workshop::_MDF_overrides_1:133:16]
+
+[OVERRIDE:7:B:WORKSHOP_FORGE_ANY:Workshop::_MDF_overrides_1:145] no color
+[OVERRIDE:31:B:WORKSHOP_FORGE_ANY:Workshop::_MDF_overrides_1:144:16]
+
+[OVERRIDE:8:B:WORKSHOP_MAGMA_FORGE:Workshop::_MDF_overrides_1:144:16]
+[OVERRIDE:92:B:WORKSHOP_MAGMA_FORGE:Workshop::_MDF_overrides_1:175:16]
+
+[OVERRIDE:111:B:FURNACE_SMELTER_ANY:::_MDF_overrides_1:174:16]
+[OVERRIDE:93:B:FURNACE_SMELTER_ANY:::_MDF_overrides_1:176:16] 
+[OVERRIDE:7:B:FURNACE_SMELTER_ANY:::_MDF_overrides_1:144:16]
+
+[OVERRIDE:111:B:FURNACE_SMELTER_MAGMA:::_MDF_overrides_1:144:16]
+[OVERRIDE:93:B:FURNACE_SMELTER_MAGMA:::_MDF_overrides_1:176:16] 
+[OVERRIDE:7:B:FURNACE_SMELTER_MAGMA:::_MDF_overrides_1:144:16]
+
+[OVERRIDE:111:B:FURNACE_GLASS_ANY:::_MDF_overrides_1:144:16]
+[OVERRIDE:93:B:FURNACE_GLASS_ANY:::_MDF_overrides_1:177:16] 
+[OVERRIDE:7:B:FURNACE_GLASS_ANY:::_MDF_overrides_1:144:16]
+
+[OVERRIDE:111:B:FURNACE_KILN_ANY:::_MDF_overrides_1:144:16]
+[OVERRIDE:93:B:FURNACE_KILN_ANY:::_MDF_overrides_1:179:16] 
+[OVERRIDE:7:B:FURNACE_KILN_ANY:::_MDF_overrides_1:144:16]
+
+[OVERRIDE:111:B:FURNACE_WOOD:::_MDF_overrides_1:144:16]
+[OVERRIDE:93:B:FURNACE_WOOD:::_MDF_overrides_1:178:16] 
+[OVERRIDE:7:B:FURNACE_WOOD:::_MDF_overrides_1:144:16]
+
+[OVERRIDE:34:B:WORKSHOP_CARPENTER:Workshop::_MDF_overrides_1:127:16]
+[OVERRIDE:176:B:WORKSHOP_CARPENTER:Workshop::_MDF_overrides_1:140:16]
+
+[OVERRIDE:93:B:WORKSHOP_CLOTHIER:Workshop::_MDF_overrides_1:138:16]
+[OVERRIDE:176:B:WORKSHOP_CLOTHIER:Workshop::_MDF_overrides_1:137:16]
+[OVERRIDE:91:B:WORKSHOP_CLOTHIER:Workshop::_MDF_overrides_1:139:16]
+
+#[OVERRIDE:219:B:TRADE_DEPOT:TradeDepot::_MDF_overrides_1:64] #trade depot blocks
+[OVERRIDE:79:B:TRADE_DEPOT:TradeDepot::_MDF_overrides_1:123]
+
+[OVERRIDE:176:B:WORKSHOP_CRAFTSDWARF:Workshop::_MDF_overrides_1:150:16]
+[OVERRIDE:45:B:WORKSHOP_CRAFTSDWARF:Workshop::_MDF_overrides_1:151:16]
+
+[OVERRIDE:111:B:WORKSHOP_STILL:Workshop::_MDF_overrides_1:157:16]
+#[OVERRIDE:246:B:WORKSHOP_STILL:Workshop::_MDF_overrides_1:44:]
+[OVERRIDE:205:B:WORKSHOP_STILL:Workshop::_MDF_overrides_1:155:16]
+[OVERRIDE:184:B:WORKSHOP_STILL:Workshop::_MDF_overrides_1:156:16]
+[OVERRIDE:126:B:WORKSHOP_STILL:Workshop::_MDF_overrides_1:154:16]
+
+[OVERRIDE:176 :B:WORKSHOP_TANNER:Workshop::_MDF_overrides_1:131:16]
+
+[OVERRIDE:7:B:WORKSHOP_DYER:Workshop::_MDF_overrides_1:158] no color
+[OVERRIDE:150:B:WORKSHOP_DYER:Workshop::_MDF_overrides_1:159:16]
+#[OVERRIDE:7:B:WORKSHOP_DYER:Workshop::_MDF_overrides_1:15::16]
+
+[OVERRIDE:35:B:WORKSHOP_KENNEL:Workshop::_MDF_overrides_1:164:16]
+[OVERRIDE:235:B:WORKSHOP_KENNEL:Workshop::_MDF_overrides_1:165:16]
+
+#[OVERRIDE:59:B:WORKSHOP_KITCHEN:Workshop::_MDF_overrides_1:157] #table with tools
+[OVERRIDE:176:B:WORKSHOP_KITCHEN:Workshop::_MDF_overrides_1:166:16]
+[OVERRIDE:236:B:WORKSHOP_KITCHEN:Workshop::_MDF_overrides_1:155:16]
+
+[OVERRIDE:224:B:WORKSHOP_FISHERY:Workshop::_MDF_overrides_1:170:16] meat
+#[OVERRIDE:35:B:WORKSHOP_FISHERY:Workshop::_MDF_overrides_1:13]
+[OVERRIDE:178:B:WORKSHOP_FISHERY:Workshop::_MDF_overrides_1:168:16]
+
+[OVERRIDE:88:B:WORKSHOP_ASHERY:Workshop::_MDF_overrides_1:171:16]
+[OVERRIDE:45:B:WORKSHOP_ASHERY:Workshop::_MDF_overrides_1:172:16]
+[OVERRIDE:177:B:WORKSHOP_ASHERY:Workshop::_MDF_overrides_1:173:16]
+
+[OVERRIDE:65:B:WORKSHOP_FARMER:Workshop::_MDF_overrides_1:137:16]
+[OVERRIDE:79:B:WORKSHOP_FARMER:Workshop::_MDF_overrides_1:167:16]
+[OVERRIDE:240:B:WORKSHOP_FARMER:Workshop::_MDF_overrides_1:173:16]
+
+[OVERRIDE:176:B:WORKSHOP_MECHANIC:Workshop::_MDF_overrides_1:152:16]
+[OVERRIDE:91:B:WORKSHOP_MECHANIC:Workshop::_MDF_overrides_1:153:16]
+
+[OVERRIDE:195:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_1:147:16]
+[OVERRIDE:35:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_1:148:16]
+[OVERRIDE:180:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_1:149:16]
+
+[OVERRIDE:207:B:WORKSHOP_CUSTOM:Workshop:SCREW_PRESS:_MDF_overrides_1:146]
+
+[OVERRIDE:118:T:TreeRoots:_MDF_overrides_1:118]
+[OVERRIDE:118:T:TreeRootSloping:_MDF_overrides_1:118]
+[OVERRIDE:118:T:TreeDeadRoots:_MDF_overrides_1:118]
+[OVERRIDE:118:T:TreeDeadRootSloping:_MDF_overrides_1:118]
+
+[OVERRIDE:178:B:WAGON:Wagon::_MDF_overrides_1:120]
+
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:FeatureStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:FrozenStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:Grass1StairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:Grass2StairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:LavaStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:MineralStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:SoilStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:StoneStairUD:_MDF_overrides_1:119::]
+[OVERRIDE:88:T:UnderworldGateStairUD:_MDF_overrides_1:119::]
+
+[OVERRIDE:240:B:BARS_FLOOR:::_MDF_overrides_1:122]
+[OVERRIDE:35:T:Chasm:_MDF_overrides_1:114]
+[OVERRIDE:42:T:EeriePit:_MDF_overrides_1:116]
+#[OVERRIDE:0:T:Void:_MDF_overrides_1:4:3:115] either does not exist or syntax is wrong.
+[OVERRIDE:176:T:SemiMoltenRock:_MDF_overrides_1:117:5:5]
+
+[OVERRIDE:9:I:QUERN:QUERN::_MDF_overrides_1:89]
+[OVERRIDE:9:I:MILLSTONE:MILLSTONE::_MDF_overrides_1:90]
+[OVERRIDE:9:B:WORKSHOP_QUERN:::_MDF_overrides_1:89]
+[OVERRIDE:9:B:WORKSHOP_MILLSTONE:::_MDF_overrides_1:90]
+[OVERRIDE:111:B:WORKSHOP_MILLSTONE:::_MDF_overrides_1:90]
+[OVERRIDE:88:B:ARCHERY_TARGET:::_MDF_overrides_1:92]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_1:80]
+[OVERRIDE:146:I:QUIVER:::_MDF_overrides_1:93]
+[OVERRIDE:146:I:BACKPACK:::_MDF_overrides_1:94]
+[OVERRIDE:194:I:CRUTCH:::_MDF_overrides_1:83]
+[OVERRIDE:159:I:SPLINT:::_MDF_overrides_1:84]
+[OVERRIDE:159:I:ORTHOPEDIC_CAST:::_MDF_overrides_1:82]
+[OVERRIDE:247:I:GLOB:::_MDF_overrides_1:87]
+[OVERRIDE:15:I:ANY_WEBS:::_MDF_overrides_1:91]
+[OVERRIDE:8:I:BOOK:::_MDF_overrides_1:88]
+[OVERRIDE:73:B:SUPPORT:::_MDF_overrides_1:113]
+[OVERRIDE:20:I:GOBLET:GOBLET::_MDF_overrides_1:99]
+[OVERRIDE:248:I:EGG:EGG::_MDF_overrides_1:101]
+[OVERRIDE:37:I:CHEESE:CHEESE::_MDF_overrides_1:85]
+[OVERRIDE:45:I:SCEPTER:SCEPTER::_MDF_overrides_1:81]
+
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_1:103:16]
+[OVERRIDE:124:I:PIPE_SECTION:PIPE_SECTION::_MDF_overrides_1:100]
+[OVERRIDE:224:I:FISH:FISH::_MDF_overrides_1:106]
+[OVERRIDE:224:I:FISH_RAW:FISH_RAW::_MDF_overrides_1:107]
+
+[OVERRIDE:47:I:AMMO:AMMO:0:_MDF_overrides_1:0]
+[OVERRIDE:47:I:AMMO:AMMO:1:_MDF_overrides_1:1]
+[OVERRIDE:47:I:AMMO:AMMO:2:_MDF_overrides_1:2]
+
+[OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_1:3]
+[OVERRIDE:91:I:ARMOR:ARMOR:1:_MDF_overrides_1:4]
+[OVERRIDE:91:I:ARMOR:ARMOR:2:_MDF_overrides_1:5]
+[OVERRIDE:91:I:ARMOR:ARMOR:3:_MDF_overrides_1:6]
+[OVERRIDE:91:I:ARMOR:ARMOR:4:_MDF_overrides_1:7]
+[OVERRIDE:91:I:ARMOR:ARMOR:5:_MDF_overrides_1:8]
+[OVERRIDE:91:I:ARMOR:ARMOR:6:_MDF_overrides_1:9]
+[OVERRIDE:91:I:ARMOR:ARMOR:7:_MDF_overrides_1:10]
+[OVERRIDE:91:I:ARMOR:ARMOR:8:_MDF_overrides_1:11]
+[OVERRIDE:91:I:ARMOR:ARMOR:9:_MDF_overrides_1:12]
+[OVERRIDE:91:I:ARMOR:ARMOR:10:_MDF_overrides_1:13]
+[OVERRIDE:91:I:ARMOR:ARMOR:11:_MDF_overrides_1:14]
+
+[OVERRIDE:37:I:FOOD:FOOD:0:_MDF_overrides_1:188]
+[OVERRIDE:37:I:FOOD:FOOD:1:_MDF_overrides_1:189]
+[OVERRIDE:37:I:FOOD:FOOD:2:_MDF_overrides_1:190]
+
+[OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_1:16]
+[OVERRIDE:91:I:GLOVES:GLOVES:1:_MDF_overrides_1:17]
+[OVERRIDE:91:I:GLOVES:GLOVES:2:_MDF_overrides_1:18]
+
+[OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_1:20]
+[OVERRIDE:91:I:HELM:HELM:1:_MDF_overrides_1:21]
+[OVERRIDE:91:I:HELM:HELM:2:_MDF_overrides_1:22]
+[OVERRIDE:91:I:HELM:HELM:3:_MDF_overrides_1:23]
+[OVERRIDE:91:I:HELM:HELM:4:_MDF_overrides_1:24]
+[OVERRIDE:91:I:HELM:HELM:5:_MDF_overrides_1:25]
+[OVERRIDE:91:I:HELM:HELM:6:_MDF_overrides_1:26]
+[OVERRIDE:91:I:HELM:HELM:7:_MDF_overrides_1:28]
+
+#[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:0:_MDF_overrides_1:29]
+#[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:1:_MDF_overrides_1:30]
+#[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:2:_MDF_overrides_1:31]
+#[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:3:_MDF_overrides_1:32]
+#[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:4:_MDF_overrides_1:33]
+
+[OVERRIDE:91:I:PANTS:PANTS:0:_MDF_overrides_1:29]
+[OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_1:30]
+[OVERRIDE:91:I:PANTS:PANTS:2:_MDF_overrides_1:31]
+[OVERRIDE:91:I:PANTS:PANTS:3:_MDF_overrides_1:32]
+[OVERRIDE:91:I:PANTS:PANTS:4:_MDF_overrides_1:33]
+[OVERRIDE:91:I:PANTS:PANTS:5:_MDF_overrides_1:34]
+[OVERRIDE:91:I:PANTS:PANTS:6:_MDF_overrides_1:35]
+[OVERRIDE:91:I:PANTS:PANTS:7:_MDF_overrides_1:36]
+[OVERRIDE:91:I:PANTS:PANTS:8:_MDF_overrides_1:37]
+
+[OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_1:44]
+[OVERRIDE:91:I:SHIELD:SHIELD:1:_MDF_overrides_1:43]
+
+[OVERRIDE:91:I:SHOES:SHOES:0:_MDF_overrides_1:38]
+[OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_1:39]
+[OVERRIDE:91:I:SHOES:SHOES:2:_MDF_overrides_1:40]
+[OVERRIDE:91:I:SHOES:SHOES:3:_MDF_overrides_1:41]
+[OVERRIDE:91:I:SHOES:SHOES:4:_MDF_overrides_1:42]
+[OVERRIDE:91:I:SHOES:SHOES:5:_MDF_overrides_1:5]
+
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:0:_MDF_overrides_1:51]
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:1:_MDF_overrides_1:52]
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:2:_MDF_overrides_1:53]
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:3:_MDF_overrides_1:54]
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:4:_MDF_overrides_1:55]
+
+[OVERRIDE:145:I:TOY:TOY:0:_MDF_overrides_1:249]
+[OVERRIDE:145:I:TOY:TOY:1:_MDF_overrides_1:250]
+[OVERRIDE:145:I:TOY:TOY:2:_MDF_overrides_1:251]
+[OVERRIDE:145:I:TOY:TOY:3:_MDF_overrides_1:252]
+[OVERRIDE:145:I:TOY:TOY:4:_MDF_overrides_1:253]
+
+
+[OVERRIDE:255:I:TOOL:TOOL:0:_MDF_overrides_1:224]
+[OVERRIDE:255:I:TOOL:TOOL:1:_MDF_overrides_1:225]
+[OVERRIDE:255:I:TOOL:TOOL:2:_MDF_overrides_1:226]
+[OVERRIDE:255:I:TOOL:TOOL:3:_MDF_overrides_1:227]
+[OVERRIDE:255:I:TOOL:TOOL:4:_MDF_overrides_1:228]
+[OVERRIDE:255:I:TOOL:TOOL:5:_MDF_overrides_1:229]
+[OVERRIDE:255:I:TOOL:TOOL:6:_MDF_overrides_1:229]
+[OVERRIDE:255:I:TOOL:TOOL:7:_MDF_overrides_1:229]
+[OVERRIDE:255:I:TOOL:TOOL:8:_MDF_overrides_1:230]
+[OVERRIDE:255:I:TOOL:TOOL:9:_MDF_overrides_1:231]
+[OVERRIDE:255:I:TOOL:TOOL:10:_MDF_overrides_1:180]
+[OVERRIDE:255:I:TOOL:TOOL:11:_MDF_overrides_1:232]
+[OVERRIDE:255:I:TOOL:TOOL:12:_MDF_overrides_1:233]
+[OVERRIDE:255:I:TOOL:TOOL:13:_MDF_overrides_1:234]
+[OVERRIDE:255:I:TOOL:TOOL:14:_MDF_overrides_1:235]
+[OVERRIDE:255:I:TOOL:TOOL:15:_MDF_overrides_1:236]
+[OVERRIDE:255:I:TOOL:TOOL:16:_MDF_overrides_1:221]
+[OVERRIDE:255:I:TOOL:TOOL:17:_MDF_overrides_1:237]
+[OVERRIDE:255:I:TOOL:TOOL:18:_MDF_overrides_1:238]
+[OVERRIDE:255:I:TOOL:TOOL:19:_MDF_overrides_1:239]
+[OVERRIDE:255:I:TOOL:TOOL:20:_MDF_overrides_1:243]
+[OVERRIDE:255:I:TOOL:TOOL:21:_MDF_overrides_1:244]
+[OVERRIDE:255:I:TOOL:TOOL:22:_MDF_overrides_1:245]
+[OVERRIDE:255:I:TOOL:TOOL:23:_MDF_overrides_1:246]
+[OVERRIDE:255:I:TOOL:TOOL:24:_MDF_overrides_1:247]
+[OVERRIDE:255:I:TOOL:TOOL:25:_MDF_overrides_1:248]
+
+[OVERRIDE:47:I:WEAPON:WEAPON:0:_MDF_overrides_1:56]
+[OVERRIDE:47:I:WEAPON:WEAPON:1:_MDF_overrides_1:57]
+[OVERRIDE:47:I:WEAPON:WEAPON:2:_MDF_overrides_1:58]
+[OVERRIDE:47:I:WEAPON:WEAPON:3:_MDF_overrides_1:59]
+[OVERRIDE:47:I:WEAPON:WEAPON:4:_MDF_overrides_1:60]
+[OVERRIDE:47:I:WEAPON:WEAPON:5:_MDF_overrides_1:61]
+[OVERRIDE:47:I:WEAPON:WEAPON:6:_MDF_overrides_1:62]
+[OVERRIDE:47:I:WEAPON:WEAPON:7:_MDF_overrides_1:63]
+[OVERRIDE:47:I:WEAPON:WEAPON:8:_MDF_overrides_1:64]
+[OVERRIDE:47:I:WEAPON:WEAPON:9:_MDF_overrides_1:65]
+[OVERRIDE:47:I:WEAPON:WEAPON:10:_MDF_overrides_1:66]
+[OVERRIDE:47:I:WEAPON:WEAPON:11:_MDF_overrides_1:67]
+[OVERRIDE:47:I:WEAPON:WEAPON:12:_MDF_overrides_1:68]
+[OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_1:69]
+[OVERRIDE:47:I:WEAPON:WEAPON:14:_MDF_overrides_1:70]
+[OVERRIDE:47:I:WEAPON:WEAPON:15:_MDF_overrides_1:71]
+[OVERRIDE:47:I:WEAPON:WEAPON:16:_MDF_overrides_1:72]
+[OVERRIDE:47:I:WEAPON:WEAPON:17:_MDF_overrides_1:73]
+[OVERRIDE:47:I:WEAPON:WEAPON:18:_MDF_overrides_1:74]
+[OVERRIDE:47:I:WEAPON:WEAPON:19:_MDF_overrides_1:75]
+[OVERRIDE:47:I:WEAPON:WEAPON:20:_MDF_overrides_1:76]
+[OVERRIDE:47:I:WEAPON:WEAPON:21:_MDF_overrides_1:77]
+[OVERRIDE:47:I:WEAPON:WEAPON:22:_MDF_overrides_1:78]
+[OVERRIDE:47:I:WEAPON:WEAPON:23:_MDF_overrides_1:79]
+
+[OVERRIDE:31:T:RampTop:_MDF_overrides_1:112]
+[OVERRIDE:30:T:SoilRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:MurkyPoolRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:GrassLightRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:GrassDeadRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:GrassDryRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:GrassDarkRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:StoneRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:MineralRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:ConstructedRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:FrozenRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:LavaRamp:_MDF_overrides_1:112]
+[OVERRIDE:30:T:FeatureRamp:_MDF_overrides_1:112]
+
+[OVERRIDE:30:T:RiverRampN:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampS:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampE:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampW:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampNE:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampNW:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampSE:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampSW:_MDF_overrides_1:112]
+
