@@ -1,7 +1,7 @@
 # Meph
 www.bay12forums.com/smf/index.php?topic=161047.0
 
-Note: This the following is a modified and updated version of Meph's original readme file from the v1.3 release of his tileset.
+(*Note: The following is a modified and updated version of Meph's original readme file from the v1.3 release of his tileset.*)
 ________________________________________
 
 
