@@ -1,21 +1,23 @@
 # Meph
 www.bay12forums.com/smf/index.php?topic=161047.0
 
-==Note: This the following is a modified and updated version of Meph's original readme file from the v1.3 release of his tileset.==
+Note: This the following is a modified and updated version of Meph's original readme file from the v1.3 release of his tileset.
+________________________________________
+
 
 Hello and thank you for downloading the Meph Tileset.
 
 ________________________________________
 ________________________________________
 Index:
-1.0 - Installation and System Requirements
-1.1 - Moving grass
-1.2 - Seasonal Colors
-1.3 - Dfhack
-1.4 - TWBT
-1.5 - Screenshots
-1.6 - Credits
-1.7 - Patreon/Donations
+ * 1.0 - Installation and System Requirements
+ * 1.1 - Moving grass
+ * 1.2 - Seasonal Colors
+ * 1.3 - Dfhack
+ * 1.4 - TWBT
+ * 1.5 - Screenshots
+ * 1.6 - Credits
+ * 1.7 - Patreon/Donations
 ________________________________________
 ________________________________________
 
@@ -28,7 +30,7 @@ ________________________________________
 ________________________________________
 This edition of Meph 32x is designed for use with Lazy Newb Packs. Simply drop the "Meph" folder into the /LNP/graphics/ folder of a compatible Lazy Newb Pack and use the PyLNP launcher to install.
 
-The tileset is designed to be used with dfhack and Text-will-be-text (TWBT) plugin, but can be run without them by switching the GRAPHICS_FONT to "Meph_32x32_text.png" in the "Customize" tab of the "Graphics" tab of the PyLNP launcher.
+The tileset is designed to be used with both dfhack and Text-will-be-text (TWBT) plugin, but can be run without them by switching the "GRAPHICS_FONT" to "Meph_32x32_text.png" in the "Customize" tab of the "Graphics" tab of the PyLNP launcher.
 
 The tileset needs a horizontal resolution of min. 2560p and a vertical resolution of min. 800p. Any 1440p display will be able to properly show it in full size, although I do recommend a 4k display.
 
