@@ -117,19 +117,29 @@
 [OVERRIDE:186:T:TreeDeadCapWallW:_MDF_overrides_2:24::]
 
 
-
-
-
+#tree graphics for flowers, fruits, nuts in tree-growths in plant standard and plant new trees.
+#there are 12 + 37 growth_flowers
+#there are 10 + 34 growth_fruits
+#there are 3 + 5 growth_nuts 
+#there are 4 + 5 growth_pollen_catkins
+#there are 4 + 1 growth_seed_catkins
+#there is 1 growth_seed (macadamia nut)
+#a total of 126 tiles
+#I reached nr. 83 due to my plant overrides, so I still have a lot free.
+#
+#[OVERRIDE:84:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:tilenumber]
+#
+#The tetrahedrite/magnetite I can fix.
+#
 
 
 ##################################################################################
 [TILESET:_MDF_items.png:_MDF_items.png:_MDF_overrides_1]
 
 #[OVERRIDE:206:T:StoneFortification:_MDF_overrides_1:44]
-###[OVERRIDE:50:B:WORKSHOP_CUSTOM:Workshop:DISPLAY_CASE:_MDF_overrides_1:50]
-
-[OVERRIDE:254:B:WORKSHOP_CUSTOM:Workshop:CAMPFIRE:_MDF_overrides_1:121]
-[OVERRIDE:120:B:WORKSHOP_CUSTOM:Workshop:WOODEN_FLOOR:_MDF_overrides_1:120]
+#[OVERRIDE:50:B:WORKSHOP_CUSTOM:Workshop:DISPLAY_CASE:_MDF_overrides_1:50]
+#[OVERRIDE:254:B:WORKSHOP_CUSTOM:Workshop:CAMPFIRE:_MDF_overrides_1:121]
+#[OVERRIDE:120:B:WORKSHOP_CUSTOM:Workshop:WOODEN_FLOOR:_MDF_overrides_1:120]
 
 remains
 #[OVERRIDE:253:I:REMAINS:REMAINS::_MDF_overrides_1:119]
@@ -176,7 +186,27 @@ herring looks like meat.
 [OVERRIDE:44:T:Fire:_MDF_overrides_1:196] was ::7
 [OVERRIDE:46:T:Fire:_MDF_overrides_1:197] was ::7
 [OVERRIDE:96:T:Fire:_MDF_overrides_1:198] was ::7
+[OVERRIDE:7:I:BOULDER:BOULDER::_MDF_overrides_1:199]
+[OVERRIDE:240:I:BAR:BAR::_MDF_overrides_1:200]
 [OVERRIDE:15:T:Campfire:_MDF_overrides_1:121] was ::3
+
+[OVERRIDE:250:I:SEEDS:SEEDS::_MDF_overrides_1:204]
+
+[OVERRIDE:176:T:FeatureWallWorn1:_MDF_overrides_1:201]
+[OVERRIDE:177:T:FeatureWallWorn2:_MDF_overrides_1:202]
+[OVERRIDE:178:T:FeatureWallWorn3:_MDF_overrides_1:203]
+[OVERRIDE:176:T:LavaWallWorn1:_MDF_overrides_1:201]
+[OVERRIDE:177:T:LavaWallWorn2:_MDF_overrides_1:202]
+[OVERRIDE:178:T:LavaWallWorn3:_MDF_overrides_1:203]
+[OVERRIDE:176:T:FrozenWallWorn1:_MDF_overrides_1:201]
+[OVERRIDE:177:T:FrozenWallWorn2:_MDF_overrides_1:202]
+[OVERRIDE:178:T:FrozenWallWorn3:_MDF_overrides_1:203]
+[OVERRIDE:176:T:MineralWallWorn1:_MDF_overrides_1:201]
+[OVERRIDE:177:T:MineralWallWorn2:_MDF_overrides_1:202]
+[OVERRIDE:178:T:MineralWallWorn3:_MDF_overrides_1:203]
+[OVERRIDE:176:T:StoneWallWorn1:_MDF_overrides_1:201]
+[OVERRIDE:177:T:StoneWallWorn2:_MDF_overrides_1:202]
+[OVERRIDE:178:T:StoneWallWorn3:_MDF_overrides_1:203]
 
 #[OVERRIDE:247:T:BrookN:4:164]
 #[OVERRIDE:247:T:BrookE:4:164]
@@ -192,6 +222,9 @@ herring looks like meat.
 
 [OVERRIDE:179:B:WEAPON_UPRIGHT:::_MDF_overrides_2:216]
 [OVERRIDE:46:B:WEAPON_UPRIGHT:::_MDF_overrides_2:217]
+
+[OVERRIDE:55:B:HATCH:Hatch::_MDF_overrides_2:220:16:16]
+[OVERRIDE:55:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_2:220:16:16]
 
 [OVERRIDE:205:B:BRIDGE:::_MDF_overrides_2:209] lr =
 [OVERRIDE:186:B:BRIDGE:::_MDF_overrides_2:224] ud ||
@@ -422,7 +455,7 @@ herring looks like meat.
 [OVERRIDE:9:B:WORKSHOP_MILLSTONE:::_MDF_overrides_1:90]
 [OVERRIDE:111:B:WORKSHOP_MILLSTONE:::_MDF_overrides_1:90]
 [OVERRIDE:88:B:ARCHERY_TARGET:::_MDF_overrides_1:92]
-[OVERRIDE:88:I:BIN:::_MDF_overrides_1:80]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_1:80:16:16]
 [OVERRIDE:146:I:QUIVER:::_MDF_overrides_1:93]
 [OVERRIDE:146:I:BACKPACK:::_MDF_overrides_1:94]
 [OVERRIDE:194:I:CRUTCH:::_MDF_overrides_1:83]
@@ -436,7 +469,6 @@ herring looks like meat.
 [OVERRIDE:248:I:EGG:EGG::_MDF_overrides_1:101]
 [OVERRIDE:37:I:CHEESE:CHEESE::_MDF_overrides_1:85]
 [OVERRIDE:45:I:SCEPTER:SCEPTER::_MDF_overrides_1:81]
-
 [OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_1:103:16]
 [OVERRIDE:124:I:PIPE_SECTION:PIPE_SECTION::_MDF_overrides_1:100]
 [OVERRIDE:224:I:FISH:FISH::_MDF_overrides_1:106]
@@ -542,6 +574,11 @@ herring looks like meat.
 [OVERRIDE:255:I:TOOL:TOOL:24:_MDF_overrides_1:247]
 [OVERRIDE:255:I:TOOL:TOOL:25:_MDF_overrides_1:248]
 
+
+[OVERRIDE:255:B:HIVE:Hive::_MDF_overrides_1:234]
+#TractionBench
+#slab
+
 [OVERRIDE:47:I:WEAPON:WEAPON:0:_MDF_overrides_1:56]
 [OVERRIDE:47:I:WEAPON:WEAPON:1:_MDF_overrides_1:57]
 [OVERRIDE:47:I:WEAPON:WEAPON:2:_MDF_overrides_1:58]
@@ -567,26 +604,592 @@ herring looks like meat.
 [OVERRIDE:47:I:WEAPON:WEAPON:22:_MDF_overrides_1:78]
 [OVERRIDE:47:I:WEAPON:WEAPON:23:_MDF_overrides_1:79]
 
-[OVERRIDE:31:T:RampTop:_MDF_overrides_1:112]
-[OVERRIDE:30:T:SoilRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:MurkyPoolRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:GrassLightRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:GrassDeadRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:GrassDryRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:GrassDarkRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:StoneRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:MineralRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:ConstructedRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:FrozenRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:LavaRamp:_MDF_overrides_1:112]
-[OVERRIDE:30:T:FeatureRamp:_MDF_overrides_1:112]
+[OVERRIDE:31:T:RampTop:_MDF_overrides_1:207] was 112
+[OVERRIDE:30:T:SoilRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:MurkyPoolRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:GrassLightRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:GrassDeadRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:GrassDryRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:GrassDarkRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:StoneRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:MineralRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:ConstructedRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:FrozenRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:LavaRamp:_MDF_overrides_1:206]
+[OVERRIDE:30:T:FeatureRamp:_MDF_overrides_1:206]
 
-[OVERRIDE:30:T:RiverRampN:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampS:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampE:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampW:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampNE:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampNW:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampSE:_MDF_overrides_1:112]
-[OVERRIDE:30:T:RiverRampSW:_MDF_overrides_1:112]
+[OVERRIDE:30:T:RiverRampN:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampS:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampE:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampW:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampNE:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampNW:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampSE:_MDF_overrides_1:206]
+[OVERRIDE:30:T:RiverRampSW:_MDF_overrides_1:206] was 112
+
+
+[TILESET:_Meph_plants.png:_Meph_plants.png:_MDF_overrides_3]
+
+
+### Plant Growths ###
+
+#leaves.
+[OVERRIDE:5:I:PLANT:PLANT::_MDF_overrides_2:15:8:8]  leaf
+[OVERRIDE:5:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:15:8:8] 	leaf 
+
+# Plants at 0, 48, 96 are a template for the ground.
+# there is a total of 113 plants; + trees.
+
+#MUSHROOM_HELMET_PLUMP
+[OVERRIDE:6:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:0:8:8] 		Inside the farm
+[OVERRIDE:6:T:Shrub:_MDF_overrides_3:16:8:8] 						Growing outside
+[OVERRIDE:6:T:ShrubDead:_MDF_overrides_3:16:5:5] 					Growing outside, but dead
+[OVERRIDE:6:I:PLANT:PLANT::_MDF_overrides_3:0:8:8] 				Picked plant
+[OVERRIDE:6:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:32:8:8]
+
+#GRASS_TAIL_PIG
+[OVERRIDE:7:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:1:8:8] 		Inside the farm
+[OVERRIDE:7:T:Shrub:_MDF_overrides_3:17:8:8] 						Growing outside
+[OVERRIDE:7:T:ShrubDead:_MDF_overrides_3:17:5:5] 					Growing outside, but dead
+[OVERRIDE:7:I:PLANT:PLANT::_MDF_overrides_3:1:8:8] 				Picked plant
+[OVERRIDE:7:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:33:8:8]
+
+#GRASS_WHEAT_CAVE
+[OVERRIDE:8:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:2:8:8] 		Inside the farm
+[OVERRIDE:8:T:Shrub:_MDF_overrides_3:18:8:8] 						Growing outside
+[OVERRIDE:8:T:ShrubDead:_MDF_overrides_3:18:5:5] 					Growing outside, but dead
+[OVERRIDE:8:I:PLANT:PLANT::_MDF_overrides_3:2:8:8] 				Picked plant
+[OVERRIDE:8:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:34:8:8]
+
+#POD_SWEET
+[OVERRIDE:9:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:3:8:8] 		Inside the farm
+[OVERRIDE:9:T:Shrub:_MDF_overrides_3:19:8:8] 						Growing outside
+[OVERRIDE:9:T:ShrubDead:_MDF_overrides_3:19:5:5] 					Growing outside, but dead
+[OVERRIDE:9:I:PLANT:PLANT::_MDF_overrides_3:3:8:8] 				Picked plant
+[OVERRIDE:9:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:35:8:8]
+
+#BUSH_QUARRY
+[OVERRIDE:10:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:4:8:8] 		Inside the farm
+[OVERRIDE:10:T:Shrub:_MDF_overrides_3:20:8:8] 						Growing outside
+[OVERRIDE:10:T:ShrubDead:_MDF_overrides_3:20:5:5] 					Growing outside, but dead
+[OVERRIDE:10:I:PLANT:PLANT::_MDF_overrides_3:4:8:8] 				Picked plant
+[OVERRIDE:10:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:15:8:8] 	quarry bushe leaf 
+
+#ROOT_MUCK
+[OVERRIDE:11:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:5:8:8] 		Inside the farm
+[OVERRIDE:11:T:Shrub:_MDF_overrides_3:21:8:8] 						Growing outside
+[OVERRIDE:11:T:ShrubDead:_MDF_overrides_3:21:5:5] 					Growing outside, but dead
+[OVERRIDE:11:I:PLANT:PLANT::_MDF_overrides_3:5:8:8] 				Picked plant
+[OVERRIDE:11:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:37:8:8]
+
+#TUBER_BLOATED
+[OVERRIDE:12:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:6:8:8] 		Inside the farm
+[OVERRIDE:12:T:Shrub:_MDF_overrides_3:22:8:8] 						Growing outside
+[OVERRIDE:12:T:ShrubDead:_MDF_overrides_3:22:5:5] 					Growing outside, but dead
+[OVERRIDE:12:I:PLANT:PLANT::_MDF_overrides_3:6:8:8] 				Picked plant
+[OVERRIDE:12:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:38:8:8]
+
+#BULB_KOBOLD
+[OVERRIDE:13:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:7:8:8] 		Inside the farm
+[OVERRIDE:13:T:Shrub:_MDF_overrides_3:23:8:8] 						Growing outside
+[OVERRIDE:13:T:ShrubDead:_MDF_overrides_3:23:5:5] 					Growing outside, but dead
+[OVERRIDE:13:I:PLANT:PLANT::_MDF_overrides_3:7:8:8] 				Picked plant
+[OVERRIDE:13:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:39:8:8]
+
+#BERRIES_PRICKLE
+[OVERRIDE:14:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:8:8:8] 		Inside the farm
+[OVERRIDE:14:T:Shrub:_MDF_overrides_3:24:8:8] 						Growing outside
+[OVERRIDE:14:T:ShrubDead:_MDF_overrides_3:24:5:5] 					Growing outside, but dead
+[OVERRIDE:14:I:PLANT:PLANT::_MDF_overrides_3:8:8:8] 				Picked plant
+[OVERRIDE:14:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:40:8:8]
+
+#BERRIES_STRAW
+[OVERRIDE:15:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:9:8:8] 		Inside the farm
+[OVERRIDE:15:T:Shrub:_MDF_overrides_3:25:8:8] 						Growing outside
+[OVERRIDE:15:T:ShrubDead:_MDF_overrides_3:25:5:5] 					Growing outside, but dead
+[OVERRIDE:15:I:PLANT:PLANT::_MDF_overrides_3:9:8:8] 				Picked plant
+[OVERRIDE:15:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:41:8:8] 				strawberries 
+
+#GRASS_LONGLAND
+[OVERRIDE:16:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:10:8:8] 		Inside the farm
+[OVERRIDE:16:T:Shrub:_MDF_overrides_3:26:8:8] 						Growing outside
+[OVERRIDE:16:T:ShrubDead:_MDF_overrides_3:26:5:5] 					Growing outside, but dead
+[OVERRIDE:16:I:PLANT:PLANT::_MDF_overrides_3:10:8:8] 				Picked plant
+[OVERRIDE:16:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:42:8:8]
+
+#HERB_VALLEY
+[OVERRIDE:17:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:11:8:8] 		Inside the farm
+[OVERRIDE:17:T:Shrub:_MDF_overrides_3:27:8:8] 						Growing outside
+[OVERRIDE:17:T:ShrubDead:_MDF_overrides_3:27:5:5] 					Growing outside, but dead
+[OVERRIDE:17:I:PLANT:PLANT::_MDF_overrides_3:11:8:8] 				Picked plant
+[OVERRIDE:17:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:43:8:8]
+
+#WEED_RAT
+[OVERRIDE:18:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:12:8:8] 		Inside the farm
+[OVERRIDE:18:T:Shrub:_MDF_overrides_3:28:8:8] 						Growing outside
+[OVERRIDE:18:T:ShrubDead:_MDF_overrides_3:28:5:5] 					Growing outside, but dead
+[OVERRIDE:18:I:PLANT:PLANT::_MDF_overrides_3:12:8:8] 				Picked plant
+[OVERRIDE:18:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:44:8:8]
+
+#BERRIES_FISHER
+[OVERRIDE:19:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:13:8:8] 		Inside the farm
+[OVERRIDE:19:T:Shrub:_MDF_overrides_3:29:8:8] 						Growing outside
+[OVERRIDE:19:T:ShrubDead:_MDF_overrides_3:29:5:5] 					Growing outside, but dead
+[OVERRIDE:19:I:PLANT:PLANT::_MDF_overrides_3:13:8:8] 				Picked plant
+[OVERRIDE:19:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:45:8:8]
+
+#REED_ROPE
+[OVERRIDE:20:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:14:8:8] 		Inside the farm
+[OVERRIDE:20:T:Shrub:_MDF_overrides_3:30:8:8] 						Growing outside
+[OVERRIDE:20:T:ShrubDead:_MDF_overrides_3:30:5:5] 					Growing outside, but dead
+[OVERRIDE:20:I:PLANT:PLANT::_MDF_overrides_3:14:8:8] 				Picked plant
+[OVERRIDE:20:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:46:8:8]
+
+#MUSHROOM_CUP_DIMPLE
+[OVERRIDE:21:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:15:8:8] 		Inside the farm
+[OVERRIDE:21:T:Shrub:_MDF_overrides_3:31:8:8] 						Growing outside
+[OVERRIDE:21:T:ShrubDead:_MDF_overrides_3:31:5:5] 					Growing outside, but dead
+[OVERRIDE:21:I:PLANT:PLANT::_MDF_overrides_3:15:8:8] 				Picked plant
+[OVERRIDE:21:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:47:8:8]
+
+#WEED_BLADE
+[OVERRIDE:22:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:48:8:8] 		Inside the farm
+[OVERRIDE:22:T:Shrub:_MDF_overrides_3:64:8:8] 						Growing outside
+[OVERRIDE:22:T:ShrubDead:_MDF_overrides_3:64:5:5] 					Growing outside, but dead
+[OVERRIDE:22:I:PLANT:PLANT::_MDF_overrides_3:48:8:8] 				Picked plant
+[OVERRIDE:22:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:80:8:8]
+
+#ROOT_HIDE
+[OVERRIDE:23:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:49:8:8] 		Inside the farm
+[OVERRIDE:23:T:Shrub:_MDF_overrides_3:65:8:8] 						Growing outside
+[OVERRIDE:23:T:ShrubDead:_MDF_overrides_3:65:5:5] 					Growing outside, but dead
+[OVERRIDE:23:I:PLANT:PLANT::_MDF_overrides_3:49:8:8] 				Picked plant
+[OVERRIDE:23:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:81:8:8]
+
+#SLIVER_BARB
+[OVERRIDE:24:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:50:8:8] 		Inside the farm
+[OVERRIDE:24:T:Shrub:_MDF_overrides_3:66:8:8] 						Growing outside
+[OVERRIDE:24:T:ShrubDead:_MDF_overrides_3:66:5:5] 					Growing outside, but dead
+[OVERRIDE:24:I:PLANT:PLANT::_MDF_overrides_3:50:8:8] 				Picked plant
+[OVERRIDE:24:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:82:8:8]
+
+#BERRY_SUN
+[OVERRIDE:25:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:51:8:8] 		Inside the farm
+[OVERRIDE:25:T:Shrub:_MDF_overrides_3:67:8:8] 						Growing outside
+[OVERRIDE:25:T:ShrubDead:_MDF_overrides_3:67:5:5] 					Growing outside, but dead
+[OVERRIDE:25:I:PLANT:PLANT::_MDF_overrides_3:51:8:8] 				Picked plant
+[OVERRIDE:25:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:83:8:8]
+
+#VINE_WHIP
+[OVERRIDE:26:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:52:8:8] 		Inside the farm
+[OVERRIDE:26:T:Shrub:_MDF_overrides_3:68:8:8] 						Growing outside
+[OVERRIDE:26:T:ShrubDead:_MDF_overrides_3:68:5:5] 					Growing outside, but dead
+[OVERRIDE:26:I:PLANT:PLANT::_MDF_overrides_3:52:8:8] 				Picked plant
+[OVERRIDE:26:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:84:8:8]
+
+
+
+#OATS, BARLEY, SPELT, HARD_WHEAT, SOFT_WHEAT, TWO-GRAIN_WHEAT, SINGLE-GRAIN_WHEAT, RYE, TEFF
+[OVERRIDE:27:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:53:8:8] 		Inside the farm
+[OVERRIDE:27:T:Shrub:_MDF_overrides_3:69:8:8] 						Growing outside
+[OVERRIDE:27:T:ShrubDead:_MDF_overrides_3:69:5:5] 					Growing outside, but dead
+[OVERRIDE:27:I:PLANT:PLANT::_MDF_overrides_3:53:8:8] 				Picked plant
+[OVERRIDE:27:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:85:8:8]
+
+#BUCKWHEAT
+[OVERRIDE:28:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:54:8:8] 		Inside the farm
+[OVERRIDE:28:T:Shrub:_MDF_overrides_3:70:8:8] 						Growing outside
+[OVERRIDE:28:T:ShrubDead:_MDF_overrides_3:70:5:5] 					Growing outside, but dead
+[OVERRIDE:28:I:PLANT:PLANT::_MDF_overrides_3:54:8:8] 				Picked plant
+[OVERRIDE:28:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:86:8:8]
+
+#ALFALFA
+[OVERRIDE:29:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:55:8:8] 		Inside the farm
+[OVERRIDE:29:T:Shrub:_MDF_overrides_3:71:8:8] 						Growing outside
+[OVERRIDE:29:T:ShrubDead:_MDF_overrides_3:71:5:5] 					Growing outside, but dead
+[OVERRIDE:29:I:PLANT:PLANT::_MDF_overrides_3:55:8:8] 				Picked plant
+[OVERRIDE:29:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:87:8:8]
+
+#SORGHUM, QUINOA, KANIWA, PENDANT_AMARANTH, PURPLE_AMARANTH, BLOOD_AMARANTH, ELEPHANT-HEAD_AMARANTH
+[OVERRIDE:30:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:56:8:8] 		Inside the farm
+[OVERRIDE:30:T:Shrub:_MDF_overrides_3:72:8:8] 						Growing outside
+[OVERRIDE:30:T:ShrubDead:_MDF_overrides_3:72:5:5] 					Growing outside, but dead
+[OVERRIDE:30:I:PLANT:PLANT::_MDF_overrides_3:56:8:8] 				Picked plant
+[OVERRIDE:30:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:88:8:8]
+
+#RICE
+[OVERRIDE:31:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:57:8:8] 		Inside the farm
+[OVERRIDE:31:T:Shrub:_MDF_overrides_3:73:8:8] 						Growing outside
+[OVERRIDE:31:T:ShrubDead:_MDF_overrides_3:73:5:5] 					Growing outside, but dead
+[OVERRIDE:31:I:PLANT:PLANT::_MDF_overrides_3:57:8:8] 				Picked plant
+[OVERRIDE:31:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:89:8:8]
+
+#MAIZE
+[OVERRIDE:32:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:58:8:8] 		Inside the farm
+[OVERRIDE:32:T:Shrub:_MDF_overrides_3:74:8:8] 						Growing outside
+[OVERRIDE:32:T:ShrubDead:_MDF_overrides_3:74:5:5] 					Growing outside, but dead
+[OVERRIDE:32:I:PLANT:PLANT::_MDF_overrides_3:58:8:8] 				Picked plant
+[OVERRIDE:32:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:90:8:8]
+
+#BITTER_VETCH
+[OVERRIDE:33:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:59:8:8] 		Inside the farm
+[OVERRIDE:33:T:Shrub:_MDF_overrides_3:75:8:8] 						Growing outside
+[OVERRIDE:33:T:ShrubDead:_MDF_overrides_3:75:5:5] 					Growing outside, but dead
+[OVERRIDE:33:I:PLANT:PLANT::_MDF_overrides_3:59:8:8] 				Picked plant
+[OVERRIDE:33:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:91:8:8]
+
+#RED_SPINACH
+[OVERRIDE:34:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:60:8:8] 		Inside the farm
+[OVERRIDE:34:T:Shrub:_MDF_overrides_3:76:8:8] 						Growing outside
+[OVERRIDE:34:T:ShrubDead:_MDF_overrides_3:76:5:5] 					Growing outside, but dead
+[OVERRIDE:34:I:PLANT:PLANT::_MDF_overrides_3:60:8:8] 				Picked plant
+[OVERRIDE:34:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:92:8:8]
+
+#FOXTAIL_MILLET, FINGER_MILLET, PEARL_MILLET, WHITE_MILLET
+[OVERRIDE:35:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:61:8:8] 		Inside the farm
+[OVERRIDE:35:T:Shrub:_MDF_overrides_3:77:8:8] 						Growing outside
+[OVERRIDE:35:T:ShrubDead:_MDF_overrides_3:77:5:5] 					Growing outside, but dead
+[OVERRIDE:35:I:PLANT:PLANT::_MDF_overrides_3:61:8:8] 				Picked plant
+[OVERRIDE:35:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:93:8:8]
+
+#FONIO
+[OVERRIDE:36:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:62:8:8] 		Inside the farm
+[OVERRIDE:36:T:Shrub:_MDF_overrides_3:78:8:8] 						Growing outside
+[OVERRIDE:36:T:ShrubDead:_MDF_overrides_3:78:5:5] 					Growing outside, but dead
+[OVERRIDE:36:I:PLANT:PLANT::_MDF_overrides_3:62:8:8] 				Picked plant
+[OVERRIDE:36:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:94:8:8]
+
+#FLAX
+[OVERRIDE:37:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:63:8:8] 		Inside the farm
+[OVERRIDE:37:T:Shrub:_MDF_overrides_3:79:8:8] 						Growing outside
+[OVERRIDE:37:T:ShrubDead:_MDF_overrides_3:79:5:5] 					Growing outside, but dead
+[OVERRIDE:37:I:PLANT:PLANT::_MDF_overrides_3:63:8:8] 				Picked plant
+[OVERRIDE:37:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:95:8:8]
+
+#JUTE
+[OVERRIDE:38:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:96:8:8] 		Inside the farm
+[OVERRIDE:38:T:Shrub:_MDF_overrides_3:112:8:8] 						Growing outside
+[OVERRIDE:38:T:ShrubDead:_MDF_overrides_3:112:5:5] 					Growing outside, but dead
+[OVERRIDE:38:I:PLANT:PLANT::_MDF_overrides_3:96:8:8] 				Picked plant
+[OVERRIDE:38:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:128:8:8]
+
+#HEMP, KENAF
+[OVERRIDE:39:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:97:8:8] 		Inside the farm
+[OVERRIDE:39:T:Shrub:_MDF_overrides_3:113:8:8] 						Growing outside
+[OVERRIDE:39:T:ShrubDead:_MDF_overrides_3:113:5:5] 					Growing outside, but dead
+[OVERRIDE:39:I:PLANT:PLANT::_MDF_overrides_3:97:8:8] 				Picked plant
+[OVERRIDE:39:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:129:8:8]
+
+#COTTON
+[OVERRIDE:40:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:98:8:8] 		Inside the farm
+[OVERRIDE:40:T:Shrub:_MDF_overrides_3:114:8:8] 						Growing outside
+[OVERRIDE:40:T:ShrubDead:_MDF_overrides_3:114:5:5] 					Growing outside, but dead
+[OVERRIDE:40:I:PLANT:PLANT::_MDF_overrides_3:98:8:8] 				Picked plant
+[OVERRIDE:40:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:130:8:8]
+
+#RAMIE
+[OVERRIDE:41:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:99:8:8] 		Inside the farm
+[OVERRIDE:41:T:Shrub:_MDF_overrides_3:115:8:8] 						Growing outside
+[OVERRIDE:41:T:ShrubDead:_MDF_overrides_3:115:5:5] 					Growing outside, but dead
+[OVERRIDE:41:I:PLANT:PLANT::_MDF_overrides_3:99:8:8] 				Picked plant
+[OVERRIDE:41:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:131:8:8]
+
+#PAPYRUS_SEDGE
+[OVERRIDE:42:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:100:8:8] 		Inside the farm
+[OVERRIDE:42:T:Shrub:_MDF_overrides_3:116:8:8] 						Growing outside
+[OVERRIDE:42:T:ShrubDead:_MDF_overrides_3:116:5:5] 					Growing outside, but dead
+[OVERRIDE:42:I:PLANT:PLANT::_MDF_overrides_3:100:8:8] 				Picked plant
+[OVERRIDE:42:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:132:8:8]
+
+#ARTICHOKE
+[OVERRIDE:43:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:101:8:8] 		Inside the farm
+[OVERRIDE:43:T:Shrub:_MDF_overrides_3:117:8:8] 						Growing outside
+[OVERRIDE:43:T:ShrubDead:_MDF_overrides_3:117:5:5] 					Growing outside, but dead
+[OVERRIDE:43:I:PLANT:PLANT::_MDF_overrides_3:101:8:8] 				Picked plant
+[OVERRIDE:43:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:133:8:8]
+
+#ASPARAGUS
+[OVERRIDE:44:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:102:8:8] 		Inside the farm
+[OVERRIDE:44:T:Shrub:_MDF_overrides_3:118:8:8] 						Growing outside
+[OVERRIDE:44:T:ShrubDead:_MDF_overrides_3:118:5:5] 					Growing outside, but dead
+[OVERRIDE:44:I:PLANT:PLANT::_MDF_overrides_3:102:8:8] 				Picked plant
+[OVERRIDE:44:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:134:8:8]
+
+#BAMBARA_GROUNDNUT
+[OVERRIDE:45:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:103:8:8] 		Inside the farm
+[OVERRIDE:45:T:Shrub:_MDF_overrides_3:119:8:8] 						Growing outside
+[OVERRIDE:45:T:ShrubDead:_MDF_overrides_3:119:5:5] 					Growing outside, but dead
+[OVERRIDE:45:I:PLANT:PLANT::_MDF_overrides_3:103:8:8] 				Picked plant
+[OVERRIDE:45:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:135:8:8]
+
+#STRING_BEAN, BROAD_BEAN, COWPEA, MUNG_BEAN, PEA, URAD_BEAN
+[OVERRIDE:46:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:104:8:8] 		Inside the farm
+[OVERRIDE:46:T:Shrub:_MDF_overrides_3:120:8:8] 						Growing outside
+[OVERRIDE:46:T:ShrubDead:_MDF_overrides_3:120:5:5] 					Growing outside, but dead
+[OVERRIDE:46:I:PLANT:PLANT::_MDF_overrides_3:104:8:8] 				Picked plant
+[OVERRIDE:46:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:136:8:8]
+
+#BEET, RADISH
+[OVERRIDE:47:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:105:8:8] 		Inside the farm
+[OVERRIDE:47:T:Shrub:_MDF_overrides_3:121:8:8] 						Growing outside
+[OVERRIDE:47:T:ShrubDead:_MDF_overrides_3:121:5:5] 					Growing outside, but dead
+[OVERRIDE:47:I:PLANT:PLANT::_MDF_overrides_3:105:8:8] 				Picked plant
+[OVERRIDE:47:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:137:8:8]
+
+#BITTER_MELON, CUCUMBER
+[OVERRIDE:48:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:106:8:8] 		Inside the farm
+[OVERRIDE:48:T:Shrub:_MDF_overrides_3:122:8:8] 						Growing outside
+[OVERRIDE:48:T:ShrubDead:_MDF_overrides_3:122:5:5] 					Growing outside, but dead
+[OVERRIDE:48:I:PLANT:PLANT::_MDF_overrides_3:106:8:8] 				Picked plant
+[OVERRIDE:48:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:138:8:8]
+
+#CABBAGE, LETTUCE
+[OVERRIDE:49:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:107:8:8] 		Inside the farm
+[OVERRIDE:49:T:Shrub:_MDF_overrides_3:123:8:8] 						Growing outside
+[OVERRIDE:49:T:ShrubDead:_MDF_overrides_3:123:5:5] 					Growing outside, but dead
+[OVERRIDE:49:I:PLANT:PLANT::_MDF_overrides_3:107:8:8] 				Picked plant
+[OVERRIDE:49:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:139:8:8]
+
+#CAPER
+[OVERRIDE:50:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:108:8:8] 		Inside the farm
+[OVERRIDE:50:T:Shrub:_MDF_overrides_3:124:8:8] 						Growing outside
+[OVERRIDE:50:T:ShrubDead:_MDF_overrides_3:124:5:5] 					Growing outside, but dead
+[OVERRIDE:50:I:PLANT:PLANT::_MDF_overrides_3:108:8:8] 				Picked plant
+[OVERRIDE:50:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:140:8:8]
+
+#WILD_CARROT
+[OVERRIDE:51:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:109:8:8] 		Inside the farm
+[OVERRIDE:51:T:Shrub:_MDF_overrides_3:125:8:8] 						Growing outside
+[OVERRIDE:51:T:ShrubDead:_MDF_overrides_3:125:5:5] 					Growing outside, but dead
+[OVERRIDE:51:I:PLANT:PLANT::_MDF_overrides_3:109:8:8] 				Picked plant
+[OVERRIDE:51:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:141:8:8]
+
+#CASSAVA
+[OVERRIDE:52:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:110:8:8] 		Inside the farm
+[OVERRIDE:52:T:Shrub:_MDF_overrides_3:126:8:8] 						Growing outside
+[OVERRIDE:52:T:ShrubDead:_MDF_overrides_3:126:5:5] 					Growing outside, but dead
+[OVERRIDE:52:I:PLANT:PLANT::_MDF_overrides_3:110:8:8] 				Picked plant
+[OVERRIDE:52:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:142:8:8]
+
+#CELERY
+[OVERRIDE:53:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:111:8:8] 		Inside the farm
+[OVERRIDE:53:T:Shrub:_MDF_overrides_3:127:8:8] 						Growing outside
+[OVERRIDE:53:T:ShrubDead:_MDF_overrides_3:127:5:5] 					Growing outside, but dead
+[OVERRIDE:53:I:PLANT:PLANT::_MDF_overrides_3:111:8:8] 				Picked plant
+[OVERRIDE:53:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:143:8:8]
+
+#CHICKPEA, LENTIL, SOYBEAN
+[OVERRIDE:54:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:144:8:8] 		Inside the farm
+[OVERRIDE:54:T:Shrub:_MDF_overrides_3:160:8:8] 						Growing outside
+[OVERRIDE:54:T:ShrubDead:_MDF_overrides_3:160:5:5] 					Growing outside, but dead
+[OVERRIDE:54:I:PLANT:PLANT::_MDF_overrides_3:144:8:8] 				Picked plant
+[OVERRIDE:54:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:176:8:8]
+
+#CHICORY
+[OVERRIDE:55:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:145:8:8] 		Inside the farm
+[OVERRIDE:55:T:Shrub:_MDF_overrides_3:161:8:8] 						Growing outside
+[OVERRIDE:55:T:ShrubDead:_MDF_overrides_3:161:5:5] 					Growing outside, but dead
+[OVERRIDE:55:I:PLANT:PLANT::_MDF_overrides_3:145:8:8] 				Picked plant
+[OVERRIDE:55:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:177:8:8]
+
+#EGGPLANT
+[OVERRIDE:56:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:146:8:8] 		Inside the farm
+[OVERRIDE:56:T:Shrub:_MDF_overrides_3:162:8:8] 						Growing outside
+[OVERRIDE:56:T:ShrubDead:_MDF_overrides_3:162:5:5] 					Growing outside, but dead
+[OVERRIDE:56:I:PLANT:PLANT::_MDF_overrides_3:146:8:8] 				Picked plant
+[OVERRIDE:56:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:178:8:8]
+
+#GARDEN_CRESS
+[OVERRIDE:57:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:147:8:8] 		Inside the farm
+[OVERRIDE:57:T:Shrub:_MDF_overrides_3:163:8:8] 						Growing outside
+[OVERRIDE:57:T:ShrubDead:_MDF_overrides_3:163:5:5] 					Growing outside, but dead
+[OVERRIDE:57:I:PLANT:PLANT::_MDF_overrides_3:147:8:8] 				Picked plant
+[OVERRIDE:57:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:179:8:8] Picked growth
+###############################################################################################
+#error error error
+#
+#[OVERRIDE:58:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:148:8:8] 		Inside the farm
+#[OVERRIDE:58:T:Shrub:_MDF_overrides_3:164:8:8] 						Growing outside
+#[OVERRIDE:58:T:ShrubDead:_MDF_overrides_3:164:5:5] 					Growing outside, but dead
+#[OVERRIDE:58:I:PLANT:PLANT::_MDF_overrides_3:180:8:8] 				Picked plant
+#[OVERRIDE:58:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:180:8:8]
+#
+###############################################################################################
+
+
+#HORNED_MELON
+[OVERRIDE:59:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:149:8:8] 		Inside the farm
+[OVERRIDE:59:T:Shrub:_MDF_overrides_3:165:8:8] 						Growing outside
+[OVERRIDE:59:T:ShrubDead:_MDF_overrides_3:165:5:5] 					Growing outside, but dead
+[OVERRIDE:59:I:PLANT:PLANT::_MDF_overrides_3:149:8:8] 				Picked plant
+[OVERRIDE:59:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:180:8:8]
+
+#LEEK
+[OVERRIDE:60:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:150:8:8] 		Inside the farm
+[OVERRIDE:60:T:Shrub:_MDF_overrides_3:166:8:8] 						Growing outside
+[OVERRIDE:60:T:ShrubDead:_MDF_overrides_3:166:5:5] 					Growing outside, but dead
+[OVERRIDE:60:I:PLANT:PLANT::_MDF_overrides_3:150:8:8] 				Picked plant
+[OVERRIDE:60:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:182:8:8]
+
+#MUSKMELON
+[OVERRIDE:61:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:151:8:8] 		Inside the farm
+[OVERRIDE:61:T:Shrub:_MDF_overrides_3:167:8:8] 						Growing outside
+[OVERRIDE:61:T:ShrubDead:_MDF_overrides_3:167:5:5] 					Growing outside, but dead
+[OVERRIDE:61:I:PLANT:PLANT::_MDF_overrides_3:151:8:8] 				Picked plant
+[OVERRIDE:61:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:183:8:8]
+
+#ONION
+[OVERRIDE:62:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:152:8:8] 		Inside the farm
+[OVERRIDE:62:T:Shrub:_MDF_overrides_3:168:8:8] 						Growing outside
+[OVERRIDE:62:T:ShrubDead:_MDF_overrides_3:168:5:5] 					Growing outside, but dead
+[OVERRIDE:62:I:PLANT:PLANT::_MDF_overrides_3:152:8:8] 				Picked plant
+[OVERRIDE:62:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:184:8:8]
+
+#PARSNIP, TURNIP
+[OVERRIDE:63:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:153:8:8] 		Inside the farm
+[OVERRIDE:63:T:Shrub:_MDF_overrides_3:169:8:8] 						Growing outside
+[OVERRIDE:63:T:ShrubDead:_MDF_overrides_3:169:5:5] 					Growing outside, but dead
+[OVERRIDE:63:I:PLANT:PLANT::_MDF_overrides_3:153:8:8] 				Picked plant
+[OVERRIDE:63:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:185:8:8]
+
+#PEANUT
+[OVERRIDE:64:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:154:8:8] 		Inside the farm
+[OVERRIDE:64:T:Shrub:_MDF_overrides_3:170:8:8] 						Growing outside
+[OVERRIDE:64:T:ShrubDead:_MDF_overrides_3:170:5:5] 					Growing outside, but dead
+[OVERRIDE:64:I:PLANT:PLANT::_MDF_overrides_3:154:8:8] 				Picked plant
+[OVERRIDE:64:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:186:8:8]
+
+#PEPPER
+[OVERRIDE:65:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:155:8:8] 		Inside the farm
+[OVERRIDE:65:T:Shrub:_MDF_overrides_3:171:8:8] 						Growing outside
+[OVERRIDE:65:T:ShrubDead:_MDF_overrides_3:171:5:5] 					Growing outside, but dead
+[OVERRIDE:65:I:PLANT:PLANT::_MDF_overrides_3:155:8:8] 				Picked plant
+[OVERRIDE:65:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:187:8:8]
+
+#POTATO, SWEET_POTATO
+[OVERRIDE:66:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:156:8:8] 		Inside the farm
+[OVERRIDE:66:T:Shrub:_MDF_overrides_3:172:8:8] 						Growing outside
+[OVERRIDE:66:T:ShrubDead:_MDF_overrides_3:172:5:5] 					Growing outside, but dead
+[OVERRIDE:66:I:PLANT:PLANT::_MDF_overrides_3:156:8:8] 				Picked plant
+[OVERRIDE:66:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:188:8:8]
+
+#GARLIC
+[OVERRIDE:67:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:148:8:8] 		Inside the farm
+[OVERRIDE:67:T:Shrub:_MDF_overrides_3:164:8:8] 						Growing outside
+[OVERRIDE:67:T:ShrubDead:_MDF_overrides_3:164:5:5] 					Growing outside, but dead
+[OVERRIDE:67:I:PLANT:PLANT::_MDF_overrides_3:148:8:8] 				Picked plant
+[OVERRIDE:67:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:180:8:8]
+
+#RED_BEAN
+[OVERRIDE:68:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:157:8:8] 		Inside the farm
+[OVERRIDE:68:T:Shrub:_MDF_overrides_3:173:8:8] 						Growing outside
+[OVERRIDE:68:T:ShrubDead:_MDF_overrides_3:173:5:5] 					Growing outside, but dead
+[OVERRIDE:68:I:PLANT:PLANT::_MDF_overrides_3:157:8:8] 				Picked plant
+[OVERRIDE:68:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:189:8:8]
+
+#RHUBARB
+[OVERRIDE:69:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:158:8:8] 		Inside the farm
+[OVERRIDE:69:T:Shrub:_MDF_overrides_3:174:8:8] 						Growing outside
+[OVERRIDE:69:T:ShrubDead:_MDF_overrides_3:174:5:5] 					Growing outside, but dead
+[OVERRIDE:69:I:PLANT:PLANT::_MDF_overrides_3:158:8:8] 				Picked plant
+[OVERRIDE:69:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:190:8:8]
+
+#SPINACH
+[OVERRIDE:70:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:159:8:8] 		Inside the farm
+[OVERRIDE:70:T:Shrub:_MDF_overrides_3:175:8:8] 						Growing outside
+[OVERRIDE:70:T:ShrubDead:_MDF_overrides_3:175:5:5] 					Growing outside, but dead
+[OVERRIDE:70:I:PLANT:PLANT::_MDF_overrides_3:159:8:8] 				Picked plant
+[OVERRIDE:70:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:191:8:8]
+
+#SQUASH
+[OVERRIDE:71:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:193:8:8] 		Inside the farm
+[OVERRIDE:71:T:Shrub:_MDF_overrides_3:208:8:8] 						Growing outside
+[OVERRIDE:71:T:ShrubDead:_MDF_overrides_3:208:5:5] 					Growing outside, but dead
+[OVERRIDE:71:I:PLANT:PLANT::_MDF_overrides_3:193:8:8] 				Picked plant
+[OVERRIDE:71:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:244:8:8]
+
+#TARO
+[OVERRIDE:72:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:193:8:8] 		Inside the farm
+[OVERRIDE:72:T:Shrub:_MDF_overrides_3:209:8:8] 						Growing outside
+[OVERRIDE:72:T:ShrubDead:_MDF_overrides_3:209:5:5] 					Growing outside, but dead
+[OVERRIDE:72:I:PLANT:PLANT::_MDF_overrides_3:193:8:8] 				Picked plant
+[OVERRIDE:72:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:225:8:8]
+
+#TOMATO
+[OVERRIDE:73:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:194:8:8] 		Inside the farm
+[OVERRIDE:73:T:Shrub:_MDF_overrides_3:210:8:8] 						Growing outside
+[OVERRIDE:73:T:ShrubDead:_MDF_overrides_3:210:5:5] 					Growing outside, but dead
+[OVERRIDE:73:I:PLANT:PLANT::_MDF_overrides_3:194:8:8] 				Picked plant
+[OVERRIDE:73:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:226:8:8]
+
+#TOMATILLO
+[OVERRIDE:74:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:195:8:8] 		Inside the farm
+[OVERRIDE:74:T:Shrub:_MDF_overrides_3:211:8:8] 						Growing outside
+[OVERRIDE:74:T:ShrubDead:_MDF_overrides_3:211:5:5] 					Growing outside, but dead
+[OVERRIDE:74:I:PLANT:PLANT::_MDF_overrides_3:195:8:8] 				Picked plant
+[OVERRIDE:74:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:227:8:8]
+
+#WATERMELON, WINTER_MELON
+[OVERRIDE:75:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:196:8:8] 		Inside the farm
+[OVERRIDE:75:T:Shrub:_MDF_overrides_3:212:8:8] 						Growing outside
+[OVERRIDE:75:T:ShrubDead:_MDF_overrides_3:212:5:5] 					Growing outside, but dead
+[OVERRIDE:75:I:PLANT:PLANT::_MDF_overrides_3:196:8:8] 				Picked plant
+[OVERRIDE:75:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:228:8:8]
+
+#LESSER_YAM, LONG_YAM, PURPLE_YAM, WHITE_YAM
+[OVERRIDE:76:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:197:8:8] 		Inside the farm
+[OVERRIDE:76:T:Shrub:_MDF_overrides_3:213:8:8] 						Growing outside
+[OVERRIDE:76:T:ShrubDead:_MDF_overrides_3:213:5:5] 					Growing outside, but dead
+[OVERRIDE:76:I:PLANT:PLANT::_MDF_overrides_3:197:8:8] 				Picked plant
+[OVERRIDE:76:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:229:8:8]
+
+#PASSION_FRUIT
+[OVERRIDE:77:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:198:8:8] 		Inside the farm
+[OVERRIDE:77:T:Shrub:_MDF_overrides_3:214:8:8] 						Growing outside
+[OVERRIDE:77:T:ShrubDead:_MDF_overrides_3:214:5:5] 					Growing outside, but dead
+[OVERRIDE:77:I:PLANT:PLANT::_MDF_overrides_3:198:8:8] 				Picked plant
+[OVERRIDE:77:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:230:8:8]
+
+#GRAPE
+[OVERRIDE:78:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:199:8:8] 		Inside the farm
+[OVERRIDE:78:T:Shrub:_MDF_overrides_3:215:8:8] 						Growing outside
+[OVERRIDE:78:T:ShrubDead:_MDF_overrides_3:215:5:5] 					Growing outside, but dead
+[OVERRIDE:78:I:PLANT:PLANT::_MDF_overrides_3:199:8:8] 				Picked plant
+[OVERRIDE:78:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:231:8:8]
+
+#CRANBERRY
+[OVERRIDE:79:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:200:8:8] 		Inside the farm
+[OVERRIDE:79:T:Shrub:_MDF_overrides_3:216:8:8] 						Growing outside
+[OVERRIDE:79:T:ShrubDead:_MDF_overrides_3:216:5:5] 					Growing outside, but dead
+[OVERRIDE:79:I:PLANT:PLANT::_MDF_overrides_3:200:8:8] 				Picked plant
+[OVERRIDE:79:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:232:8:8]
+
+#BILBERRY, BLUEBERRY
+[OVERRIDE:80:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:201:8:8] 		Inside the farm
+[OVERRIDE:80:T:Shrub:_MDF_overrides_3:217:8:8] 						Growing outside
+[OVERRIDE:80:T:ShrubDead:_MDF_overrides_3:217:5:5] 					Growing outside, but dead
+[OVERRIDE:80:I:PLANT:PLANT::_MDF_overrides_3:201:8:8] 				Picked plant
+[OVERRIDE:80:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:233:8:8]
+
+#BLACKBERRY
+[OVERRIDE:81:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:202:8:8] 		Inside the farm
+[OVERRIDE:81:T:Shrub:_MDF_overrides_3:218:8:8] 						Growing outside
+[OVERRIDE:81:T:ShrubDead:_MDF_overrides_3:218:5:5] 					Growing outside, but dead
+[OVERRIDE:81:I:PLANT:PLANT::_MDF_overrides_3:202:8:8] 				Picked plant
+[OVERRIDE:81:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:234:8:8]
+
+#RASPBERRY
+[OVERRIDE:82:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:203:8:8] 		Inside the farm
+[OVERRIDE:82:T:Shrub:_MDF_overrides_3:219:8:8] 						Growing outside
+[OVERRIDE:82:T:ShrubDead:_MDF_overrides_3:219:5:5] 					Growing outside, but dead
+[OVERRIDE:82:I:PLANT:PLANT::_MDF_overrides_3:203:8:8] 				Picked plant
+[OVERRIDE:82:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:235:8:8]
+
+#PINEAPPLE
+[OVERRIDE:83:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:204:8:8] 		Inside the farm
+[OVERRIDE:83:T:Shrub:_MDF_overrides_3:220:8:8] 						Growing outside
+[OVERRIDE:83:T:ShrubDead:_MDF_overrides_3:220:5:5] 					Growing outside, but dead
+[OVERRIDE:83:I:PLANT:PLANT::_MDF_overrides_3:204:8:8] 				Picked plant
+[OVERRIDE:83:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:236:8:8]
+
 

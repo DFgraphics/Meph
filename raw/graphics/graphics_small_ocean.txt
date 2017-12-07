@@ -4,7 +4,7 @@ graphics_small_ocean
 
 [TILE_PAGE:SMALL_OCEAN]
 	[FILE:small_ocean.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:15:10]
 
 [CREATURE_GRAPHICS:MUSSEL]

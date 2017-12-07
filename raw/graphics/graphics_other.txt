@@ -4,7 +4,7 @@ graphics_other
 
 [TILE_PAGE:OTHER]
 	[FILE:other.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:9:6]
 
 [CREATURE_GRAPHICS:FOXSQUIRREL]

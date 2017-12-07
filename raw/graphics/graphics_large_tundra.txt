@@ -4,7 +4,7 @@ graphics_large_tundra
 
 [TILE_PAGE:LARGE_TUNDRA]
 	[FILE:large_tundra.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:6:4]
 
 [CREATURE_GRAPHICS:MUSKOX]

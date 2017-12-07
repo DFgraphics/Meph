@@ -4,7 +4,7 @@ graphics_large_riverlake
 
 [TILE_PAGE:LARGE_RIVERLAKE]
 	[FILE:large_riverlake.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:9:6]
 
 [CREATURE_GRAPHICS:HIPPO]

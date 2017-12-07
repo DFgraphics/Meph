@@ -4,7 +4,7 @@ graphics_amphibians
 
 [TILE_PAGE:AMPHIBIANS]
 	[FILE:amphibians.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:6:2]
 
 [CREATURE_GRAPHICS:GIANT_TOAD]

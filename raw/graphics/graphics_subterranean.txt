@@ -4,7 +4,7 @@ graphics_subterranean
 
 [TILE_PAGE:SUBTERRANEAN]
 	[FILE:subterranean.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:18:12]
 
 [CREATURE_GRAPHICS:CROCODILE_CAVE]

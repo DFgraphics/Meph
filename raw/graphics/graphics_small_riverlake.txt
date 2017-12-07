@@ -4,7 +4,7 @@ graphics_small_riverlake
 
 [TILE_PAGE:SMALL_RIVERLAKE]
 	[FILE:small_riverlake.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:12:6]
 
 [CREATURE_GRAPHICS:FISH_LUNGFISH]

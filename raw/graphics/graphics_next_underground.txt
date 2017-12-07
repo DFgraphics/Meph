@@ -4,7 +4,7 @@ graphics_next_underground
 
 [TILE_PAGE:NEXT_UNDERGROUND]
 	[FILE:next_underground.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:18:12]
 
 [CREATURE_GRAPHICS:FLOATING_GUTS]

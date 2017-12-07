@@ -4,7 +4,7 @@ graphics_temperate_new
 
 [TILE_PAGE:TEMPERATE_NEW]
 	[FILE:temperate_new.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:24:16]
 
 [CREATURE_GRAPHICS:WILD_BOAR]

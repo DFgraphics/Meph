@@ -4,7 +4,7 @@ graphics_large_temperate
 
 [TILE_PAGE:LARGE_TEMPERATE]
 	[FILE:large_temperate.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:18:10]
 
 [CREATURE_GRAPHICS:BEAR_GRIZZLY]

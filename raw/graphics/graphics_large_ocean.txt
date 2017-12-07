@@ -4,7 +4,7 @@ graphics_large_ocean
 
 [TILE_PAGE:LARGE_OCEAN]
 	[FILE:large_ocean.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:21:12]
 
 [CREATURE_GRAPHICS:WALRUS]

@@ -4,7 +4,7 @@ graphics_ocean_new
 
 [TILE_PAGE:OCEAN_NEW]
 	[FILE:ocean_new.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:18:12]
 
 [CREATURE_GRAPHICS:OCTOPUS]

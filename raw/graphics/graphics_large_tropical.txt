@@ -4,7 +4,7 @@ graphics_large_tropical
 
 [TILE_PAGE:LARGE_TROPICAL]
 	[FILE:large_tropical.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:18:12]
 
 [CREATURE_GRAPHICS:ELEPHANT]

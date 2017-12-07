@@ -4,7 +4,7 @@ graphics_large_mountain
 
 [TILE_PAGE:LARGE_MOUNTAIN]
 	[FILE:large_mountain.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:6:4]
 
 [CREATURE_GRAPHICS:GOAT_MOUNTAIN]

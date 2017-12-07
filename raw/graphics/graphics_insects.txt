@@ -4,7 +4,7 @@ graphics_insects
 
 [TILE_PAGE:INSECTS]
 	[FILE:insects.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:9:6]
 
 [CREATURE_GRAPHICS:FLY]

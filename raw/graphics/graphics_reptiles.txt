@@ -4,7 +4,7 @@ graphics_reptiles
 
 [TILE_PAGE:REPTILES]
 	[FILE:reptiles.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:15:6]
 
 [CREATURE_GRAPHICS:LIZARD_MAN]

@@ -4,7 +4,7 @@ graphics_annelids
 
 [TILE_PAGE:ANNELIDS]
 	[FILE:annelids.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:3:2]
 
 [CREATURE_GRAPHICS:WORM_MAN]

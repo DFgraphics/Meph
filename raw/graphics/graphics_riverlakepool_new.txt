@@ -4,7 +4,7 @@ graphics_riverlakepool_new
 
 [TILE_PAGE:RIVERLAKEPOOL_NEW]
 	[FILE:riverlakepool_new.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:15:10]
 
 [CREATURE_GRAPHICS:RIVER OTTER]

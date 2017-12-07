@@ -4,7 +4,7 @@ graphics_desert_new
 
 [TILE_PAGE:DESERT_NEW]
 	[FILE:desert_new.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:12:6]
 
 [CREATURE_GRAPHICS:GECKO_LEOPARD]

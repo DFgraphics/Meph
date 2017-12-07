@@ -4,7 +4,7 @@ graphics_tundra_taiga_new
 
 [TILE_PAGE:TUNDRA_TAIGA_NEW]
 	[FILE:tundra_taiga_new.png]
-	[TILE_DIM:24:24]
+	[TILE_DIM:32:32]
 	[PAGE_DIM:9:4]
 
 [CREATURE_GRAPHICS:STOAT]
