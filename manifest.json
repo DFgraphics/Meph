@@ -2,8 +2,8 @@
     "author": "Meph",
     "url": "http://www.bay12forums.com/smf/index.php?topic=139579.0",
     "content_version": "1.4 (2016-11-29)",
-    "df_min_version": "0.43.01",
-    "df_max_version": "0.43.03",
+    "df_min_version": "0.43.05",
+    "df_max_version": "0.43.05",
     "title": "Meph 32x",
     "folder_prefix": "Meph",
     "tooltip": "Consistent-looking tileset with a fitting tone."
