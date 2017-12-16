@@ -67,14 +67,14 @@ You can read more about it on http://www.bay12forums.com/smf/index.php?topic=139
 
 ________________________________________
 ________________________________________
-1.4 - TWBT:
+1.4 - TWBT:  
 TWBT, or Text-Will-Be-Text, is a dfhack plugin that allows multiple graphical fixes. You can see several z-levels at once, you can use second tileset just for the font, and you can override single tiles with better replacements.
 
 This is heavily used for this tileset, replacing several hundred tiles with unique sprites.
 
 You can read more about it on http://www.bay12forums.com/smf/index.php?topic=138754.0
 
-WARNING: 
+WARNING:  
 TWBT might cause instability issues on some peoples machines. This is rare and usually only happens if either the GPU is very old, or if a lot of tiles are replaced at the same time. 
 
 SOLUTIONS: 
@@ -115,7 +115,7 @@ ________________________________________
 ________________________________________
 If you really like DF and/or this tileset and want to help out indy developers, consider making a small donations.
 
-Tarn Adams aka Toady One, the developer of DF: https://www.patreon.com/bay12games
+Tarn Adams aka Toady One, the developer of DF: https://www.patreon.com/bay12games  
 Patrick Martin aka Meph, the maker of this tileset and the MasterworkDF Mod: https://www.patreon.com/meph
 
 Thank you!
