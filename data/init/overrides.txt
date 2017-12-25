@@ -18,10 +18,7 @@
 #::0 ERROR
 #:new tile:foreground:background
 
-#new creatures: next underground: Green devourer, creeping eye, plump helmet man, amethyst man, gabbro man, reacher.
-#new creatures: standard: troll, bronze colossus, sea monster.
-#new creatures: subterranean: giant cave spider, fire imp, bat, 
-
+[TILESET:_MDF_decorations.png:_MDF_decorations.png:_MDF_overrides_4]
 
 [TILESET:_MDF_trees.png:_MDF_trees.png:_MDF_overrides_2]
 
@@ -135,6 +132,54 @@
 
 ##################################################################################
 [TILESET:_MDF_items.png:_MDF_items.png:_MDF_overrides_1]
+
+#misc			173
+[OVERRIDE:173:I:CORPSE:CORPSE::_MDF_overrides_2:173]
+[OVERRIDE:173:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:173] 
+#humanoid		174
+[OVERRIDE:174:I:CORPSE:CORPSE::_MDF_overrides_2:174]
+[OVERRIDE:174:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:174] 
+#snake			175
+[OVERRIDE:175:I:CORPSE:CORPSE::_MDF_overrides_2:175]
+[OVERRIDE:175:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:175] 
+#small mammal			189
+[OVERRIDE:189:I:CORPSE:CORPSE::_MDF_overrides_2:189]
+[OVERRIDE:189:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:189] 
+#lizard			190
+[OVERRIDE:190:I:CORPSE:CORPSE::_MDF_overrides_2:190]
+[OVERRIDE:190:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:190] 
+#bird			191
+[OVERRIDE:191:I:CORPSE:CORPSE::_MDF_overrides_2:191]
+[OVERRIDE:191:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:191] 
+#humanoid small	205
+[OVERRIDE:205:I:CORPSE:CORPSE::_MDF_overrides_2:205]
+[OVERRIDE:205:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:205] 
+#canine			206
+[OVERRIDE:206:I:CORPSE:CORPSE::_MDF_overrides_2:206]
+[OVERRIDE:206:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:206] 
+[OVERRIDE:86:I:CORPSE:CORPSE::_MDF_overrides_2:206]
+[OVERRIDE:86:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:206] 
+[OVERRIDE:87:I:CORPSE:CORPSE::_MDF_overrides_2:206]
+[OVERRIDE:87:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:206] 
+#ursine			207
+[OVERRIDE:207:I:CORPSE:CORPSE::_MDF_overrides_2:207]
+[OVERRIDE:207:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:207] 
+#dwarf			221		
+[OVERRIDE:221:I:CORPSE:CORPSE::_MDF_overrides_2:221]
+[OVERRIDE:221:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:221] 
+#feline			222
+[OVERRIDE:222:I:CORPSE:CORPSE::_MDF_overrides_2:222]
+[OVERRIDE:222:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:222] 
+[OVERRIDE:2:I:CORPSE:CORPSE::_MDF_overrides_2:222]
+[OVERRIDE:2:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:222] 
+#fish			223
+[OVERRIDE:223:I:CORPSE:CORPSE::_MDF_overrides_2:223]
+[OVERRIDE:223:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:223] 
+#insect			237
+[OVERRIDE:237:I:CORPSE:CORPSE::_MDF_overrides_2:237]
+[OVERRIDE:237:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:237] 
+
+
 
 #[OVERRIDE:206:T:StoneFortification:_MDF_overrides_1:44]
 #[OVERRIDE:50:B:WORKSHOP_CUSTOM:Workshop:DISPLAY_CASE:_MDF_overrides_1:50]
@@ -573,7 +618,11 @@ herring looks like meat.
 [OVERRIDE:255:I:TOOL:TOOL:23:_MDF_overrides_1:246]
 [OVERRIDE:255:I:TOOL:TOOL:24:_MDF_overrides_1:247]
 [OVERRIDE:255:I:TOOL:TOOL:25:_MDF_overrides_1:248]
+[OVERRIDE:255:I:TOOL:TOOL:26:_MDF_overrides_4:112] 
+[OVERRIDE:255:I:TOOL:TOOL:27:_MDF_overrides_4:96] 
 
+#[OVERRIDE:139:B:PEDESTAL:::_MDF_overrides_2:112]
+#[OVERRIDE:227:B:DISPLAY_CASE:::_MDF_overrides_2:96]
 
 [OVERRIDE:255:B:HIVE:Hive::_MDF_overrides_1:234]
 #TractionBench
@@ -1193,3 +1242,595 @@ herring looks like meat.
 [OVERRIDE:83:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:236:8:8]
 
 
+######################################################################################################
+#tree stuff
+
+#tree catkinds
+[OVERRIDE:205:T:TreeBranches:_MDF_overrides_3:205]
+[OVERRIDE:205:T:TreeBranchesSmooth:_MDF_overrides_3:205]
+[OVERRIDE:205:T:TreeTwigs:_MDF_overrides_3:205]
+[OVERRIDE:205:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:205] 
+
+#tree seeds
+[OVERRIDE:242:T:TreeBranches:_MDF_overrides_3:242] acacia seed
+[OVERRIDE:242:T:TreeBranchesSmooth:_MDF_overrides_3:242]
+[OVERRIDE:242:T:TreeTwigs:_MDF_overrides_3:242]
+[OVERRIDE:242:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:242] 
+
+[OVERRIDE:195:T:TreeBranches:_MDF_overrides_2:195] feather tree down
+[OVERRIDE:195:T:TreeBranchesSmooth:_MDF_overrides_2:195]
+[OVERRIDE:195:T:TreeTwigs:_MDF_overrides_2:195]
+[OVERRIDE:195:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:195] 
+
+[OVERRIDE:192:T:TreeBranches:_MDF_overrides_2:192] alder cone
+[OVERRIDE:192:T:TreeBranchesSmooth:_MDF_overrides_2:192]
+[OVERRIDE:192:T:TreeTwigs:_MDF_overrides_2:192]
+[OVERRIDE:192:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:192] 
+
+[OVERRIDE:179:T:TreeBranches:_MDF_overrides_2:179] larch needle
+[OVERRIDE:179:T:TreeBranchesSmooth:_MDF_overrides_2:179]
+[OVERRIDE:179:T:TreeTwigs:_MDF_overrides_2:179]
+[OVERRIDE:179:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:179] 
+
+[OVERRIDE:193:T:TreeBranches:_MDF_overrides_2:193] larch seed cone
+[OVERRIDE:193:T:TreeBranchesSmooth:_MDF_overrides_2:193]
+[OVERRIDE:193:T:TreeTwigs:_MDF_overrides_2:193]
+[OVERRIDE:193:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:193] 
+
+[OVERRIDE:194:T:TreeBranches:_MDF_overrides_2:194] larch pollen cone
+[OVERRIDE:194:T:TreeBranchesSmooth:_MDF_overrides_2:194]
+[OVERRIDE:194:T:TreeTwigs:_MDF_overrides_2:194]
+[OVERRIDE:194:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:194] 
+
+[OVERRIDE:179:T:TreeBranches:_MDF_overrides_2:179] pine needle
+[OVERRIDE:179:T:TreeBranchesSmooth:_MDF_overrides_2:179]
+[OVERRIDE:179:T:TreeTwigs:_MDF_overrides_2:179]
+[OVERRIDE:179:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:179] 
+
+[OVERRIDE:177:T:TreeBranches:_MDF_overrides_2:177] pine seed cone
+[OVERRIDE:177:T:TreeBranchesSmooth:_MDF_overrides_2:177]
+[OVERRIDE:177:T:TreeTwigs:_MDF_overrides_2:177]
+[OVERRIDE:177:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:177] 
+
+[OVERRIDE:178:T:TreeBranches:_MDF_overrides_2:178] pine pollen cone
+[OVERRIDE:178:T:TreeBranchesSmooth:_MDF_overrides_2:178]
+[OVERRIDE:178:T:TreeTwigs:_MDF_overrides_2:178]
+[OVERRIDE:178:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:178] 
+
+[OVERRIDE:176:T:TreeBranches:_MDF_overrides_2:176] cedar seed cone
+[OVERRIDE:176:T:TreeBranchesSmooth:_MDF_overrides_2:176]
+[OVERRIDE:176:T:TreeTwigs:_MDF_overrides_2:176]
+[OVERRIDE:176:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:176] 
+
+[OVERRIDE:192:T:TreeBranches:_MDF_overrides_2:192] cedar pollen cone
+[OVERRIDE:192:T:TreeBranchesSmooth:_MDF_overrides_2:192]
+[OVERRIDE:192:T:TreeTwigs:_MDF_overrides_2:192]
+[OVERRIDE:192:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:192] 
+
+
+
+#flowers in trees
+[OVERRIDE:248:T:TreeBranches:_MDF_overrides_3:248] mangrove flower
+[OVERRIDE:248:T:TreeBranchesSmooth:_MDF_overrides_3:248]
+[OVERRIDE:248:T:TreeTwigs:_MDF_overrides_3:248]
+[OVERRIDE:248:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:248] 
+
+[OVERRIDE:241:T:TreeBranches:_MDF_overrides_3:241] saguaro flower
+[OVERRIDE:241:T:TreeBranchesSmooth:_MDF_overrides_3:241]
+[OVERRIDE:241:T:TreeTwigs:_MDF_overrides_3:241]
+[OVERRIDE:241:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:241] 
+
+[OVERRIDE:246:T:TreeBranches:_MDF_overrides_3:246] oak flower cluster
+[OVERRIDE:246:T:TreeBranchesSmooth:_MDF_overrides_3:246]
+[OVERRIDE:246:T:TreeTwigs:_MDF_overrides_3:246]
+[OVERRIDE:246:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:246] 
+
+[OVERRIDE:248:T:TreeBranches:_MDF_overrides_3:248] mahogany flower
+[OVERRIDE:248:T:TreeBranchesSmooth:_MDF_overrides_3:248]
+[OVERRIDE:248:T:TreeTwigs:_MDF_overrides_3:248]
+[OVERRIDE:248:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:248] 
+
+[OVERRIDE:249:T:TreeBranches:_MDF_overrides_3:249] acacia flower
+[OVERRIDE:249:T:TreeBranchesSmooth:_MDF_overrides_3:249]
+[OVERRIDE:249:T:TreeTwigs:_MDF_overrides_3:249]
+[OVERRIDE:249:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:249] 
+
+[OVERRIDE:248:T:TreeBranches:_MDF_overrides_3:248] kapok flower
+[OVERRIDE:248:T:TreeBranchesSmooth:_MDF_overrides_3:248]
+[OVERRIDE:248:T:TreeTwigs:_MDF_overrides_3:248]
+[OVERRIDE:248:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:248] 
+
+[OVERRIDE:254:T:TreeBranches:_MDF_overrides_3:254] maple flower cluster
+[OVERRIDE:254:T:TreeBranchesSmooth:_MDF_overrides_3:254]
+[OVERRIDE:254:T:TreeTwigs:_MDF_overrides_3:254]
+[OVERRIDE:254:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:254] 
+
+[OVERRIDE:252:T:TreeBranches:_MDF_overrides_3:252] highwood flower
+[OVERRIDE:252:T:TreeBranchesSmooth:_MDF_overrides_3:252]
+[OVERRIDE:252:T:TreeTwigs:_MDF_overrides_3:252]
+[OVERRIDE:252:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:252] 
+
+[OVERRIDE:207:T:TreeBranches:_MDF_overrides_3:207] ash flower
+[OVERRIDE:207:T:TreeBranchesSmooth:_MDF_overrides_3:207]
+[OVERRIDE:207:T:TreeTwigs:_MDF_overrides_3:207]
+[OVERRIDE:207:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:207] 
+
+[OVERRIDE:207:T:TreeBranches:_MDF_overrides_3:207] candlenut flower
+[OVERRIDE:207:T:TreeBranchesSmooth:_MDF_overrides_3:207]
+[OVERRIDE:207:T:TreeTwigs:_MDF_overrides_3:207]
+[OVERRIDE:207:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:207] 
+
+[OVERRIDE:246:T:TreeBranches:_MDF_overrides_3:246] mango flower
+[OVERRIDE:246:T:TreeBranchesSmooth:_MDF_overrides_3:246]
+[OVERRIDE:246:T:TreeTwigs:_MDF_overrides_3:246]
+[OVERRIDE:246:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:246] 
+
+[OVERRIDE:240:T:TreeBranches:_MDF_overrides_3:240] cacao flower
+[OVERRIDE:240:T:TreeBranchesSmooth:_MDF_overrides_3:240]
+[OVERRIDE:240:T:TreeTwigs:_MDF_overrides_3:240]
+[OVERRIDE:240:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:240] 
+
+[OVERRIDE:246:T:TreeBranches:_MDF_overrides_3:246] coconut palm spathe
+[OVERRIDE:246:T:TreeBranchesSmooth:_MDF_overrides_3:246]
+[OVERRIDE:246:T:TreeTwigs:_MDF_overrides_3:246]
+[OVERRIDE:246:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:246] 
+
+[OVERRIDE:246:T:TreeBranches:_MDF_overrides_3:246] olive raceme
+[OVERRIDE:246:T:TreeBranchesSmooth:_MDF_overrides_3:246]
+[OVERRIDE:246:T:TreeTwigs:_MDF_overrides_3:246]
+[OVERRIDE:246:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:246] 
+
+[OVERRIDE:242:T:TreeBranches:_MDF_overrides_3:242] banana flower
+[OVERRIDE:242:T:TreeBranchesSmooth:_MDF_overrides_3:242]
+[OVERRIDE:242:T:TreeTwigs:_MDF_overrides_3:242]
+[OVERRIDE:242:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:242] 
+
+[OVERRIDE:239:T:TreeBranches:_MDF_overrides_3:239] carambola flower
+[OVERRIDE:239:T:TreeBranchesSmooth:_MDF_overrides_3:239]
+[OVERRIDE:239:T:TreeTwigs:_MDF_overrides_3:239]
+[OVERRIDE:239:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:239] 
+
+[OVERRIDE:237:T:TreeBranches:_MDF_overrides_3:237] cashew flower
+[OVERRIDE:237:T:TreeBranchesSmooth:_MDF_overrides_3:237]
+[OVERRIDE:237:T:TreeTwigs:_MDF_overrides_3:237]
+[OVERRIDE:237:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:237] 
+
+[OVERRIDE:250:T:TreeBranches:_MDF_overrides_3:250] coffee flower cluster
+[OVERRIDE:250:T:TreeBranchesSmooth:_MDF_overrides_3:250]
+[OVERRIDE:250:T:TreeTwigs:_MDF_overrides_3:250]
+[OVERRIDE:250:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:250] 
+
+[OVERRIDE:254:T:TreeBranches:_MDF_overrides_3:254] durian flower
+[OVERRIDE:254:T:TreeBranchesSmooth:_MDF_overrides_3:254]
+[OVERRIDE:254:T:TreeTwigs:_MDF_overrides_3:254]
+[OVERRIDE:254:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:254] 
+
+[OVERRIDE:241:T:TreeBranches:_MDF_overrides_3:241] guava flower
+[OVERRIDE:241:T:TreeBranchesSmooth:_MDF_overrides_3:241]
+[OVERRIDE:241:T:TreeTwigs:_MDF_overrides_3:241]
+[OVERRIDE:241:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:241] 
+
+[OVERRIDE:241:T:TreeBranches:_MDF_overrides_3:241] papaya flower
+[OVERRIDE:241:T:TreeBranchesSmooth:_MDF_overrides_3:241]
+[OVERRIDE:241:T:TreeTwigs:_MDF_overrides_3:241]
+[OVERRIDE:241:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:241] 
+
+[OVERRIDE:250:T:TreeBranches:_MDF_overrides_3:250] paradise nut raceme
+[OVERRIDE:250:T:TreeBranchesSmooth:_MDF_overrides_3:250]
+[OVERRIDE:250:T:TreeTwigs:_MDF_overrides_3:250]
+[OVERRIDE:250:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:250] 
+
+[OVERRIDE:255:T:TreeBranches:_MDF_overrides_3:255] rambutan flower
+[OVERRIDE:255:T:TreeBranchesSmooth:_MDF_overrides_3:255]
+[OVERRIDE:255:T:TreeTwigs:_MDF_overrides_3:255]
+[OVERRIDE:255:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:255] 
+
+[OVERRIDE:222:T:TreeBranches:_MDF_overrides_3:222] tea flower
+[OVERRIDE:222:T:TreeBranchesSmooth:_MDF_overrides_3:222]
+[OVERRIDE:222:T:TreeTwigs:_MDF_overrides_3:222]
+[OVERRIDE:222:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:222] 
+
+[OVERRIDE:206:T:TreeBranches:_MDF_overrides_3:206] avocado flower
+[OVERRIDE:206:T:TreeBranchesSmooth:_MDF_overrides_3:206]
+[OVERRIDE:206:T:TreeTwigs:_MDF_overrides_3:206]
+[OVERRIDE:206:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:206] 
+
+[OVERRIDE:237:T:TreeBranches:_MDF_overrides_3:237] abaca flower
+[OVERRIDE:237:T:TreeBranchesSmooth:_MDF_overrides_3:237]
+[OVERRIDE:237:T:TreeTwigs:_MDF_overrides_3:237]
+[OVERRIDE:237:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:237] 
+
+[OVERRIDE:222:T:TreeBranches:_MDF_overrides_3:222] tea tree capsule
+[OVERRIDE:222:T:TreeBranchesSmooth:_MDF_overrides_3:222]
+[OVERRIDE:222:T:TreeTwigs:_MDF_overrides_3:222]
+[OVERRIDE:222:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:222] 
+
+[OVERRIDE:245:T:TreeBranches:_MDF_overrides_3:245] lime flower
+[OVERRIDE:245:T:TreeBranchesSmooth:_MDF_overrides_3:245]
+[OVERRIDE:245:T:TreeTwigs:_MDF_overrides_3:245]
+[OVERRIDE:245:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:245] 
+
+[OVERRIDE:206:T:TreeBranches:_MDF_overrides_3:206] pomelo flower
+[OVERRIDE:206:T:TreeBranchesSmooth:_MDF_overrides_3:206]
+[OVERRIDE:206:T:TreeTwigs:_MDF_overrides_3:206]
+[OVERRIDE:206:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:206] 
+
+[OVERRIDE:206:T:TreeBranches:_MDF_overrides_3:206] orange flower
+[OVERRIDE:206:T:TreeBranchesSmooth:_MDF_overrides_3:206]
+[OVERRIDE:206:T:TreeTwigs:_MDF_overrides_3:206]
+[OVERRIDE:206:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:206] 
+
+[OVERRIDE:206:T:TreeBranches:_MDF_overrides_3:206] citron flower
+[OVERRIDE:206:T:TreeBranchesSmooth:_MDF_overrides_3:206]
+[OVERRIDE:206:T:TreeTwigs:_MDF_overrides_3:206]
+[OVERRIDE:206:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:206] 
+
+[OVERRIDE:206:T:TreeBranches:_MDF_overrides_3:206] bitter orange flower
+[OVERRIDE:206:T:TreeBranchesSmooth:_MDF_overrides_3:206]
+[OVERRIDE:206:T:TreeTwigs:_MDF_overrides_3:206]
+[OVERRIDE:206:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:206] 
+
+[OVERRIDE:252:T:TreeBranches:_MDF_overrides_3:252] finger lime flower
+[OVERRIDE:252:T:TreeBranchesSmooth:_MDF_overrides_3:252]
+[OVERRIDE:252:T:TreeTwigs:_MDF_overrides_3:252]
+[OVERRIDE:252:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:252] 
+
+[OVERRIDE:252:T:TreeBranches:_MDF_overrides_3:252] round lime flower
+[OVERRIDE:252:T:TreeBranchesSmooth:_MDF_overrides_3:252]
+[OVERRIDE:252:T:TreeTwigs:_MDF_overrides_3:252]
+[OVERRIDE:252:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:252] 
+
+[OVERRIDE:252:T:TreeBranches:_MDF_overrides_3:252] desert lime flower
+[OVERRIDE:252:T:TreeBranchesSmooth:_MDF_overrides_3:252]
+[OVERRIDE:252:T:TreeTwigs:_MDF_overrides_3:252]
+[OVERRIDE:252:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:252] 
+
+[OVERRIDE:240:T:TreeBranches:_MDF_overrides_3:240] kumquat flower
+[OVERRIDE:240:T:TreeBranchesSmooth:_MDF_overrides_3:240]
+[OVERRIDE:240:T:TreeTwigs:_MDF_overrides_3:240]
+[OVERRIDE:240:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:240] 
+
+[OVERRIDE:253:T:TreeBranches:_MDF_overrides_3:253] custard-apple flower
+[OVERRIDE:253:T:TreeBranchesSmooth:_MDF_overrides_3:253]
+[OVERRIDE:253:T:TreeTwigs:_MDF_overrides_3:253]
+[OVERRIDE:253:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:253] 
+
+[OVERRIDE:242:T:TreeBranches:_MDF_overrides_3:242] date palm flower stalk
+[OVERRIDE:242:T:TreeBranchesSmooth:_MDF_overrides_3:242]
+[OVERRIDE:242:T:TreeTwigs:_MDF_overrides_3:242]
+[OVERRIDE:242:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:242] 
+
+[OVERRIDE:245:T:TreeBranches:_MDF_overrides_3:245] lychee flower
+[OVERRIDE:245:T:TreeBranchesSmooth:_MDF_overrides_3:245]
+[OVERRIDE:245:T:TreeTwigs:_MDF_overrides_3:245]
+[OVERRIDE:245:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:245] 
+
+[OVERRIDE:246:T:TreeBranches:_MDF_overrides_3:246] macadamia raceme
+[OVERRIDE:246:T:TreeBranchesSmooth:_MDF_overrides_3:246]
+[OVERRIDE:246:T:TreeTwigs:_MDF_overrides_3:246]
+[OVERRIDE:246:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:246] 
+
+[OVERRIDE:248:T:TreeBranches:_MDF_overrides_3:248] pomegranate flower
+[OVERRIDE:248:T:TreeBranchesSmooth:_MDF_overrides_3:248]
+[OVERRIDE:248:T:TreeTwigs:_MDF_overrides_3:248]
+[OVERRIDE:248:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:248] 
+
+[OVERRIDE:238:T:TreeBranches:_MDF_overrides_3:238] almond flower
+[OVERRIDE:238:T:TreeBranchesSmooth:_MDF_overrides_3:238]
+[OVERRIDE:238:T:TreeTwigs:_MDF_overrides_3:238]
+[OVERRIDE:238:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:238] 
+
+[OVERRIDE:238:T:TreeBranches:_MDF_overrides_3:238] apple flower
+[OVERRIDE:238:T:TreeBranchesSmooth:_MDF_overrides_3:238]
+[OVERRIDE:238:T:TreeTwigs:_MDF_overrides_3:238]
+[OVERRIDE:238:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:238] 
+
+[OVERRIDE:238:T:TreeBranches:_MDF_overrides_3:238] apricot flower
+[OVERRIDE:238:T:TreeBranchesSmooth:_MDF_overrides_3:238]
+[OVERRIDE:238:T:TreeTwigs:_MDF_overrides_3:238]
+[OVERRIDE:238:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:238] 
+
+[OVERRIDE:223:T:TreeBranches:_MDF_overrides_3:223] cherry flower
+[OVERRIDE:223:T:TreeBranchesSmooth:_MDF_overrides_3:223]
+[OVERRIDE:223:T:TreeTwigs:_MDF_overrides_3:223]
+[OVERRIDE:223:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:223] 
+
+[OVERRIDE:222:T:TreeBranches:_MDF_overrides_3:222] peach flower
+[OVERRIDE:222:T:TreeBranchesSmooth:_MDF_overrides_3:222]
+[OVERRIDE:222:T:TreeTwigs:_MDF_overrides_3:222]
+[OVERRIDE:222:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:222] 
+
+[OVERRIDE:238:T:TreeBranches:_MDF_overrides_3:238] pear flower
+[OVERRIDE:238:T:TreeBranchesSmooth:_MDF_overrides_3:238]
+[OVERRIDE:238:T:TreeTwigs:_MDF_overrides_3:238]
+[OVERRIDE:238:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:238] 
+
+[OVERRIDE:252:T:TreeBranches:_MDF_overrides_3:252] persimmon flower
+[OVERRIDE:252:T:TreeBranchesSmooth:_MDF_overrides_3:252]
+[OVERRIDE:252:T:TreeTwigs:_MDF_overrides_3:252]
+[OVERRIDE:252:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:252] 
+
+[OVERRIDE:223:T:TreeBranches:_MDF_overrides_3:223]plum flower 
+[OVERRIDE:223:T:TreeBranchesSmooth:_MDF_overrides_3:223]
+[OVERRIDE:223:T:TreeTwigs:_MDF_overrides_3:223]
+[OVERRIDE:223:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:223] 
+
+[OVERRIDE:251:T:TreeBranches:_MDF_overrides_3:251] sand pear flower
+[OVERRIDE:251:T:TreeBranchesSmooth:_MDF_overrides_3:251]
+[OVERRIDE:251:T:TreeTwigs:_MDF_overrides_3:251]
+[OVERRIDE:251:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:251] 
+
+[OVERRIDE:246:T:TreeBranches:_MDF_overrides_3:246] walnut flower cluster
+[OVERRIDE:246:T:TreeBranchesSmooth:_MDF_overrides_3:246]
+[OVERRIDE:246:T:TreeTwigs:_MDF_overrides_3:246]
+[OVERRIDE:246:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:246] 
+
+
+	
+	
+#fruit in tree
+[OVERRIDE:11:T:TreeBranches:_MDF_overrides_2:11] mangrove fruit
+[OVERRIDE:11:T:TreeBranchesSmooth:_MDF_overrides_2:11]
+[OVERRIDE:11:T:TreeTwigs:_MDF_overrides_2:11]
+
+[OVERRIDE:12:T:TreeBranches:_MDF_overrides_2:12] saguaro fruit
+[OVERRIDE:12:T:TreeBranchesSmooth:_MDF_overrides_2:12]
+[OVERRIDE:12:T:TreeTwigs:_MDF_overrides_2:12]
+
+[OVERRIDE:13:T:TreeBranches:_MDF_overrides_2:13] acorn
+[OVERRIDE:13:T:TreeBranchesSmooth:_MDF_overrides_2:13]
+[OVERRIDE:13:T:TreeTwigs:_MDF_overrides_2:13]
+
+[OVERRIDE:14:T:TreeBranches:_MDF_overrides_2:14] mahogany fruit
+[OVERRIDE:14:T:TreeBranchesSmooth:_MDF_overrides_2:14]
+[OVERRIDE:14:T:TreeTwigs:_MDF_overrides_2:14]
+
+[OVERRIDE:27:T:TreeBranches:_MDF_overrides_2:27] kapok fruit
+[OVERRIDE:27:T:TreeBranchesSmooth:_MDF_overrides_2:27]
+[OVERRIDE:27:T:TreeTwigs:_MDF_overrides_2:27]
+
+[OVERRIDE:28:T:TreeBranches:_MDF_overrides_2:28] maple samara
+[OVERRIDE:28:T:TreeBranchesSmooth:_MDF_overrides_2:28]
+[OVERRIDE:28:T:TreeTwigs:_MDF_overrides_2:28]
+
+[OVERRIDE:29:T:TreeBranches:_MDF_overrides_2:29] willow fruit
+[OVERRIDE:29:T:TreeBranchesSmooth:_MDF_overrides_2:29]
+[OVERRIDE:29:T:TreeTwigs:_MDF_overrides_2:29]
+
+[OVERRIDE:30:T:TreeBranches:_MDF_overrides_2:30] feather tree egg
+[OVERRIDE:30:T:TreeBranchesSmooth:_MDF_overrides_2:30]
+[OVERRIDE:30:T:TreeTwigs:_MDF_overrides_2:30]
+
+[OVERRIDE:31:T:TreeBranches:_MDF_overrides_2:31] chestnut burr
+[OVERRIDE:31:T:TreeBranchesSmooth:_MDF_overrides_2:31]
+[OVERRIDE:31:T:TreeTwigs:_MDF_overrides_2:31]
+
+[OVERRIDE:28:T:TreeBranches:_MDF_overrides_2:28] ash samara
+[OVERRIDE:28:T:TreeBranchesSmooth:_MDF_overrides_2:28]
+[OVERRIDE:28:T:TreeTwigs:_MDF_overrides_2:28]
+
+[OVERRIDE:29:T:TreeBranches:_MDF_overrides_2:29] candlenut
+[OVERRIDE:29:T:TreeBranchesSmooth:_MDF_overrides_2:29]
+[OVERRIDE:29:T:TreeTwigs:_MDF_overrides_2:29]
+
+[OVERRIDE:43:T:TreeBranches:_MDF_overrides_2:43] mango
+[OVERRIDE:43:T:TreeBranchesSmooth:_MDF_overrides_2:43]
+[OVERRIDE:43:T:TreeTwigs:_MDF_overrides_2:43]
+
+[OVERRIDE:44:T:TreeBranches:_MDF_overrides_2:44] cacao pod
+[OVERRIDE:44:T:TreeBranchesSmooth:_MDF_overrides_2:44]
+[OVERRIDE:44:T:TreeTwigs:_MDF_overrides_2:44]
+
+[OVERRIDE:45:T:TreeBranches:_MDF_overrides_2:45] coconut
+[OVERRIDE:45:T:TreeBranchesSmooth:_MDF_overrides_2:45]
+[OVERRIDE:45:T:TreeTwigs:_MDF_overrides_2:45]
+
+[OVERRIDE:46:T:TreeBranches:_MDF_overrides_2:46] banana
+[OVERRIDE:46:T:TreeBranchesSmooth:_MDF_overrides_2:46]
+[OVERRIDE:46:T:TreeTwigs:_MDF_overrides_2:46]
+
+[OVERRIDE:47:T:TreeBranches:_MDF_overrides_2:47] carambola
+[OVERRIDE:47:T:TreeBranchesSmooth:_MDF_overrides_2:47]
+[OVERRIDE:47:T:TreeTwigs:_MDF_overrides_2:47]
+
+[OVERRIDE:56:T:TreeBranches:_MDF_overrides_2:56] cashew apple
+[OVERRIDE:56:T:TreeBranchesSmooth:_MDF_overrides_2:56]
+[OVERRIDE:56:T:TreeTwigs:_MDF_overrides_2:56]
+
+[OVERRIDE:57:T:TreeBranches:_MDF_overrides_2:57] coffee cherry
+[OVERRIDE:57:T:TreeBranchesSmooth:_MDF_overrides_2:57]
+[OVERRIDE:57:T:TreeTwigs:_MDF_overrides_2:57]
+
+[OVERRIDE:70:T:TreeBranches:_MDF_overrides_2:70] durian
+[OVERRIDE:70:T:TreeBranchesSmooth:_MDF_overrides_2:70]
+[OVERRIDE:70:T:TreeTwigs:_MDF_overrides_2:70]
+
+[OVERRIDE:59:T:TreeBranches:_MDF_overrides_2:59] guava
+[OVERRIDE:59:T:TreeBranchesSmooth:_MDF_overrides_2:59]
+[OVERRIDE:59:T:TreeTwigs:_MDF_overrides_2:59]
+
+[OVERRIDE:60:T:TreeBranches:_MDF_overrides_2:60] papaya
+[OVERRIDE:60:T:TreeBranchesSmooth:_MDF_overrides_2:60]
+[OVERRIDE:60:T:TreeTwigs:_MDF_overrides_2:60]
+
+[OVERRIDE:61:T:TreeBranches:_MDF_overrides_2:61] paradise nut fruit
+[OVERRIDE:61:T:TreeBranchesSmooth:_MDF_overrides_2:61]
+[OVERRIDE:61:T:TreeTwigs:_MDF_overrides_2:61]
+
+[OVERRIDE:62:T:TreeBranches:_MDF_overrides_2:62] rambutan
+[OVERRIDE:62:T:TreeBranchesSmooth:_MDF_overrides_2:62]
+[OVERRIDE:62:T:TreeTwigs:_MDF_overrides_2:62]
+
+[OVERRIDE:63:T:TreeBranches:_MDF_overrides_2:63] avocado
+[OVERRIDE:63:T:TreeBranchesSmooth:_MDF_overrides_2:63]
+[OVERRIDE:63:T:TreeTwigs:_MDF_overrides_2:63]
+
+[OVERRIDE:64:T:TreeBranches:_MDF_overrides_2:64] lime
+[OVERRIDE:64:T:TreeBranchesSmooth:_MDF_overrides_2:64]
+[OVERRIDE:64:T:TreeTwigs:_MDF_overrides_2:64]
+
+[OVERRIDE:65:T:TreeBranches:_MDF_overrides_2:65] pomelo
+[OVERRIDE:65:T:TreeBranchesSmooth:_MDF_overrides_2:65]
+[OVERRIDE:65:T:TreeTwigs:_MDF_overrides_2:65]
+
+[OVERRIDE:66:T:TreeBranches:_MDF_overrides_2:66] citron
+[OVERRIDE:66:T:TreeBranchesSmooth:_MDF_overrides_2:66]
+[OVERRIDE:66:T:TreeTwigs:_MDF_overrides_2:66]
+
+[OVERRIDE:67:T:TreeBranches:_MDF_overrides_2:67] orange
+[OVERRIDE:67:T:TreeBranchesSmooth:_MDF_overrides_2:67]
+[OVERRIDE:67:T:TreeTwigs:_MDF_overrides_2:67]
+
+[OVERRIDE:68:T:TreeBranches:_MDF_overrides_2:68] bitter orange
+[OVERRIDE:68:T:TreeBranchesSmooth:_MDF_overrides_2:68]
+[OVERRIDE:68:T:TreeTwigs:_MDF_overrides_2:68]
+
+[OVERRIDE:64:T:TreeBranches:_MDF_overrides_2:64] finger lime
+[OVERRIDE:64:T:TreeBranchesSmooth:_MDF_overrides_2:64]
+[OVERRIDE:64:T:TreeTwigs:_MDF_overrides_2:64]
+
+[OVERRIDE:64:T:TreeBranches:_MDF_overrides_2:64] round lime
+[OVERRIDE:64:T:TreeBranchesSmooth:_MDF_overrides_2:64]
+[OVERRIDE:64:T:TreeTwigs:_MDF_overrides_2:64]
+
+[OVERRIDE:64:T:TreeBranches:_MDF_overrides_2:64] desert lime
+[OVERRIDE:64:T:TreeBranchesSmooth:_MDF_overrides_2:64]
+[OVERRIDE:64:T:TreeTwigs:_MDF_overrides_2:64]
+
+[OVERRIDE:69:T:TreeBranches:_MDF_overrides_2:69] kumquat
+[OVERRIDE:69:T:TreeBranchesSmooth:_MDF_overrides_2:69]
+[OVERRIDE:69:T:TreeTwigs:_MDF_overrides_2:69]
+
+[OVERRIDE:70:T:TreeBranches:_MDF_overrides_2:70] custard-apple
+[OVERRIDE:70:T:TreeBranchesSmooth:_MDF_overrides_2:70]
+[OVERRIDE:70:T:TreeTwigs:_MDF_overrides_2:70]
+
+[OVERRIDE:71:T:TreeBranches:_MDF_overrides_2:71] date
+[OVERRIDE:71:T:TreeBranchesSmooth:_MDF_overrides_2:71]
+[OVERRIDE:71:T:TreeTwigs:_MDF_overrides_2:71]
+
+[OVERRIDE:62:T:TreeBranches:_MDF_overrides_2:62] lychee
+[OVERRIDE:62:T:TreeBranchesSmooth:_MDF_overrides_2:62]
+[OVERRIDE:62:T:TreeTwigs:_MDF_overrides_2:62]
+
+[OVERRIDE:29:T:TreeBranches:_MDF_overrides_2:29] macadamia nut
+[OVERRIDE:29:T:TreeBranchesSmooth:_MDF_overrides_2:29]
+[OVERRIDE:29:T:TreeTwigs:_MDF_overrides_2:29]
+
+[OVERRIDE:72:T:TreeBranches:_MDF_overrides_2:72] olive
+[OVERRIDE:72:T:TreeBranchesSmooth:_MDF_overrides_2:72]
+[OVERRIDE:72:T:TreeTwigs:_MDF_overrides_2:72]
+
+[OVERRIDE:73:T:TreeBranches:_MDF_overrides_2:73] pomegranate
+[OVERRIDE:73:T:TreeBranchesSmooth:_MDF_overrides_2:73]
+[OVERRIDE:73:T:TreeTwigs:_MDF_overrides_2:73]
+
+[OVERRIDE:74:T:TreeBranches:_MDF_overrides_2:74] almond
+[OVERRIDE:74:T:TreeBranchesSmooth:_MDF_overrides_2:74]
+[OVERRIDE:74:T:TreeTwigs:_MDF_overrides_2:74]
+
+[OVERRIDE:75:T:TreeBranches:_MDF_overrides_2:75] apple
+[OVERRIDE:75:T:TreeBranchesSmooth:_MDF_overrides_2:75]
+[OVERRIDE:75:T:TreeTwigs:_MDF_overrides_2:75]
+
+[OVERRIDE:76:T:TreeBranches:_MDF_overrides_2:76] apricot
+[OVERRIDE:76:T:TreeBranchesSmooth:_MDF_overrides_2:76]
+[OVERRIDE:76:T:TreeTwigs:_MDF_overrides_2:76]
+
+[OVERRIDE:77:T:TreeBranches:_MDF_overrides_2:77] bayberry
+[OVERRIDE:77:T:TreeBranchesSmooth:_MDF_overrides_2:77]
+[OVERRIDE:77:T:TreeTwigs:_MDF_overrides_2:77]
+
+[OVERRIDE:78:T:TreeBranches:_MDF_overrides_2:78] cherry
+[OVERRIDE:78:T:TreeBranchesSmooth:_MDF_overrides_2:78]
+[OVERRIDE:78:T:TreeTwigs:_MDF_overrides_2:78]
+
+[OVERRIDE:79:T:TreeBranches:_MDF_overrides_2:79] hazel nut
+[OVERRIDE:79:T:TreeBranchesSmooth:_MDF_overrides_2:79]
+[OVERRIDE:79:T:TreeTwigs:_MDF_overrides_2:79]
+
+[OVERRIDE:80:T:TreeBranches:_MDF_overrides_2:80] peach
+[OVERRIDE:80:T:TreeBranchesSmooth:_MDF_overrides_2:80]
+[OVERRIDE:80:T:TreeTwigs:_MDF_overrides_2:80]
+
+[OVERRIDE:81:T:TreeBranches:_MDF_overrides_2:81] pear
+[OVERRIDE:81:T:TreeBranchesSmooth:_MDF_overrides_2:81]
+[OVERRIDE:81:T:TreeTwigs:_MDF_overrides_2:81]
+
+[OVERRIDE:82:T:TreeBranches:_MDF_overrides_2:82] pecan
+[OVERRIDE:82:T:TreeBranchesSmooth:_MDF_overrides_2:82]
+[OVERRIDE:82:T:TreeTwigs:_MDF_overrides_2:82]
+
+[OVERRIDE:83:T:TreeBranches:_MDF_overrides_2:83] persimmon
+[OVERRIDE:83:T:TreeBranchesSmooth:_MDF_overrides_2:83]
+[OVERRIDE:83:T:TreeTwigs:_MDF_overrides_2:83]
+
+[OVERRIDE:84:T:TreeBranches:_MDF_overrides_2:84] plum
+[OVERRIDE:84:T:TreeBranchesSmooth:_MDF_overrides_2:84]
+[OVERRIDE:84:T:TreeTwigs:_MDF_overrides_2:84]
+
+[OVERRIDE:85:T:TreeBranches:_MDF_overrides_2:85] sand pear
+[OVERRIDE:85:T:TreeBranchesSmooth:_MDF_overrides_2:85]
+[OVERRIDE:85:T:TreeTwigs:_MDF_overrides_2:85]
+
+[OVERRIDE:86:T:TreeBranches:_MDF_overrides_2:86] walnut
+[OVERRIDE:86:T:TreeBranchesSmooth:_MDF_overrides_2:86]
+[OVERRIDE:86:T:TreeTwigs:_MDF_overrides_2:86]
+
+
+
+	
+#picked fruit.
+[OVERRIDE:96:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:96] mangrove
+[OVERRIDE:97:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:97] saguaro
+[OVERRIDE:98:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:98] acorn
+[OVERRIDE:99:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:99] mahogany
+[OVERRIDE:100:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:100] kapok
+[OVERRIDE:143:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:143] maple
+[OVERRIDE:100:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:100] willow
+[OVERRIDE:101:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:101] feather
+[OVERRIDE:102:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:102] chestnut
+[OVERRIDE:143:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:143] ash  
+[OVERRIDE:103:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:103] candlenut
+[OVERRIDE:104:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:104] mango
+[OVERRIDE:105:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:105] cacao
+[OVERRIDE:106:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:106] coconut
+[OVERRIDE:107:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:107] banana
+[OVERRIDE:108:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:108] carambola
+[OVERRIDE:109:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:109] cashew
+[OVERRIDE:110:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:110] coffee
+[OVERRIDE:111:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:111] durian
+[OVERRIDE:112:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:112] guava
+[OVERRIDE:113:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:113] papaya
+[OVERRIDE:114:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:114] paradise nut
+[OVERRIDE:115:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:115] rambutan
+[OVERRIDE:116:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:116] avocado
+[OVERRIDE:118:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:118] pomelo
+[OVERRIDE:117:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:117] citron
+[OVERRIDE:118:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:118] orange
+[OVERRIDE:119:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:119] bitter orange
+[OVERRIDE:116:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:116] finger lime
+[OVERRIDE:116:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:116] round lime
+[OVERRIDE:116:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:116] desert lime
+[OVERRIDE:120:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:120] kumquat
+[OVERRIDE:121:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:121] custard-apple
+[OVERRIDE:122:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:122] date
+[OVERRIDE:114:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:114] lychee
+[OVERRIDE:100:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:100] macadamia
+[OVERRIDE:123:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:123] olive
+[OVERRIDE:124:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:124] pomegranate
+[OVERRIDE:125:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:125] almond
+[OVERRIDE:126:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:126] apple
+[OVERRIDE:127:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:127]  apricot
+[OVERRIDE:133:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:133] bayberry
+[OVERRIDE:134:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:134] cherry
+[OVERRIDE:135:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:135] hazel nut
+[OVERRIDE:136:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:136] peach
+[OVERRIDE:137:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:137] pear
+[OVERRIDE:138:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:138] pecan
+[OVERRIDE:139:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:139] persimmon
+[OVERRIDE:140:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:140] plum
+[OVERRIDE:141:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:141] sand pear
+[OVERRIDE:142:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_2:142] walnut
+
+######################################################################################################

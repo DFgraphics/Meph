@@ -190,7 +190,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 [INORGANIC:SPHALERITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:sphalerite][DISPLAY_COLOR:0:7:1][TILE:139]
+[STATE_NAME_ADJ:ALL_SOLID:sphalerite][DISPLAY_COLOR:7:7:0][TILE:139]
 [ENVIRONMENT:METAMORPHIC:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:ZINC:100]
@@ -301,7 +301,7 @@ ore of mercury, powdered gives vermilion dye
 
 [INORGANIC:TETRAHEDRITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:tetrahedrite][DISPLAY_COLOR:0:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:tetrahedrite][DISPLAY_COLOR:7:7:0][TILE:156]
 [ENVIRONMENT:ALL_STONE:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:COPPER:100]
@@ -342,7 +342,7 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:JET]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:jet][DISPLAY_COLOR:0:7:1][TILE:176]
+[STATE_NAME_ADJ:ALL_SOLID:jet][DISPLAY_COLOR:0:7:1][TILE:132]176
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
 [IS_STONE]
 [SOLID_DENSITY:1320]
@@ -365,7 +365,7 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:GRAPHITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:graphite][DISPLAY_COLOR:0:7:1][TILE:176]
+[STATE_NAME_ADJ:ALL_SOLID:graphite][DISPLAY_COLOR:0:7:1][TILE:132]
 comes from metamorphism of sedimentary rocks
 [ENVIRONMENT_SPEC:GNEISS:CLUSTER_SMALL:100]gneiss can come from shale (sed.) or granite (ign.)
 [ENVIRONMENT_SPEC:QUARTZITE:CLUSTER_SMALL:100]
@@ -450,7 +450,7 @@ ore of antimony
 KCl, can be used/processed to fertilizer, destroyed by water -- should only be in very dry environments
 [INORGANIC:SYLVITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:sylvite][DISPLAY_COLOR:6:7:1][TILE:177]
+[STATE_NAME_ADJ:ALL_SOLID:sylvite][DISPLAY_COLOR:6:7:1][TILE:132]
 [ENVIRONMENT_SPEC:ROCK_SALT:CLUSTER:100]
 [IS_STONE]
 [MELTING_POINT:11397]
@@ -508,7 +508,7 @@ to actually get chromium, have to heat 'in the presence of aluminum or silicon'
 	might use in stainless steel making, but not sure how that should work
 [INORGANIC:CHROMITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:chromite][DISPLAY_COLOR:0:7:1][TILE:177]
+[STATE_NAME_ADJ:ALL_SOLID:chromite][DISPLAY_COLOR:0:7:1][TILE:132]
 [ENVIRONMENT_SPEC:OLIVINE:VEIN:100]
 [SOLID_DENSITY:4795]   Former value was far too low.
 [IS_STONE]
@@ -613,7 +613,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 
 [INORGANIC:KAOLINITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:kaolinite][DISPLAY_COLOR:4:7:0][TILE:177]
+[STATE_NAME_ADJ:ALL_SOLID:kaolinite][DISPLAY_COLOR:4:7:0][TILE:132]
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
 [IS_STONE]
 [MELTING_POINT:13150]
@@ -622,7 +622,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 
 [INORGANIC:SERPENTINE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:serpentine][DISPLAY_COLOR:2:7:0][TILE:247]
+[STATE_NAME_ADJ:ALL_SOLID:serpentine][DISPLAY_COLOR:2:7:0][TILE:132]
 [ENVIRONMENT_SPEC:OLIVINE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:10281]
@@ -737,8 +737,8 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [STATE_NAME_ADJ:ALL_SOLID:raw adamantine]
 [STATE_NAME_ADJ:LIQUID:molten raw adamantine]
 [STATE_NAME_ADJ:GAS:boiling raw adamantine]
-[DISPLAY_COLOR:3:7:1]
-[TILE:156]
+[DISPLAY_COLOR:7:106:1][BASIC_COLOR:106:1]
+[TILE:15]156
 [MATERIAL_VALUE:250]
 [SPEC_HEAT:7500]
 [MELTING_POINT:25000]
@@ -770,7 +770,7 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [IS_STONE]
 
 [INORGANIC:SLADE]
-[STATE_NAME_ADJ:ALL_SOLID:slade][DISPLAY_COLOR:0:0:1][TILE:176]
+[STATE_NAME_ADJ:ALL_SOLID:slade][DISPLAY_COLOR:0:0:1][TILE:132]
 [ITEM_SYMBOL:'*']
 [DEEP_SURFACE]
 [DISPLAY_COLOR:0:0:1]

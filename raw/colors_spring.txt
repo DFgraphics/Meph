@@ -13,4 +13,4 @@
 [LRED_R:255]        [LRED_G:64]         [LRED_B:64]
 [LMAGENTA_R:255]    [LMAGENTA_G:128]    [LMAGENTA_B:255]
 [YELLOW_R:255]      [YELLOW_G:255]      [YELLOW_B:64]
-[WHITE_R:255]       [WHITE_G:255]       [WHITE_B:155]
+[WHITE_R:255]       [WHITE_G:255]       [WHITE_B:255]
