@@ -1,10 +1,9 @@
 {
-    "author": "Meph",
-    "url": "http://www.bay12forums.com/smf/index.php?topic=139579.0",
-    "content_version": "1.7 (2017-12-27)",
+    "author": "Meph, Vordak",
+    "url": "http://www.bay12forums.com/smf/index.php?topic=165118.0",
+    "content_version": "1.7_a+0.2.2 (2017-12-27)",
     "df_min_version": "0.44.01",
     "df_max_version": "0.44.03",
-    "folder_prefix": "Meph",
-    "title": "Meph 32x",
-    "tooltip": "Consistent-looking tileset with a fitting tone."
+    "title": "Meph+Vordak 32x",
+    "tooltip": "Meph's tileset with Vordak's dwarf graphics."
 }
