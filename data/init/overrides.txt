@@ -137,8 +137,6 @@
 
 
 #[OVERRIDE:206:T:StoneFortification:_MDF_overrides_1:44]
-#[OVERRIDE:50:B:WORKSHOP_CUSTOM:Workshop:DISPLAY_CASE:_MDF_overrides_1:50]
-#[OVERRIDE:254:B:WORKSHOP_CUSTOM:Workshop:CAMPFIRE:_MDF_overrides_1:121]
 #[OVERRIDE:120:B:WORKSHOP_CUSTOM:Workshop:WOODEN_FLOOR:_MDF_overrides_1:120]
 
 
@@ -192,9 +190,6 @@ herring looks like meat.
 [OVERRIDE:176:T:LavaWallWorn1:_MDF_overrides_1:201]
 [OVERRIDE:177:T:LavaWallWorn2:_MDF_overrides_1:202]
 [OVERRIDE:178:T:LavaWallWorn3:_MDF_overrides_1:203]
-[OVERRIDE:176:T:FrozenWallWorn1:_MDF_overrides_1:201]
-[OVERRIDE:177:T:FrozenWallWorn2:_MDF_overrides_1:202]
-[OVERRIDE:178:T:FrozenWallWorn3:_MDF_overrides_1:203]
 [OVERRIDE:176:T:MineralWallWorn1:_MDF_overrides_1:201]
 [OVERRIDE:177:T:MineralWallWorn2:_MDF_overrides_1:202]
 [OVERRIDE:178:T:MineralWallWorn3:_MDF_overrides_1:203]
@@ -205,11 +200,11 @@ herring looks like meat.
 
 [OVERRIDE:09:B:WELL:Well::_MDF_overrides_1:126]
 
-[OVERRIDE:179:B:WEAPON_UPRIGHT:::_MDF_overrides_2:216]
-[OVERRIDE:46:B:WEAPON_UPRIGHT:::_MDF_overrides_2:217]
+#[OVERRIDE:179:B:WEAPON_UPRIGHT:::_MDF_overrides_2:216]
+#[OVERRIDE:46:B:WEAPON_UPRIGHT:::_MDF_overrides_2:217]
 
-[OVERRIDE:55:B:HATCH:Hatch::_MDF_overrides_2:220:16:16]
-[OVERRIDE:55:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_2:220:16:16]
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_1:220]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_1:220]
 
 [OVERRIDE:205:B:BRIDGE:::_MDF_overrides_2:209] lr =
 [OVERRIDE:186:B:BRIDGE:::_MDF_overrides_2:224] ud ||
@@ -282,6 +277,7 @@ herring looks like meat.
 
 [OVERRIDE:177:B:WINDOW_ANY:WindowGem::_MDF_overrides_1:181]
 [OVERRIDE:177:B:WINDOW_ANY:WindowGlass::_MDF_overrides_1:182]
+[OVERRIDE:177:I:WINDOW:WINDOW::_MDF_overrides_1:182]
 
 [OVERRIDE:88:I:FLOODGATE:::_MDF_overrides_1:183:16]
 [OVERRIDE:215:I:FLOODGATE:::_MDF_overrides_1:183:16]
@@ -2209,6 +2205,86 @@ Frozen
 [OVERRIDE:253:I:REMAINS:REMAINS::_MDF_overrides_2:253:15] remains
 [OVERRIDE:253:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_1:253:15] bodyparts
 
+#[OVERRIDE:255:B:DISPLAY_CASE:DisplayFurniture::_MDF_overrides_2:188]
+#[OVERRIDE:255:I:TOOL:TOOL:27:_MDF_overrides_2:188] display case
+[OVERRIDE:255:I:TOOL:TOOL:26:_MDF_overrides_2:204] pedestal
 
 #test for smoothed mineral walls. Anything mined and smoothed that is not a layer-rock.
 #[OVERRIDE:205:T:MineralWallSmoothLR:_MDF_overrides_2:130]
+
+##################################################################################
+[TILESET:_MDF_decorations_2.png:_MDF_decorations_2.png:_MDF_overrides_5]
+##################################################################################
+#ice for glacier embarks.
+
+[OVERRIDE:219:T:FrozenWall:_MDF_overrides_5:230]
+
+[OVERRIDE:176:T:FrozenWallWorn1:_MDF_overrides_5:233]
+[OVERRIDE:177:T:FrozenWallWorn2:_MDF_overrides_5:232]
+[OVERRIDE:178:T:FrozenWallWorn3:_MDF_overrides_5:231]
+
+[OVERRIDE:43:T:FrozenFloorSmooth:_MDF_overrides_5:234]
+
+[OVERRIDE:178:T:FrozenFloor1:_MDF_overrides_5:246]
+[OVERRIDE:178:T:FrozenFloor2:_MDF_overrides_5:246]
+[OVERRIDE:178:T:FrozenFloor3:_MDF_overrides_5:246]
+[OVERRIDE:178:T:FrozenFloor4:_MDF_overrides_5:246]
+
+[OVERRIDE:206:T:FrozenFortification:_MDF_overrides_5:225]
+[OVERRIDE:199:T:FrozenPillar:_MDF_overrides_5:240]
+
+[OVERRIDE:186:T:FrozenWallSmoothUD:_MDF_overrides_5:227]
+[OVERRIDE:205:T:FrozenWallSmoothLR:_MDF_overrides_5:224]
+
+[OVERRIDE:200:T:FrozenWallSmoothRU:_MDF_overrides_5:241]
+[OVERRIDE:211:T:FrozenWallSmoothRU:_MDF_overrides_5:208]
+[OVERRIDE:212:T:FrozenWallSmoothRU:_MDF_overrides_5:209]
+[OVERRIDE:200:T:FrozenWallSmoothRU2:_MDF_overrides_5:241]
+[OVERRIDE:211:T:FrozenWallSmoothRU2:_MDF_overrides_5:208]
+[OVERRIDE:212:T:FrozenWallSmoothRU2:_MDF_overrides_5:209]
+[OVERRIDE:200:T:FrozenWallSmoothR2U:_MDF_overrides_5:241]
+[OVERRIDE:211:T:FrozenWallSmoothR2U:_MDF_overrides_5:208]
+[OVERRIDE:212:T:FrozenWallSmoothR2U:_MDF_overrides_5:209]
+
+[OVERRIDE:188:T:FrozenWallSmoothLU:_MDF_overrides_5:229]
+[OVERRIDE:189:T:FrozenWallSmoothLU:_MDF_overrides_5:214]
+[OVERRIDE:190:T:FrozenWallSmoothLU:_MDF_overrides_5:215]
+[OVERRIDE:188:T:FrozenWallSmoothLU2:_MDF_overrides_5:229]
+[OVERRIDE:189:T:FrozenWallSmoothLU2:_MDF_overrides_5:214]
+[OVERRIDE:190:T:FrozenWallSmoothLU2:_MDF_overrides_5:215]
+[OVERRIDE:188:T:FrozenWallSmoothL2U:_MDF_overrides_5:229]
+[OVERRIDE:189:T:FrozenWallSmoothL2U:_MDF_overrides_5:214]
+[OVERRIDE:190:T:FrozenWallSmoothL2U:_MDF_overrides_5:215]
+
+[OVERRIDE:213:T:FrozenWallSmoothRD:_MDF_overrides_5:210]
+[OVERRIDE:214:T:FrozenWallSmoothRD:_MDF_overrides_5:211]
+[OVERRIDE:201:T:FrozenWallSmoothRD:_MDF_overrides_5:242]
+[OVERRIDE:213:T:FrozenWallSmoothRD2:_MDF_overrides_5:210]
+[OVERRIDE:214:T:FrozenWallSmoothRD2:_MDF_overrides_5:211]
+[OVERRIDE:201:T:FrozenWallSmoothRD2:_MDF_overrides_5:242]
+[OVERRIDE:213:T:FrozenWallSmoothR2D:_MDF_overrides_5:210]
+[OVERRIDE:214:T:FrozenWallSmoothR2D:_MDF_overrides_5:211]
+[OVERRIDE:201:T:FrozenWallSmoothR2D:_MDF_overrides_5:242]
+
+[OVERRIDE:183:T:FrozenWallSmoothLD:_MDF_overrides_5:212]
+[OVERRIDE:184:T:FrozenWallSmoothLD:_MDF_overrides_5:213]
+[OVERRIDE:187:T:FrozenWallSmoothLD:_MDF_overrides_5:228]
+[OVERRIDE:183:T:FrozenWallSmoothLD2:_MDF_overrides_5:212]
+[OVERRIDE:184:T:FrozenWallSmoothLD2:_MDF_overrides_5:213]
+[OVERRIDE:187:T:FrozenWallSmoothLD2:_MDF_overrides_5:228]
+[OVERRIDE:183:T:FrozenWallSmoothL2D:_MDF_overrides_5:212]
+[OVERRIDE:184:T:FrozenWallSmoothL2D:_MDF_overrides_5:213]
+[OVERRIDE:187:T:FrozenWallSmoothL2D:_MDF_overrides_5:228]
+
+[OVERRIDE:202:T:FrozenWallSmoothLRU:_MDF_overrides_5:243]
+[OVERRIDE:203:T:FrozenWallSmoothLRD:_MDF_overrides_5:244]
+[OVERRIDE:185:T:FrozenWallSmoothLUD:_MDF_overrides_5:226]
+[OVERRIDE:204:T:FrozenWallSmoothRUD:_MDF_overrides_5:245]
+
+[OVERRIDE:206:T:FrozenWallSmoothLRUD:_MDF_overrides_5:225]
+
+[OVERRIDE:62:T:FrozenStairD:_MDF_overrides_5:249]
+[OVERRIDE:60:T:FrozenStairU:_MDF_overrides_5:248]
+[OVERRIDE:88:T:FrozenStairUD:_MDF_overrides_5:247]
+
+##################################################################################
