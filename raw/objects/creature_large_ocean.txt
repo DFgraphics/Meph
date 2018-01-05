@@ -99,7 +99,7 @@ creature_large_ocean
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_WALRUS]
@@ -2969,7 +2969,7 @@ Narwhals were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:0]
 
 [CREATURE:NARWHAL, GIANT]

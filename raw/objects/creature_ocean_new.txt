@@ -109,7 +109,7 @@ Octopuses were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:0]
 
 [CREATURE:GIANT_OCTOPUS]
@@ -219,7 +219,7 @@ Crabs were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:1]
 
 [CREATURE:GIANT_CRAB]
@@ -351,7 +351,7 @@ Leopard seals were sponsored by the generous contributions of the Bay 12 communi
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_LEOPARD_SEAL]
@@ -487,7 +487,7 @@ Cuttlefish were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_CUTTLEFISH]
@@ -620,7 +620,7 @@ Orcas were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:3:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_ORCA]
@@ -711,7 +711,7 @@ Sponges were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:1]
 
 [CREATURE:GIANT_SPONGE]
@@ -810,7 +810,7 @@ Horseshoe crabs were sponsored by the generous contributions of the Bay 12 commu
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_HORSESHOE_CRAB]
@@ -945,7 +945,7 @@ Sperm whales were sponsored by the generous contributions of the Bay 12 communit
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:0]
 
 [CREATURE:GIANT_SPERM_WHALE]
@@ -1080,7 +1080,7 @@ Elephant seals were sponsored by the generous contributions of the Bay 12 commun
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_ELEPHANT_SEAL]
@@ -1211,7 +1211,7 @@ Harp seals were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:3:7]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:0]
 
 [CREATURE:GIANT_HARP_SEAL]
@@ -1337,7 +1337,7 @@ Nautiluses were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:1]
 
 [CREATURE:GIANT_NAUTILUS]
