@@ -131,7 +131,7 @@ creature_birds
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:1:0:1]
 
 [CREATURE:GIANT_BLUEJAY]
@@ -290,7 +290,7 @@ creature_birds
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:1]
 
 [CREATURE:GIANT_CARDINAL]
@@ -446,7 +446,7 @@ creature_birds
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_GRACKLE]
@@ -601,7 +601,7 @@ creature_birds
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:1]
 
 [CREATURE:GIANT_ORIOLE]
@@ -757,7 +757,7 @@ creature_birds
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_RW_BLACKBIRD]
@@ -1112,7 +1112,7 @@ Penguins were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:1]
 
 [CREATURE:BIRD_PENGUIN_GIANT]
@@ -1295,7 +1295,7 @@ Peregrine falcons were sponsored by the generous contributions of the Bay 12 com
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT PEREGRINE FALCON]
@@ -1451,7 +1451,7 @@ Kiwis were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:BIRD_KIWI_GIANT]
@@ -1634,7 +1634,7 @@ Ostriches were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:BIRD_OSTRICH_GIANT]

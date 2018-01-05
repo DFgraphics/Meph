@@ -79,7 +79,7 @@ creature_insects
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_FLY]
@@ -185,7 +185,7 @@ creature_insects
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_ROACH]
@@ -288,7 +288,7 @@ creature_insects
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:0]
 
 [CREATURE:GIANT_BEETLE]
@@ -469,7 +469,7 @@ creature_insects
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:1]
 
 [CREATURE:GIANT_BUTTERFLY_MONARCH]
@@ -574,7 +574,7 @@ creature_insects
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:2:0:1]
 
 [CREATURE:GIANT_FIREFLY]
@@ -677,7 +677,7 @@ creature_insects
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:3:0:1]
 
 [CREATURE:GIANT_DRAGONFLY]

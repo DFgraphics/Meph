@@ -622,7 +622,7 @@ creature_subterranean
 	[NAME:troglodyte:troglodytes:troglodyte]
 	[CASTE_NAME:troglodyte:troglodytes:troglodyte]
 	[CHILD:10][BABY:1][MULTIPLE_LITTER_RARE]
-	[CREATURE_TILE:11][COLOR:6:0:0]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides[COLOR:6:0:0]
 	[CREATURE_CLASS:MAMMAL]
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:1:2]
@@ -1272,7 +1272,7 @@ creature_subterranean
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:1]
 	[EXTRAVISION]
 
@@ -1467,7 +1467,7 @@ creature_subterranean
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:1]
 	[LOW_LIGHT_VISION:10000]
 
@@ -1593,7 +1593,7 @@ creature_subterranean
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:20:30]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:MAGGOT_PURRING]
@@ -2084,7 +2084,7 @@ creature_subterranean
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:20:30]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 	[LOW_LIGHT_VISION:10000]
 
@@ -2202,7 +2202,7 @@ creature_subterranean
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[FEATURE_ATTACK_GROUP]
-	[CREATURE_TILE:11][COLOR:6:0:0]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides[COLOR:6:0:0]
 	[CAN_LEARN][CAN_SPEAK]
 	[CANOPENDOORS]
 	[LARGE_PREDATOR]
@@ -2289,7 +2289,7 @@ creature_subterranean
 [CREATURE:REPTILE_MAN]
 	[DESCRIPTION:These creatures are shaped like men covered with rough scales.  They have the head and tail of a lizard and possess a dark and evil intelligence.  They are found deep under the earth.]
 	[NAME:reptile man:reptile men:reptile man]
-	[CREATURE_TILE:11][COLOR:2:0:0]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides[COLOR:2:0:0]
 	[LARGE_ROAMING]
 	[BIOME:SUBTERRANEAN_WATER]
 	[UNDERGROUND_DEPTH:1:3]
@@ -2410,7 +2410,7 @@ creature_subterranean
 [CREATURE:SERPENT_MAN]
 	[DESCRIPTION:A large white snake with the arms and torso of a man.  These creatures are evil and live far underground.]
 	[NAME:serpent man:serpent men:serpent man]
-	[CREATURE_TILE:11][COLOR:7:0:1]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides[COLOR:7:0:1]
 	[CREATURE_CLASS:POISONOUS]
 	[LARGE_ROAMING]
 	[BIOME:SUBTERRANEAN_WATER]
@@ -2550,7 +2550,7 @@ creature_subterranean
 [CREATURE:ANT_MAN]
 	[DESCRIPTION:A humanoid with the head and body of an ant.]
 	[NAME:antman:antmen:antman]
-	[CREATURE_TILE:11][COLOR:0:0:1]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides[COLOR:0:0:1]
 	[LARGE_ROAMING]
 	[FREQUENCY:100]
 	[FEATURE_ATTACK_GROUP]
@@ -2667,7 +2667,7 @@ creature_subterranean
 [CREATURE:RODENT MAN]
 	[DESCRIPTION:An evil humanoid with a long tail, black spiky fur and a twitching nose.  It lives far underground.]
 	[NAME:rodent man:rodent men:rodent man]
-	[CREATURE_TILE:11][COLOR:0:0:1]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides[COLOR:0:0:1]
 	[CREATURE_CLASS:MAMMAL]
 	[LARGE_ROAMING]
 	[BIOME:SUBTERRANEAN_CHASM]

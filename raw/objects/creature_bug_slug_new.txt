@@ -80,7 +80,7 @@ Damselflies were sponsored by the generous contributions of the Bay 12 community
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:2:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:3:0:1]
 
 [CREATURE:GIANT_DAMSELFLY]
@@ -188,7 +188,7 @@ Moths were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_MOTH]
@@ -292,7 +292,7 @@ Grasshoppers were sponsored by the generous contributions of the Bay 12 communit
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:2:0:1]
 
 [CREATURE:GIANT_GRASSHOPPER]
@@ -424,7 +424,7 @@ Bark scorpions were sponsored by the generous contributions of the Bay 12 commun
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:1]
 
 [CREATURE:GIANT_BARK_SCORPION]
@@ -533,7 +533,7 @@ Mantises were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:2:0:1]
 
 [CREATURE:GIANT_MANTIS]
@@ -642,7 +642,7 @@ Ticks were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_TICK]
@@ -749,7 +749,7 @@ Lice were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_LOUSE]
@@ -857,7 +857,7 @@ Thrips were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:5:10]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_THRIPS]
@@ -946,7 +946,7 @@ Slugs were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_SLUG]
@@ -1055,7 +1055,7 @@ Mosquitos were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_MOSQUITO]
@@ -1162,7 +1162,7 @@ Jumping spiders were sponsored by the generous contributions of the Bay 12 commu
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:0:0:1]
 
 [CREATURE:GIANT_JUMPING_SPIDER]
@@ -1338,7 +1338,7 @@ Moon snails were sponsored by the generous contributions of the Bay 12 community
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:4:0:1]
 
 [CREATURE:GIANT_MOON_SNAIL]
@@ -1482,7 +1482,7 @@ Brown recluse spiders were sponsored by the generous contributions of the Bay 12
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:6:0:0]
 
 [CREATURE:GIANT_BROWN_RECLUSE_SPIDER]
@@ -1596,7 +1596,7 @@ Snails were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:3]
 	[MAXAGE:60:80]
-	[CREATURE_TILE:11]
+	[CREATURE_TILE:253] was 11, but intelligent creature corpses cant use overrides
 	[COLOR:7:0:0]
 
 [CREATURE:GIANT_SNAIL]
