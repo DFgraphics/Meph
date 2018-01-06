@@ -570,7 +570,7 @@ creature_other
 	[DESCRIPTION:A tiny insect with a pulsating, lumpy body.  It is an evil bug that seeks blood.]
 	[NAME:blood gnat:blood gnats:blood gnat]
 	[CASTE_NAME:blood gnat:blood gnats:blood gnat]
-	[CREATURE_TILE:76][COLOR:4:0:1]
+	[CREATURE_TILE:159][COLOR:4:0:1]
 	[NATURAL]
 	[BIOME:ANY_POOL]
 	[EVIL]

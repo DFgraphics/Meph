@@ -1,5 +1,7 @@
 graphics_small_mammals
 
+Yet again, an entire file just for vermin sprites, which don't use sprites. Placeholder.
+
 [OBJECT:GRAPHICS]
 
 [TILE_PAGE:SMALL_MAMMALS]

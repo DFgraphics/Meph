@@ -1,11 +1,13 @@
 graphics_insects
 
+This entire file is just for vermin, which don't use sprites at all. It's more or less a placeholder.
+
 [OBJECT:GRAPHICS]
 
 [TILE_PAGE:INSECTS]
 	[FILE:insects.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM:9:6]
+	[PAGE_DIM:9:3]
 
 [CREATURE_GRAPHICS:FLY]
 	[DEFAULT:INSECTS:0:0:AS_IS:DEFAULT]

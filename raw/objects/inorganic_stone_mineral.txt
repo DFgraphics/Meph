@@ -737,7 +737,7 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [STATE_NAME_ADJ:ALL_SOLID:raw adamantine]
 [STATE_NAME_ADJ:LIQUID:molten raw adamantine]
 [STATE_NAME_ADJ:GAS:boiling raw adamantine]
-[DISPLAY_COLOR:7:106:1][BASIC_COLOR:106:1]
+[DISPLAY_COLOR:3:106:1][BASIC_COLOR:106:1]
 [TILE:15]156
 [MATERIAL_VALUE:250]
 [SPEC_HEAT:7500]
