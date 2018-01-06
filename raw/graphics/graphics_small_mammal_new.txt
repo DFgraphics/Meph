@@ -5,7 +5,7 @@ graphics_small_mammal_new
 [TILE_PAGE:SMALL_MAMMAL_NEW]
 	[FILE:small_mammal_new.png]
 	[TILE_DIM:32:32]
-	[PAGE_DIM:9:6]
+	[PAGE_DIM:9:3]
 
 [CREATURE_GRAPHICS:HAMSTER]
 	[DEFAULT:SMALL_MAMMAL_NEW:0:0:AS_IS:DEFAULT]

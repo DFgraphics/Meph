@@ -22,9 +22,36 @@
 [TILESET:_MDF_items.png:_MDF_items.png:_MDF_overrides_1]
 [TILESET:_MDF_trees.png:_MDF_trees.png:_MDF_overrides_2]
 [TILESET:_Meph_plants.png:_Meph_plants.png:_MDF_overrides_3]
-[TILESET:_MDF_decorations.png:_MDF_decorations.png:_MDF_overrides_4]
+#[TILESET:_MDF_decorations.png:_MDF_decorations.png:_MDF_overrides_4]
 [TILESET:_MDF_decorations_2.png:_MDF_decorations_2.png:_MDF_overrides_5]
 ##################################################################################
+
+#OVERRIDE:248:I:EGG:EGG::_MDF_overrides_1:101
+#OVERRIDE:7:I:BOULDER:BOULDER::_MDF_overrides_1:199
+
+
+[OVERRIDE:46:T:TreeTrunkInterior:_MDF_overrides_2:46]
+[OVERRIDE:46:T:TreeTrunkSloping:_MDF_overrides_2:46]
+[OVERRIDE:46:T:TreeTrunkPillar:_MDF_overrides_2:46]
+
+[OVERRIDE:60:T:TreeTrunkInterior:_MDF_overrides_2:60]
+[OVERRIDE:60:T:TreeTrunkSloping:_MDF_overrides_2:60]
+[OVERRIDE:60:T:TreeTrunkPillar:_MDF_overrides_2:60]
+
+[OVERRIDE:71:T:TreeTrunkInterior:_MDF_overrides_2:71]
+[OVERRIDE:71:T:TreeTrunkSloping:_MDF_overrides_2:71]
+[OVERRIDE:71:T:TreeTrunkPillar:_MDF_overrides_2:71]
+
+[OVERRIDE:240:B:TRAP:Trap:5:_MDF_overrides_2:195:16]
+
+[OVERRIDE:242:T:Ashes1:_MDF_overrides_1:144]
+[OVERRIDE:243:T:Ashes1:_MDF_overrides_1:145]
+[OVERRIDE:242:T:Ashes2:_MDF_overrides_1:144]
+[OVERRIDE:243:T:Ashes2:_MDF_overrides_1:145]
+[OVERRIDE:126:T:Ashes3:_MDF_overrides_1:147]
+[OVERRIDE:247:T:Ashes3:_MDF_overrides_1:147]
+
+#[OVERRIDE:206:T:StoneFortification:_MDF_overrides_1:44]
 
 [OVERRIDE:127:T:TreeDeadTrunkSloping:_MDF_overrides_2:38]
 [OVERRIDE:127:T:TreeTrunkSloping:_MDF_overrides_2:38]
@@ -149,7 +176,6 @@
 ##################################################################################
 
 
-#[OVERRIDE:206:T:StoneFortification:_MDF_overrides_1:44]
 #[OVERRIDE:120:B:WORKSHOP_CUSTOM:Workshop:WOODEN_FLOOR:_MDF_overrides_1:120]
 
 
@@ -157,9 +183,6 @@
 [OVERRIDE:4:I:SMALLGEM:SMALLGEM::_MDF_overrides_1:218::1]
 [OVERRIDE:4:I:GEM:GEM::_MDF_overrides_1:217::1]
 
-herring looks like meat.
-
-#[OVERRIDE:8:B:NEST:::3:10]
 
 [OVERRIDE:220:B::SiegeEngine::_MDF_overrides_2:128] 
 [OVERRIDE:223:B::SiegeEngine::_MDF_overrides_2:129] 
@@ -191,7 +214,6 @@ herring looks like meat.
 [OVERRIDE:44:T:Fire:_MDF_overrides_1:196] was ::7
 [OVERRIDE:46:T:Fire:_MDF_overrides_1:197] was ::7
 [OVERRIDE:96:T:Fire:_MDF_overrides_1:198] was ::7
-[OVERRIDE:7:I:BOULDER:BOULDER::_MDF_overrides_1:199]
 [OVERRIDE:240:I:BAR:BAR::_MDF_overrides_1:200]
 [OVERRIDE:15:T:Campfire:_MDF_overrides_1:121] was ::3
 
@@ -209,7 +231,9 @@ herring looks like meat.
 
 [OVERRIDE:179:B:WEAPON_UPRIGHT:::_MDF_overrides_2:216]
 [OVERRIDE:46:B:WEAPON_UPRIGHT:::_MDF_overrides_2:217]
+[OVERRIDE:46:B:WEAPON_UPRIGHT:Weapon::_MDF_overrides_2:217:16]
 
+[OVERRIDE:172:B:NEST:::_MDF_overrides_5:97]
 
 [OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_1:220]
 [OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_1:220]
@@ -356,7 +380,6 @@ herring looks like meat.
 [OVERRIDE:15:I:ANY_WEBS:::_MDF_overrides_1:91]
 [OVERRIDE:8:I:BOOK:::_MDF_overrides_1:88]
 [OVERRIDE:73:B:SUPPORT:::_MDF_overrides_1:113]
-[OVERRIDE:248:I:EGG:EGG::_MDF_overrides_1:101]
 [OVERRIDE:37:I:CHEESE:CHEESE::_MDF_overrides_1:85]
 [OVERRIDE:45:I:SCEPTER:SCEPTER::_MDF_overrides_1:81]
 [OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_1:103:16]
@@ -517,12 +540,11 @@ herring looks like meat.
 [OVERRIDE:30:T:RiverRampSE:_MDF_overrides_1:206]
 [OVERRIDE:30:T:RiverRampSW:_MDF_overrides_1:206] was 112
 
-
+[OVERRIDE:88:B:ANY_BARRACKS:::_MDF_overrides_5:238] i:zone
+[OVERRIDE:240:B:ACTIVITY_ZONE:::_MDF_overrides_5:238] i:zone
 
 
 ### Plant Growths ###
-
-
 # Plants at 0, 48, 96 are a template for the ground.
 # there is a total of 113 plants; + trees.
 
@@ -918,11 +940,11 @@ herring looks like meat.
 [OVERRIDE:60:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:182:8:8]
 
 #MUSKMELON
-[OVERRIDE:61:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:151:8:8] 		Inside the farm
-[OVERRIDE:61:T:Shrub:_MDF_overrides_3:167:8:8] 						Growing outside
-[OVERRIDE:61:T:ShrubDead:_MDF_overrides_3:167:5:5] 					Growing outside, but dead
-[OVERRIDE:61:I:PLANT:PLANT::_MDF_overrides_3:151:8:8] 				Picked plant
-[OVERRIDE:61:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:183:8:8]
+[OVERRIDE:84:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:151:8:8] 61		Inside the farm
+[OVERRIDE:84:T:Shrub:_MDF_overrides_3:167:8:8] 				61	 	Growing outside
+[OVERRIDE:84:T:ShrubDead:_MDF_overrides_3:167:5:5] 			61		Growing outside, but dead
+[OVERRIDE:84:I:PLANT:PLANT::_MDF_overrides_3:151:8:8] 		61		Picked plant
+[OVERRIDE:84:I:PLANT_GROWTH:PLANT_GROWTH::_MDF_overrides_3:183:8:8] 61
 
 #ONION
 [OVERRIDE:62:B:FARM_PLOT:FarmPlot::_MDF_overrides_3:152:8:8] 		Inside the farm
@@ -2026,6 +2048,8 @@ Frozen
 
 ##################################################################################
 
+[OVERRIDE:83:T:Sapling:_MDF_overrides_2:39:15] new tree1
+[OVERRIDE:84:T:Sapling:_MDF_overrides_2:39:15] new tree1
 [OVERRIDE:231:T:Sapling:_MDF_overrides_2:39:15]
 [OVERRIDE:39:T:Sapling:_MDF_overrides_2:39:15] new tree1
 [OVERRIDE:200:T:Sapling:_MDF_overrides_2:200:15] new tree2
@@ -2105,6 +2129,9 @@ Frozen
 [OVERRIDE:58:I:CORPSE:CORPSE::_MDF_overrides_2:222:16] #feline			222
 [OVERRIDE:127:I:CORPSE:CORPSE::_MDF_overrides_2:223:16] #fish			223
 [OVERRIDE:143:I:CORPSE:CORPSE::_MDF_overrides_2:237:16] #insect		237
+
+[OVERRIDE:137:I:CORPSE:CORPSE::_MDF_overrides_2:174:16] #humanoid		174
+
 
 [OVERRIDE:253:I:REMAINS:REMAINS::_MDF_overrides_2:253:16] remains
 [OVERRIDE:253:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:253:16] bodyparts
@@ -2340,11 +2367,23 @@ Frozen
 ##################################################################################
 #workshops
 
+[OVERRIDE:150:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:203:16]
+[OVERRIDE:151:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:204:16]
+[OVERRIDE:152:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:205:16]
+[OVERRIDE:153:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:219:16]
+[OVERRIDE:154:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:220:16]
+[OVERRIDE:155:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:221:16]
+[OVERRIDE:156:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:235:16]
+[OVERRIDE:157:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:236:16]
+[OVERRIDE:158:B:WORKSHOP_CUSTOM:Workshop:SOAP_MAKER:_MDF_overrides_5:237:16]
+
 [OVERRIDE:195:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_5:251:16]
 [OVERRIDE:35:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_5:252:16]
 [OVERRIDE:180:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_5:253:16]
 [OVERRIDE:237:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_5:255:16]
 [OVERRIDE:167:B:WORKSHOP_LOOM:Workshop::_MDF_overrides_5:254:16]
+
+[OVERRIDE:207:B:WORKSHOP_CUSTOM:Workshop:SCREW_PRESS:_MDF_overrides_5:111:16]
 
 [OVERRIDE:111:B:FURNACE_SMELTER_MAGMA:::_MDF_overrides_5:152:16]
 [OVERRIDE:93:B:FURNACE_SMELTER_MAGMA:::_MDF_overrides_5:151:16] 

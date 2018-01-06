@@ -2,6 +2,8 @@ graphics_fanciful
 
 [OBJECT:GRAPHICS]
 
+This is almost entirely a placeholder. Fanciful creatures don't exist and are only mentioned in tales and engravings. In case someone plays without obscured engravings and dwarves engrave fanciful creatures, which I've never seen, the creature sprites might show up ingame.
+
 [TILE_PAGE:FANCIFUL]
 	[FILE:fanciful.png]
 	[TILE_DIM:32:32]

@@ -2,6 +2,8 @@ graphics_other
 
 [OBJECT:GRAPHICS]
 
+Entire file is just for vermin, which don't use sprites. It's more or less a placeholder.
+
 [TILE_PAGE:OTHER]
 	[FILE:other.png]
 	[TILE_DIM:32:32]

@@ -7,7 +7,7 @@ creature_standard
 	[NAME:dwarf:dwarves:dwarven]
 	[CASTE_NAME:dwarf:dwarves:dwarven]
 	[CREATURE_TILE:1][COLOR:3:0:0]
-	[CREATURE_SOLDIER_TILE:2]
+	[CREATURE_SOLDIER_TILE:1]
 	[CREATURE_CLASS:MAMMAL]
 
 	Many of the following tags are actually caste-level tags (in this case, male and female), but because there are no differences between the castes for these tags in a dwarf, you can add them earlier.  Any caste-level tag that occurs before castes are explicitly declared is saved up and placed on any caste that is declared later, unless the caste is explicitly derived from another caste.
@@ -442,7 +442,7 @@ creature_standard
 	[CASTE_NAME:human:humans:human]
 	[OUTSIDER_CONTROLLABLE]
 	[CREATURE_TILE:64][COLOR:3:0:0]
-	[CREATURE_SOLDIER_TILE:154]
+	[CREATURE_SOLDIER_TILE:64]
 	[CREATURE_CLASS:MAMMAL]
 	[INTELLIGENT]
 	[CANOPENDOORS]
@@ -711,7 +711,7 @@ creature_standard
 	[NAME:elf:elves:elven]
 	[CASTE_NAME:elf:elves:elven]
 	[CREATURE_TILE:140][COLOR:3:0:0]
-	[CREATURE_SOLDIER_TILE:137]
+	[CREATURE_SOLDIER_TILE:140]
 	[CREATURE_CLASS:MAMMAL]
 	[INTELLIGENT]
 	[CANOPENDOORS]
