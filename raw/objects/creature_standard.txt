@@ -4068,14 +4068,15 @@ creature_standard
 	[CREATURE_TILE:81][COLOR:3:0:1]
 	[CREATURE_CLASS:MAMMAL]
 	[BIOME:ALL_MAIN]
-	[POPULATION_NUMBER:2500:5000]
-	[CLUSTER_NUMBER:100:200]
+	[POPULATION_NUMBER:250:500] was 2500 and 5000, reduced due to the microvermin change
+	[CLUSTER_NUMBER:1:2] was 100 to 200, reduced due to the microvermin change
 	[PETVALUE:10]
 	[INTELLIGENT]
 	[FANCIFUL]
 	[BENIGN]
 	[FLIER][VERMIN_NOTRAP][GOOD]
-	[VERMIN_GROUNDER][VERMIN_MICRO][FREQUENCY:100]
+	[VERMIN_GROUNDER][FREQUENCY:100]
+	was VERMIN_MICRO. removed due to graphical issues with vermin swarms.
 	[SMALL_REMAINS]
 	[NOT_BUTCHERABLE]
 	[PREFSTRING:shifting colors]

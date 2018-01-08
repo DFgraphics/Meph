@@ -106,7 +106,7 @@ creature_amphibians
 	[DESCRIPTION:A huge monster in the shape of a toad.]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:1]
-	[CREATURE_TILE:20]
+	[CREATURE_TILE:208]
 	[COLOR:2:0:0]
 	[PET_EXOTIC]
 	[PETVALUE:500]
