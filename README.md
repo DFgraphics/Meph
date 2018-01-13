@@ -1,5 +1,14 @@
-# Meph
-www.bay12forums.com/smf/index.php?topic=161047.0
+# Meph-lite
+
+This is a vanilla-compatible release of Meph's 32x32 Tileset.
+The most notable difference from the full version is the
+exclusion of the decorative workshops. If you would like
+to get the full version with all the features, you can
+download it from Meph's thread on bay12forums.
+
+Meph's forum thread - www.bay12forums.com/smf/index.php?topic=161047.0
+
+
 
 (*Note: The following is a modified and updated version of Meph's original readme file from the v1.3 release of his tileset.*)
 ________________________________________
