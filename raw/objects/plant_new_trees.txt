@@ -3043,10 +3043,10 @@ With contributions from:
 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
 	[USE_MATERIAL_TEMPLATE:WOOD:WOOD_TEMPLATE]
 		[STATE_NAME:ALL_SOLID:walnut wood]
-		[STATE_ADJ:ALL_SOLID:walnut wood]
+		[STATE_ADJ:ALL_SOLID:walnut wood][DISPLAY_COLOR:195:0:0] *** not yet searched
+	 	[STATE_COLOR:ALL_SOLID:BURNT_SIENNA] *** not yet searched
 		[PREFIX:NONE]
 	 	[SOLID_DENSITY:562] *** using data for julans nigra http://www.csudh.edu/oliver/chemdata/woods.htm
-	 	[STATE_COLOR:ALL_SOLID:DARK_TAN] *** https://www.woodworkerssource.com/shop/category/Walnut.html
 	[USE_MATERIAL_TEMPLATE:LEAF:LEAF_TEMPLATE]
 		[STATE_COLOR:ALL:YELLOW_GREEN]
 		[DISPLAY_COLOR:2:0:0]

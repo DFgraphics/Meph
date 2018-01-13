@@ -18,6 +18,7 @@
 #::0 ERROR
 #:new tile:foreground:background
 
+
 ##################################################################################
 [TILESET:Meph_32x32.png:Meph_32x32.png:_MDF_overrides_0]
 [TILESET:_MDF_items.png:_MDF_items.png:_MDF_overrides_1]
@@ -51,13 +52,15 @@
 #[OVERRIDE:236:T:StoneBoulder:_MDF_overrides_0:236:9]
 #######################################################
 
-[OVERRIDE:88:I:FLOODGATE:::_MDF_overrides_1:183:16]
-[OVERRIDE:215:I:FLOODGATE:::_MDF_overrides_1:183:16]
-[OVERRIDE:88:B:FLOODGATE:::_MDF_overrides_1:183:16]
-[OVERRIDE:215:B:FLOODGATE:::_MDF_overrides_1:183:16]
-[OVERRIDE:42:B:FLOODGATE:::_MDF_overrides_1:183:16]
-[OVERRIDE:42:B:FLOODGATE:::_MDF_overrides_1:183:16]
+[OVERRIDE:88:I:FLOODGATE:::_MDF_overrides_1:183:16] stone/metal
+[OVERRIDE:88:B:FLOODGATE:::_MDF_overrides_1:183:16] stone/metal
+[OVERRIDE:215:I:FLOODGATE:::_MDF_overrides_1:125:16] wood
+[OVERRIDE:215:B:FLOODGATE:::_MDF_overrides_1:125:16] wood
+[OVERRIDE:42:I:FLOODGATE:::_MDF_overrides_1:110:16] gem
+[OVERRIDE:42:B:FLOODGATE:::_MDF_overrides_1:110:16] gem
 
+ 
+ 
 
 [OVERRIDE:240:B:BARS_FLOOR:BarsFloor::_MDF_overrides_1:162]
 [OVERRIDE:19:B:BARS_VERTICAL:BarsVertical::_MDF_overrides_1:131]
@@ -83,7 +86,7 @@
 [OVERRIDE:162:B:TRAP:Trap:0:_MDF_overrides_1:176] lever on
 
 [OVERRIDE:94:B:TRAP:Trap:1:_MDF_overrides_5:113:6] pressure plate
-[OVERRIDE:94:B:TRAP:Trap:2:_MDF_overrides_5:128:3] cage
+[OVERRIDE:94:B:TRAP:Trap:2:_MDF_overrides_5:128]3 cage
 [OVERRIDE:94:B:TRAP:Trap:3:_MDF_overrides_5:129:16] stonefall
 [OVERRIDE:94:B:TRAP:Trap:4:_MDF_overrides_5:112:7] weapon
 
@@ -2414,7 +2417,6 @@ Frozen
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_2:186]
 [OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_2:187]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_2:185]
-#[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_1:119::]old original
 
 ##################################################################################
 
