@@ -3,15 +3,17 @@
 This is a vanilla-compatible release of Meph's 32x32 Tileset.  
 The most notable difference between this release and the full  
 version is that this release excludes the decorative workshops.  
-If you would like to get the full version of Meph 32x with all
-of the features, you can download its thread on bay12forums.
+If you would like to download the full version of Meph 32x with  
+all the features, you can get it from its thread on bay12forums.
 
 Meph's forum thread: www.bay12forums.com/smf/index.php?topic=161047.0
 
 ________________________________________
 ________________________________________
 
-(*Note: The following is a modified and updated version of Meph's original readme file from the v1.3 release of his tileset.*)
+*Note: The following is a modified and*  
+*updated version of Meph's original readme*  
+*file from the v1.3 release of his tileset.*
 ________________________________________
 
 
