@@ -968,7 +968,7 @@ creature_small_ocean
 	[DESCRIPTION:A tiny, curved and colorful fish found in coral reefs.]
 	[NAME:seahorse:seahorses:seahorse]
 	[CASTE_NAME:seahorse:seahorses:seahorse]
-	[CREATURE_TILE:128][COLOR:2:0:0]
+	[CREATURE_TILE:182][COLOR:2:0:0]
 	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
 	[VERMIN_GROUNDER][FISHITEM][IMMOBILE_LAND][VERMIN_NOTRAP]
 	[NATURAL]
