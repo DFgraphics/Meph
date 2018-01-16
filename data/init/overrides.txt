@@ -61,6 +61,12 @@
 
  
  
+[OVERRIDE:137:I:BOULDER:BOULDER::_MDF_overrides_1:122] flux
+[OVERRIDE:136:I:BOULDER:BOULDER::_MDF_overrides_1:161] coal
+
+[OVERRIDE:254:I:BOULDER:BOULDER::_MDF_overrides_1:96] kaolinite
+[OVERRIDE:222:I:BOULDER:BOULDER::_MDF_overrides_1:97] obsidian
+[OVERRIDE:138:I:BOULDER:BOULDER::_MDF_overrides_1:98] gypsum
 
 [OVERRIDE:240:B:BARS_FLOOR:BarsFloor::_MDF_overrides_1:162]
 [OVERRIDE:19:B:BARS_VERTICAL:BarsVertical::_MDF_overrides_1:131]
