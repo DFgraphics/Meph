@@ -1,7 +1,4 @@
 # Meph+Vordak (lite)
-http://www.bay12forums.com/smf/index.php?topic=165118.0
-
-(*Note: The following is an excerpt of Vordak's original post on bay12forums (linked above):*)
 
 This is a vanilla-compatible release of Meph's 32x32 Tileset  
 with enhancements from Vordak's add-on pack applied to it.  
@@ -11,7 +8,6 @@ all the features, you can get it from its thread on bay12forums.
 
 Meph's forum thread: www.bay12forums.com/smf/index.php?topic=161047.0
 
-
 Then you can install a compatible version of Vordak's add-on pack  
 over Meph's tileset yourself. You can get it from Vordak's thread.
 
@@ -20,7 +16,7 @@ Vordak's forum thread: http://www.bay12forums.com/smf/index.php?topic=165118.0
 ________________________________________
 ________________________________________
 
-*Note: The following is an excerpt of Vordak's original post on bay12forums (linked above):*
+*Note: The following is an excerpt of Vordak's original post on bay12forums (linked above):*  
 (*Also note that this description was written before Meph incorporated Vordak's dwarf sprites.*)
 ________________________________________
 
