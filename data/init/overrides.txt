@@ -26,6 +26,7 @@
 [TILESET:_Meph_plants.png:_Meph_plants.png:_MDF_overrides_3]
 #[TILESET:_MDF_decorations.png:_MDF_decorations.png:_MDF_overrides_4]
 [TILESET:_MDF_decorations_2.png:_MDF_decorations_2.png:_MDF_overrides_5]
+[TILESET:_MDF_decorations_3.png:_MDF_decorations_3.png:_MDF_overrides_6]
 ##################################################################################
 
 ######################################################
