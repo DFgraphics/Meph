@@ -957,7 +957,6 @@ type of andradite, a garnet
 [SOLID_DENSITY:4005]  Common to corundums.  Range 3960 - 4050
 [STATE_COLOR:ALL_SOLID:AZURE]
 
-
 rare -- only occurs with other gems
 
 [INORGANIC:DIAMOND_CLEAR]
