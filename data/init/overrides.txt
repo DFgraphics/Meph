@@ -53,6 +53,167 @@
 #[OVERRIDE:236:T:StoneBoulder:_MDF_overrides_0:236:9]
 #######################################################
 
+[OVERRIDE:219:I:ANY_ENCASED:CORPSE::_MDF_overrides_6:27] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CORPSE::_MDF_overrides_6:27] pillar
+[OVERRIDE:219:I:ANY_ENCASED:WEAPON::_MDF_overrides_6:28] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:WEAPON::_MDF_overrides_6:28] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BOULDER::_MDF_overrides_6:29] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BOULDER::_MDF_overrides_6:29] pillar
+[OVERRIDE:219:I:ANY_ENCASED:AMMO::_MDF_overrides_6:30] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:AMMO::_MDF_overrides_6:30] pillar
+[OVERRIDE:219:I:ANY_ENCASED:AMULET::_MDF_overrides_6:31] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:AMULET::_MDF_overrides_6:31] pillar
+[OVERRIDE:219:I:ANY_ENCASED:ANIMALTRAP::_MDF_overrides_6:32] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:ANIMALTRAP::_MDF_overrides_6:32] pillar
+[OVERRIDE:219:I:ANY_ENCASED:ANVIL::_MDF_overrides_6:33] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:ANVIL::_MDF_overrides_6:33] pillar
+[OVERRIDE:219:I:ANY_ENCASED:ARMOR::_MDF_overrides_6:34] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:ARMOR::_MDF_overrides_6:34] pillar
+[OVERRIDE:219:I:ANY_ENCASED:ARMORSTAND::_MDF_overrides_6:35] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:ARMORSTAND::_MDF_overrides_6:35] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BACKPACK::_MDF_overrides_6:36] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BACKPACK::_MDF_overrides_6:36] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BALLISTAARROWHEAD::_MDF_overrides_6:37] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BALLISTAARROWHEAD::_MDF_overrides_6:37] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BALLISTAPARTS::_MDF_overrides_6:38] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BALLISTAPARTS::_MDF_overrides_6:38] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BAR::_MDF_overrides_6:39] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BAR::_MDF_overrides_6:39] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BARREL::_MDF_overrides_6:40] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BARREL::_MDF_overrides_6:40] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BED::_MDF_overrides_6:41] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BED::_MDF_overrides_6:41] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BIN::_MDF_overrides_6:42] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BIN::_MDF_overrides_6:42] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BLOCKS::_MDF_overrides_6:43] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BLOCKS::_MDF_overrides_6:43] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BOOK::_MDF_overrides_6:44] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BOOK::_MDF_overrides_6:44] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BOX::_MDF_overrides_6:45] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BOX::_MDF_overrides_6:45] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BRACELET::_MDF_overrides_6:46] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BRACELET::_MDF_overrides_6:46] pillar
+[OVERRIDE:219:I:ANY_ENCASED:BUCKET::_MDF_overrides_6:47] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:BUCKET::_MDF_overrides_6:47] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CABINET::_MDF_overrides_6:48] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CABINET::_MDF_overrides_6:48] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CAGE::_MDF_overrides_6:49] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CAGE::_MDF_overrides_6:49] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CATAPULTPARTS::_MDF_overrides_6:50] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CATAPULTPARTS::_MDF_overrides_6:50] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CHAIN::_MDF_overrides_6:51] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CHAIN::_MDF_overrides_6:51] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CHAIR::_MDF_overrides_6:52] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CHAIR::_MDF_overrides_6:52] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CHEESE::_MDF_overrides_6:53] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CHEESE::_MDF_overrides_6:53] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CLOTH::_MDF_overrides_6:54] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CLOTH::_MDF_overrides_6:54] pillar
+[OVERRIDE:219:I:ANY_ENCASED:COFFIN::_MDF_overrides_6:55] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:COFFIN::_MDF_overrides_6:55] pillar
+[OVERRIDE:219:I:ANY_ENCASED:COIN::_MDF_overrides_6:56] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:COIN::_MDF_overrides_6:56] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CORPSEPIECE::_MDF_overrides_6:57] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CORPSEPIECE::_MDF_overrides_6:57] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CROWN::_MDF_overrides_6:58] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CROWN::_MDF_overrides_6:58] pillar
+[OVERRIDE:219:I:ANY_ENCASED:CRUTCH::_MDF_overrides_6:59] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:CRUTCH::_MDF_overrides_6:59] pillar
+[OVERRIDE:219:I:ANY_ENCASED:DOOR::_MDF_overrides_6:60] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:DOOR::_MDF_overrides_6:60] pillar
+[OVERRIDE:219:I:ANY_ENCASED:EARRING::_MDF_overrides_6:61] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:EARRING::_MDF_overrides_6:61] pillar
+[OVERRIDE:219:I:ANY_ENCASED:EGG::_MDF_overrides_6:62] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:EGG::_MDF_overrides_6:62] pillar
+[OVERRIDE:219:I:ANY_ENCASED:FIGURINE::_MDF_overrides_6:63] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:FIGURINE::_MDF_overrides_6:63] pillar
+[OVERRIDE:219:I:ANY_ENCASED:FISH::_MDF_overrides_6:64] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:FISH::_MDF_overrides_6:64] pillar
+[OVERRIDE:219:I:ANY_ENCASED:FISH_RAW::_MDF_overrides_6:64] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:FISH_RAW::_MDF_overrides_6:64] pillar
+[OVERRIDE:219:I:ANY_ENCASED:FLASK::_MDF_overrides_6:65] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:FLASK::_MDF_overrides_6:65] pillar
+[OVERRIDE:219:I:ANY_ENCASED:FOOD::_MDF_overrides_6:66] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:FOOD::_MDF_overrides_6:66] pillar
+[OVERRIDE:219:I:ANY_ENCASED:GEM::_MDF_overrides_6:67] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:GEM::_MDF_overrides_6:67] pillar
+[OVERRIDE:219:I:ANY_ENCASED:GLOB::_MDF_overrides_6:68] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:GLOB::_MDF_overrides_6:68] pillar
+[OVERRIDE:219:I:ANY_ENCASED:GLOVES::_MDF_overrides_6:69] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:GLOVES::_MDF_overrides_6:69] pillar
+[OVERRIDE:219:I:ANY_ENCASED:GOBLET::_MDF_overrides_6:70] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:GOBLET::_MDF_overrides_6:70] pillar
+[OVERRIDE:219:I:ANY_ENCASED:GRATE::_MDF_overrides_6:71] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:GRATE::_MDF_overrides_6:71] pillar
+[OVERRIDE:219:I:ANY_ENCASED:HATCH_COVER::_MDF_overrides_6:72] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:HATCH_COVER::_MDF_overrides_6:72] pillar
+[OVERRIDE:219:I:ANY_ENCASED:HELM::_MDF_overrides_6:73] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:HELM::_MDF_overrides_6:73] pillar
+[OVERRIDE:219:I:ANY_ENCASED:INSTRUMENT::_MDF_overrides_6:74] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:INSTRUMENT::_MDF_overrides_6:74] pillar
+[OVERRIDE:219:I:ANY_ENCASED:MEAT::_MDF_overrides_6:75] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:MEAT::_MDF_overrides_6:75] pillar
+[OVERRIDE:219:I:ANY_ENCASED:MILLSTONE::_MDF_overrides_6:76] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:MILLSTONE::_MDF_overrides_6:76] pillar
+[OVERRIDE:219:I:ANY_ENCASED:ORTHOPEDIC_CAST::_MDF_overrides_6:77] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:ORTHOPEDIC_CAST::_MDF_overrides_6:77] pillar
+[OVERRIDE:219:I:ANY_ENCASED:PANTS::_MDF_overrides_6:78] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:PANTS::_MDF_overrides_6:78] pillar
+[OVERRIDE:219:I:ANY_ENCASED:PIPE_SECTION::_MDF_overrides_6:79] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:PIPE_SECTION::_MDF_overrides_6:79] pillar
+[OVERRIDE:219:I:ANY_ENCASED:PLANT::_MDF_overrides_6:80] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:PLANT::_MDF_overrides_6:80] pillar
+[OVERRIDE:219:I:ANY_ENCASED:PLANT_GROWTH::_MDF_overrides_6:80] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:PLANT_GROWTH::_MDF_overrides_6:80] pillar
+[OVERRIDE:219:I:ANY_ENCASED:QUERN::_MDF_overrides_6:81] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:QUERN::_MDF_overrides_6:81] pillar
+[OVERRIDE:219:I:ANY_ENCASED:QUIVER::_MDF_overrides_6:82] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:QUIVER::_MDF_overrides_6:82] pillar
+[OVERRIDE:219:I:ANY_ENCASED:REMAINS::_MDF_overrides_6:57] wall rough ice !!!
+[OVERRIDE:199:I:ANY_ENCASED:REMAINS::_MDF_overrides_6:57] pillar !!!
+[OVERRIDE:219:I:ANY_ENCASED:RING::_MDF_overrides_6:83] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:RING::_MDF_overrides_6:83] pillar
+[OVERRIDE:219:I:ANY_ENCASED:ROUGH::_MDF_overrides_6:84] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:ROUGH::_MDF_overrides_6:84] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SCEPTER::_MDF_overrides_6:85] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SCEPTER::_MDF_overrides_6:85] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SHIELD::_MDF_overrides_6:86] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SHIELD::_MDF_overrides_6:86] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SHOES::_MDF_overrides_6:87] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SHOES::_MDF_overrides_6:87] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SIEGEAMMO::_MDF_overrides_6:37] wall rough ice !!!
+[OVERRIDE:199:I:ANY_ENCASED:SIEGEAMMO::_MDF_overrides_6:37] pillar !!!
+[OVERRIDE:219:I:ANY_ENCASED:SKIN_TANNED::_MDF_overrides_6:88] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SKIN_TANNED::_MDF_overrides_6:88] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SLAB::_MDF_overrides_6:89] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SLAB::_MDF_overrides_6:89] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SMALLGEM::_MDF_overrides_6:90] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SMALLGEM::_MDF_overrides_6:90] pillar
+[OVERRIDE:219:I:ANY_ENCASED:SPLINT::_MDF_overrides_6:91] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:SPLINT::_MDF_overrides_6:91] pillar
+[OVERRIDE:219:I:ANY_ENCASED:STATUE::_MDF_overrides_6:92] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:STATUE::_MDF_overrides_6:92] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TABLE::_MDF_overrides_6:93] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TABLE::_MDF_overrides_6:93] pillar
+[OVERRIDE:219:I:ANY_ENCASED:THREAD::_MDF_overrides_6:94] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:THREAD::_MDF_overrides_6:94] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TOOL::_MDF_overrides_6:95] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TOOL::_MDF_overrides_6:95] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TOTEM::_MDF_overrides_6:96] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TOTEM::_MDF_overrides_6:96] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TOY::_MDF_overrides_6:97] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TOY::_MDF_overrides_6:97] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TRACTION_BENCH::_MDF_overrides_6:98] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TRACTION_BENCH::_MDF_overrides_6:98] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TRAPCOMP::_MDF_overrides_6:99] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TRAPCOMP::_MDF_overrides_6:99] pillar
+[OVERRIDE:219:I:ANY_ENCASED:TRAPPARTS::_MDF_overrides_6:100] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:TRAPPARTS::_MDF_overrides_6:100] pillar
+[OVERRIDE:219:I:ANY_ENCASED:WEAPONRACK::_MDF_overrides_6:101] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:WEAPONRACK::_MDF_overrides_6:101] pillar
+[OVERRIDE:219:I:ANY_ENCASED:WOOD::_MDF_overrides_6:102] wall rough ice
+[OVERRIDE:199:I:ANY_ENCASED:WOOD::_MDF_overrides_6:102] pillar
+
 [OVERRIDE:247:I:GLOB:::_MDF_overrides_1:87]
 [OVERRIDE:236:T:BrookTop:_MDF_overrides_1:113]
 
@@ -79,6 +240,7 @@
 [OVERRIDE:254:I:BOULDER:BOULDER::_MDF_overrides_1:96] kaolinite
 [OVERRIDE:222:I:BOULDER:BOULDER::_MDF_overrides_1:97] obsidian
 [OVERRIDE:138:I:BOULDER:BOULDER::_MDF_overrides_1:98] gypsum
+[OVERRIDE:33:I:BOULDER:BOULDER::_MDF_overrides_1:95] adamantine
 
 [OVERRIDE:240:B:BARS_FLOOR:BarsFloor::_MDF_overrides_1:162]
 [OVERRIDE:19:B:BARS_VERTICAL:BarsVertical::_MDF_overrides_1:131]
@@ -2779,6 +2941,7 @@ Frozen
 ##################################################################################
 #mineral walls are ores
 
+
 #OVERRIDE:219:T:MineralWall:_MDF_overrides_6:230
 
 [OVERRIDE:176:T:MineralWallWorn1:_MDF_overrides_6:233]
@@ -2944,6 +3107,12 @@ TILE::232:219:238:233:248:249:221:222:223:234:250:251:220:216:217:235:236:218:23
 [OVERRIDE:139:T:MineralWall:_MDF_overrides_6:196]
 [OVERRIDE:156:T:StoneWall:_MDF_overrides_6:197]
 [OVERRIDE:156:T:MineralWall:_MDF_overrides_6:197]
+
+#raw adamantine
+
+[OVERRIDE:33:T:MineralWall:_MDF_overrides_6:198] adamantine raw
+[OVERRIDE:33:T:StoneWall:_MDF_overrides_6:198] adamantine raw
+[OVERRIDE:33:T:FeatureWall:_MDF_overrides_6:198] adamantine raw
    
 ##################################################################################
 #workshops
@@ -3176,3 +3345,88 @@ TILE::232:219:238:233:248:249:221:222:223:234:250:251:220:216:217:235:236:218:23
 
 [OVERRIDE:21:B:CHAIN:Chain::_MDF_overrides_5:159:16]
 [OVERRIDE:22:B:HIVE:Hive::_MDF_overrides_1:234]
+
+
+#obsidian encased objects
+
+[OVERRIDE:138:I:ANY_ENCASED:CORPSE::_MDF_overrides_6:137] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:WEAPONRACK::_MDF_overrides_6:103] 
+[OVERRIDE:138:I:ANY_ENCASED:CHAIR::_MDF_overrides_6:104]
+[OVERRIDE:138:I:ANY_ENCASED:TRACTION_BENCH::_MDF_overrides_6:105] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:TRAPCOMP::_MDF_overrides_6:106] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:TRAPPARTS::_MDF_overrides_6:107] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:WEAPON::_MDF_overrides_6:108] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BOULDER::_MDF_overrides_6:109] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:AMMO::_MDF_overrides_6:110] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:AMULET::_MDF_overrides_6:111] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:ANIMALTRAP::_MDF_overrides_6:112] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:ANVIL::_MDF_overrides_6:113] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:ARMOR::_MDF_overrides_6:114] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:ARMORSTAND::_MDF_overrides_6:115] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BACKPACK::_MDF_overrides_6:116] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BALLISTAARROWHEAD::_MDF_overrides_6:117] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BALLISTAPARTS::_MDF_overrides_6:118] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BAR::_MDF_overrides_6:119] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BARREL::_MDF_overrides_6:120] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BED::_MDF_overrides_6:121] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BIN::_MDF_overrides_6:122] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BLOCKS::_MDF_overrides_6:123] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BOOK::_MDF_overrides_6:124] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BOX::_MDF_overrides_6:125] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BRACELET::_MDF_overrides_6:126] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:BUCKET::_MDF_overrides_6:127] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CABINET::_MDF_overrides_6:128] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CAGE::_MDF_overrides_6:129] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CATAPULTPARTS::_MDF_overrides_6:130] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CHAIN::_MDF_overrides_6:131] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CHEESE::_MDF_overrides_6:133] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CLOTH::_MDF_overrides_6:134] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:COFFIN::_MDF_overrides_6:135] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:COIN::_MDF_overrides_6:136] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CORPSEPIECE::_MDF_overrides_6:137] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CROWN::_MDF_overrides_6:138] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:CRUTCH::_MDF_overrides_6:139] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:DOOR::_MDF_overrides_6:140] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:EARRING::_MDF_overrides_6:141] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:EGG::_MDF_overrides_6:142] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:FIGURINE::_MDF_overrides_6:143] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:FISH::_MDF_overrides_6:144] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:FISH_RAW::_MDF_overrides_6:144] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:FLASK::_MDF_overrides_6:145] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:FOOD::_MDF_overrides_6:146] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:GEM::_MDF_overrides_6:147] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:GLOB::_MDF_overrides_6:148] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:GLOVES::_MDF_overrides_6:149] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:GOBLET::_MDF_overrides_6:150] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:GRATE::_MDF_overrides_6:151] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:HATCH_COVER::_MDF_overrides_6:152] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:HELM::_MDF_overrides_6:153] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:INSTRUMENT::_MDF_overrides_6:154] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:MEAT::_MDF_overrides_6:155] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:MILLSTONE::_MDF_overrides_6:156] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:ORTHOPEDIC_CAST::_MDF_overrides_6:157] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:PANTS::_MDF_overrides_6:158] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:PIPE_SECTION::_MDF_overrides_6:159] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:PLANT::_MDF_overrides_6:160] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:PLANT_GROWTH::_MDF_overrides_6:160] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:QUERN::_MDF_overrides_6:161] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:QUIVER::_MDF_overrides_6:162] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:REMAINS::_MDF_overrides_6:137] obsidian encased wall !!!
+[OVERRIDE:138:I:ANY_ENCASED:RING::_MDF_overrides_6:163] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:ROUGH::_MDF_overrides_6:164] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SCEPTER::_MDF_overrides_6:165] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SHIELD::_MDF_overrides_6:166] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SHOES::_MDF_overrides_6:167] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SIEGEAMMO::_MDF_overrides_6:117] obsidian encased wall !!!
+[OVERRIDE:138:I:ANY_ENCASED:SKIN_TANNED::_MDF_overrides_6:168] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SLAB::_MDF_overrides_6:169] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SMALLGEM::_MDF_overrides_6:170] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:SPLINT::_MDF_overrides_6:171] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:STATUE::_MDF_overrides_6:172] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:TABLE::_MDF_overrides_6:173] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:THREAD::_MDF_overrides_6:174] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:TOOL::_MDF_overrides_6:175] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:TOTEM::_MDF_overrides_6:176] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:TOY::_MDF_overrides_6:177] obsidian encased wall
+[OVERRIDE:138:I:ANY_ENCASED:WOOD::_MDF_overrides_6:178] obsidian encased wall
+
