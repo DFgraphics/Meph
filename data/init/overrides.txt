@@ -27,6 +27,10 @@
 #[TILESET:_MDF_decorations.png:_MDF_decorations.png:_MDF_overrides_4]
 [TILESET:_MDF_decorations_2.png:_MDF_decorations_2.png:_MDF_overrides_5]
 [TILESET:_MDF_decorations_3.png:_MDF_decorations_3.png:_MDF_overrides_6]
+[TILESET:_MDF_furniture.png:_MDF_furniture.png:_MDF_overrides_7]
+[TILESET:_MDF_constructions.png:_MDF_constructions.png:_MDF_overrides_8]
+
+
 ##################################################################################
 
 ######################################################
@@ -52,6 +56,11 @@
 #[OVERRIDE:236:T:MineralBoulder:_MDF_overrides_0:236:9]
 #[OVERRIDE:236:T:StoneBoulder:_MDF_overrides_0:236:9]
 #######################################################
+
+
+
+
+
 
 [OVERRIDE:219:I:ANY_ENCASED:CORPSE::_MDF_overrides_6:27] wall rough ice
 [OVERRIDE:199:I:ANY_ENCASED:CORPSE::_MDF_overrides_6:27] pillar
@@ -475,14 +484,9 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 [OVERRIDE:177:T:StoneWallWorn2:_MDF_overrides_1:202]
 [OVERRIDE:178:T:StoneWallWorn3:_MDF_overrides_1:203]
 
-
 [OVERRIDE:09:B:WELL:Well::_MDF_overrides_1:126]
 
-
 [OVERRIDE:172:B:NEST:::_MDF_overrides_5:97]
-
-[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_1:220]
-[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_1:220]
 
 [OVERRIDE:205:B:BRIDGE:::_MDF_overrides_2:209] lr =
 [OVERRIDE:186:B:BRIDGE:::_MDF_overrides_2:224] ud ||
@@ -498,7 +502,6 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 [OVERRIDE:208:B:BRIDGE:::_MDF_overrides_2:226] u stop
 [OVERRIDE:111:B:BRIDGE:::_MDF_overrides_2:227] o
 #[OVERRIDE:247:B:BRIDGE:::_MDF_overrides_2:] sand
-
 
 [OVERRIDE:186:B:WINDMILL:::_MDF_overrides_2:232]
 [OVERRIDE:205:B:WINDMILL:::_MDF_overrides_2:233]
@@ -550,8 +553,7 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 #up down aligned
 [OVERRIDE:179:I:SIEGEAMMO:SIEGEAMMO:0:_MDF_overrides_1:128:7]
 
-[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_1:109]
-[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_1:109]
+
 
 [OVERRIDE:177:B:WINDOW_ANY:WindowGem::_MDF_overrides_1:181]
 [OVERRIDE:177:B:WINDOW_ANY:WindowGlass::_MDF_overrides_1:182]
@@ -559,27 +561,6 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 
 [OVERRIDE:08:B:NEST_BOX:NestBox::_MDF_overrides_1:180]
 
-# artifact gem doors
-[OVERRIDE:15:I:DOOR:DOOR::_MDF_overrides_1:185]
-#glass portal
-[OVERRIDE:79:I:DOOR:DOOR::_MDF_overrides_1:185]
-#wooden doors
-[OVERRIDE:186:I:DOOR:DOOR::_MDF_overrides_1:184:7]
-#stone doors
-[OVERRIDE:197:I:DOOR:DOOR::_MDF_overrides_1:186]
-#metal doors
-[OVERRIDE:240:I:DOOR:DOOR::_MDF_overrides_1:187]
-
-# artifact gem doors
-[OVERRIDE:15:B:DOOR:Door::_MDF_overrides_1:185:15]
-#glass portal
-[OVERRIDE:79:B:DOOR:Door::_MDF_overrides_1:185:12]
-#wooden doors
-[OVERRIDE:186:B:DOOR:Door::_MDF_overrides_1:184:7]
-#stone doors
-[OVERRIDE:197:B:DOOR:Door::_MDF_overrides_1:186:8]
-#metal doors
-[OVERRIDE:240:B:DOOR:Door::_MDF_overrides_1:187:9]
 
 
 
@@ -610,7 +591,7 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 [OVERRIDE:9:B:WORKSHOP_MILLSTONE:::_MDF_overrides_1:90]
 [OVERRIDE:111:B:WORKSHOP_MILLSTONE:::_MDF_overrides_1:90]
 [OVERRIDE:88:B:ARCHERY_TARGET:::_MDF_overrides_1:92]
-[OVERRIDE:88:I:BIN:::_MDF_overrides_1:80:16:16]
+
 [OVERRIDE:146:I:QUIVER:::_MDF_overrides_1:93]
 [OVERRIDE:146:I:BACKPACK:::_MDF_overrides_1:94]
 [OVERRIDE:194:I:CRUTCH:::_MDF_overrides_1:83]
@@ -621,44 +602,62 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 [OVERRIDE:8:I:BOOK:::_MDF_overrides_1:88]
 [OVERRIDE:37:I:CHEESE:CHEESE::_MDF_overrides_1:85]
 [OVERRIDE:45:I:SCEPTER:SCEPTER::_MDF_overrides_1:81]
-[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_1:103:16]
 [OVERRIDE:124:I:PIPE_SECTION:PIPE_SECTION::_MDF_overrides_1:100]
 [OVERRIDE:224:I:FISH:FISH::_MDF_overrides_1:106]
 [OVERRIDE:224:I:FISH_RAW:FISH_RAW::_MDF_overrides_1:107]
 
-[OVERRIDE:47:I:AMMO:AMMO:0:_MDF_overrides_1:0]
-[OVERRIDE:47:I:AMMO:AMMO:1:_MDF_overrides_1:1]
-[OVERRIDE:47:I:AMMO:AMMO:2:_MDF_overrides_1:2]
+[OVERRIDE:47:I:AMMO:AMMO:0:_MDF_overrides_1:0] bolts
+[OVERRIDE:47:I:AMMO:AMMO:1:_MDF_overrides_1:1] arrows
+[OVERRIDE:47:I:AMMO:AMMO:2:_MDF_overrides_1:2] blowddarts
+Taffers revised adds throwing spears. atlatl dart
 
-[OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_1:3]
-[OVERRIDE:91:I:ARMOR:ARMOR:1:_MDF_overrides_1:4]
-[OVERRIDE:91:I:ARMOR:ARMOR:2:_MDF_overrides_1:5]
-[OVERRIDE:91:I:ARMOR:ARMOR:3:_MDF_overrides_1:6]
-[OVERRIDE:91:I:ARMOR:ARMOR:4:_MDF_overrides_1:7]
-[OVERRIDE:91:I:ARMOR:ARMOR:5:_MDF_overrides_1:8]
-[OVERRIDE:91:I:ARMOR:ARMOR:6:_MDF_overrides_1:9]
-[OVERRIDE:91:I:ARMOR:ARMOR:7:_MDF_overrides_1:10]
-[OVERRIDE:91:I:ARMOR:ARMOR:8:_MDF_overrides_1:11]
-[OVERRIDE:91:I:ARMOR:ARMOR:9:_MDF_overrides_1:12]
-[OVERRIDE:91:I:ARMOR:ARMOR:10:_MDF_overrides_1:13]
-[OVERRIDE:91:I:ARMOR:ARMOR:11:_MDF_overrides_1:14]
+OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_7:220::::INORGANIC:BRONZE - Breastplate
+OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_7:236::::INORGANIC:GOLD - Breastplate
+OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_7:188::::INORGANIC:IRON - Breastplate
+OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_7:204::::INORGANIC:STEEL - Breastplate
+OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_7:252::::INORGANIC:ADAMANTINE - Breastplate
 
-[OVERRIDE:37:I:FOOD:FOOD:0:_MDF_overrides_1:188]
-[OVERRIDE:37:I:FOOD:FOOD:1:_MDF_overrides_1:189]
-[OVERRIDE:37:I:FOOD:FOOD:2:_MDF_overrides_1:190]
+[OVERRIDE:91:I:ARMOR:ARMOR:0:_MDF_overrides_1:3] - Breastplate
+[OVERRIDE:91:I:ARMOR:ARMOR:1:_MDF_overrides_1:4] - Mailshirt
+[OVERRIDE:91:I:ARMOR:ARMOR:2:_MDF_overrides_1:5] - Suit of leather armor
+[OVERRIDE:91:I:ARMOR:ARMOR:3:_MDF_overrides_1:6] - Coat
+[OVERRIDE:91:I:ARMOR:ARMOR:4:_MDF_overrides_1:7] - Shirts
+[OVERRIDE:91:I:ARMOR:ARMOR:5:_MDF_overrides_1:8] - Cloaks
+[OVERRIDE:91:I:ARMOR:ARMOR:6:_MDF_overrides_1:9] - Tunics
+[OVERRIDE:91:I:ARMOR:ARMOR:7:_MDF_overrides_1:10] - Togas
+[OVERRIDE:91:I:ARMOR:ARMOR:8:_MDF_overrides_1:11] - Capes
+[OVERRIDE:91:I:ARMOR:ARMOR:9:_MDF_overrides_1:12] - Vests
+[OVERRIDE:91:I:ARMOR:ARMOR:10:_MDF_overrides_1:13] - Dresses
+[OVERRIDE:91:I:ARMOR:ARMOR:11:_MDF_overrides_1:14] - Robes
 
-[OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_1:16]
-[OVERRIDE:91:I:GLOVES:GLOVES:1:_MDF_overrides_1:17]
-[OVERRIDE:91:I:GLOVES:GLOVES:2:_MDF_overrides_1:18]
+[OVERRIDE:37:I:FOOD:FOOD:0:_MDF_overrides_1:188] - biscuit
+[OVERRIDE:37:I:FOOD:FOOD:1:_MDF_overrides_1:189] - stew
+[OVERRIDE:37:I:FOOD:FOOD:2:_MDF_overrides_1:190] - roast 
 
-[OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_1:20]
-[OVERRIDE:91:I:HELM:HELM:1:_MDF_overrides_1:21]
-[OVERRIDE:91:I:HELM:HELM:2:_MDF_overrides_1:22]
-[OVERRIDE:91:I:HELM:HELM:3:_MDF_overrides_1:23]
-[OVERRIDE:91:I:HELM:HELM:4:_MDF_overrides_1:24]
-[OVERRIDE:91:I:HELM:HELM:5:_MDF_overrides_1:25]
-[OVERRIDE:91:I:HELM:HELM:6:_MDF_overrides_1:26]
-[OVERRIDE:91:I:HELM:HELM:7:_MDF_overrides_1:28]
+OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_7:221::::INORGANIC:BRONZE - gauntlets  
+OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_7:237::::INORGANIC:GOLD - gauntlets
+OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_7:189::::INORGANIC:IRON - gauntlets
+OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_7:205::::INORGANIC:STEEL - gauntlets
+OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_7:253::::INORGANIC:ADAMANTINE - gauntlets
+
+[OVERRIDE:91:I:GLOVES:GLOVES:0:_MDF_overrides_1:16] - gauntlets
+[OVERRIDE:91:I:GLOVES:GLOVES:1:_MDF_overrides_1:17] - gloves
+[OVERRIDE:91:I:GLOVES:GLOVES:2:_MDF_overrides_1:18] - mittens
+
+OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_7:219::::INORGANIC:BRONZE - helms 
+OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_7:235::::INORGANIC:GOLD - helms
+OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_7:187::::INORGANIC:IRON - helms
+OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_7:203::::INORGANIC:STEEL - helms
+OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_7:251::::INORGANIC:ADAMANTINE - helms
+
+[OVERRIDE:91:I:HELM:HELM:0:_MDF_overrides_1:20] - helms
+[OVERRIDE:91:I:HELM:HELM:1:_MDF_overrides_1:21] - caps
+[OVERRIDE:91:I:HELM:HELM:2:_MDF_overrides_1:22] - hoods
+[OVERRIDE:91:I:HELM:HELM:3:_MDF_overrides_1:23] - turbans
+[OVERRIDE:91:I:HELM:HELM:4:_MDF_overrides_1:24] - mask
+[OVERRIDE:91:I:HELM:HELM:5:_MDF_overrides_1:25] - head veil
+[OVERRIDE:91:I:HELM:HELM:6:_MDF_overrides_1:26] - face veil
+[OVERRIDE:91:I:HELM:HELM:7:_MDF_overrides_1:28] - headscarves
 
 #[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:0:_MDF_overrides_1:29]
 #[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:1:_MDF_overrides_1:30]
@@ -666,90 +665,116 @@ OVERRIDE:240:B:UNK_V42_2:Bookcase::_MDF_overrides_1:246 i:zone
 #[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:3:_MDF_overrides_1:32]
 #[OVERRIDE:168:I:INSTRUMENT:INSTRUMENT:4:_MDF_overrides_1:33]
 
-[OVERRIDE:91:I:PANTS:PANTS:0:_MDF_overrides_1:29]
-[OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_1:30]
-[OVERRIDE:91:I:PANTS:PANTS:2:_MDF_overrides_1:31]
-[OVERRIDE:91:I:PANTS:PANTS:3:_MDF_overrides_1:32]
-[OVERRIDE:91:I:PANTS:PANTS:4:_MDF_overrides_1:33]
-[OVERRIDE:91:I:PANTS:PANTS:5:_MDF_overrides_1:34]
-[OVERRIDE:91:I:PANTS:PANTS:6:_MDF_overrides_1:35]
-[OVERRIDE:91:I:PANTS:PANTS:7:_MDF_overrides_1:36]
-[OVERRIDE:91:I:PANTS:PANTS:8:_MDF_overrides_1:37]
+[OVERRIDE:91:I:PANTS:PANTS:0:_MDF_overrides_1:29] - pair of trousers
 
-[OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_1:44]
-[OVERRIDE:91:I:SHIELD:SHIELD:1:_MDF_overrides_1:43]
+OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_7:222::::INORGANIC:BRONZE - greaves 
+OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_7:238::::INORGANIC:GOLD - greaves
+OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_7:190::::INORGANIC:IRON - greaves
+OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_7:206::::INORGANIC:STEEL - greaves
+OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_7:254::::INORGANIC:ADAMANTINE - greaves
 
-[OVERRIDE:91:I:SHOES:SHOES:0:_MDF_overrides_1:38]
-[OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_1:39]
-[OVERRIDE:91:I:SHOES:SHOES:2:_MDF_overrides_1:40]
-[OVERRIDE:91:I:SHOES:SHOES:3:_MDF_overrides_1:41]
-[OVERRIDE:91:I:SHOES:SHOES:4:_MDF_overrides_1:42]
-[OVERRIDE:91:I:SHOES:SHOES:5:_MDF_overrides_1:5]
+[OVERRIDE:91:I:PANTS:PANTS:1:_MDF_overrides_1:30] - greaves
+[OVERRIDE:91:I:PANTS:PANTS:2:_MDF_overrides_1:31] - leggings
+[OVERRIDE:91:I:PANTS:PANTS:3:_MDF_overrides_1:32] - loincloth
+[OVERRIDE:91:I:PANTS:PANTS:4:_MDF_overrides_1:33] - thongs
+[OVERRIDE:91:I:PANTS:PANTS:5:_MDF_overrides_1:34] - skirt
+[OVERRIDE:91:I:PANTS:PANTS:6:_MDF_overrides_1:35] - short skirt
+[OVERRIDE:91:I:PANTS:PANTS:7:_MDF_overrides_1:36] - long skirt
+[OVERRIDE:91:I:PANTS:PANTS:8:_MDF_overrides_1:37] - pair of braies
 
-[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:0:_MDF_overrides_1:51]
-[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:1:_MDF_overrides_1:52]
-[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:2:_MDF_overrides_1:53]
-[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:3:_MDF_overrides_1:54]
-[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:4:_MDF_overrides_1:55]
+OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_7:218::::INORGANIC:BRONZE - shields 
+OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_7:234::::INORGANIC:GOLD - shields
+OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_7:186::::INORGANIC:IRON - shields
+OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_7:202::::INORGANIC:STEEL - shields
+OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_7:250::::INORGANIC:ADAMANTINE - shields
+[OVERRIDE:91:I:SHIELD:SHIELD:0:_MDF_overrides_1:44] - shields
+[OVERRIDE:91:I:SHIELD:SHIELD:1:_MDF_overrides_1:43] - bucklers
 
-[OVERRIDE:145:I:TOY:TOY:0:_MDF_overrides_1:249]
-[OVERRIDE:145:I:TOY:TOY:1:_MDF_overrides_1:250]
-[OVERRIDE:145:I:TOY:TOY:2:_MDF_overrides_1:251]
-[OVERRIDE:145:I:TOY:TOY:3:_MDF_overrides_1:252]
-[OVERRIDE:145:I:TOY:TOY:4:_MDF_overrides_1:253]
+[OVERRIDE:91:I:SHOES:SHOES:0:_MDF_overrides_1:38] - shoes
 
+OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_7:223::::INORGANIC:BRONZE - high boots 
+OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_7:239::::INORGANIC:GOLD - high boots
+OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_7:191::::INORGANIC:IRON - high boots
+OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_7:207::::INORGANIC:STEEL - high boots
+OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_7:255::::INORGANIC:ADAMANTINE - high boots
 
-[OVERRIDE:255:I:TOOL:TOOL:0:_MDF_overrides_1:224]
-[OVERRIDE:255:I:TOOL:TOOL:1:_MDF_overrides_1:225]
-[OVERRIDE:255:I:TOOL:TOOL:2:_MDF_overrides_1:226]
-[OVERRIDE:255:I:TOOL:TOOL:3:_MDF_overrides_1:227]
-[OVERRIDE:255:I:TOOL:TOOL:4:_MDF_overrides_1:228]
-[OVERRIDE:255:I:TOOL:TOOL:5:_MDF_overrides_1:229]
-[OVERRIDE:255:I:TOOL:TOOL:6:_MDF_overrides_1:229]
-[OVERRIDE:255:I:TOOL:TOOL:7:_MDF_overrides_1:229]
-[OVERRIDE:255:I:TOOL:TOOL:8:_MDF_overrides_1:230]
-[OVERRIDE:255:I:TOOL:TOOL:9:_MDF_overrides_1:231]
-[OVERRIDE:255:I:TOOL:TOOL:10:_MDF_overrides_1:180]
-[OVERRIDE:255:I:TOOL:TOOL:11:_MDF_overrides_1:232]
-[OVERRIDE:255:I:TOOL:TOOL:12:_MDF_overrides_1:233]
-[OVERRIDE:255:I:TOOL:TOOL:13:_MDF_overrides_1:234]
-[OVERRIDE:255:I:TOOL:TOOL:14:_MDF_overrides_1:235]
-[OVERRIDE:255:I:TOOL:TOOL:15:_MDF_overrides_1:236]
-[OVERRIDE:255:I:TOOL:TOOL:16:_MDF_overrides_1:221]
-[OVERRIDE:255:I:TOOL:TOOL:17:_MDF_overrides_1:237]
-[OVERRIDE:255:I:TOOL:TOOL:18:_MDF_overrides_1:238]
-[OVERRIDE:255:I:TOOL:TOOL:19:_MDF_overrides_1:239]
-[OVERRIDE:255:I:TOOL:TOOL:20:_MDF_overrides_1:243]
-[OVERRIDE:255:I:TOOL:TOOL:21:_MDF_overrides_1:244]
-[OVERRIDE:255:I:TOOL:TOOL:22:_MDF_overrides_1:245]
-[OVERRIDE:255:I:TOOL:TOOL:23:_MDF_overrides_1:246:16] bookcases
-[OVERRIDE:255:I:TOOL:TOOL:24:_MDF_overrides_1:247]
-[OVERRIDE:255:I:TOOL:TOOL:25:_MDF_overrides_1:248]
+[OVERRIDE:91:I:SHOES:SHOES:1:_MDF_overrides_1:39] - high boots
+[OVERRIDE:91:I:SHOES:SHOES:2:_MDF_overrides_1:40] - low boots 
+[OVERRIDE:91:I:SHOES:SHOES:3:_MDF_overrides_1:41] - sandals
+[OVERRIDE:91:I:SHOES:SHOES:4:_MDF_overrides_1:42] - chausses
+[OVERRIDE:91:I:SHOES:SHOES:5:_MDF_overrides_1:5] - socks
 
-[OVERRIDE:47:I:WEAPON:WEAPON:0:_MDF_overrides_1:56]
-[OVERRIDE:47:I:WEAPON:WEAPON:1:_MDF_overrides_1:57]
-[OVERRIDE:47:I:WEAPON:WEAPON:2:_MDF_overrides_1:58]
-[OVERRIDE:47:I:WEAPON:WEAPON:3:_MDF_overrides_1:59]
-[OVERRIDE:47:I:WEAPON:WEAPON:4:_MDF_overrides_1:60]
-[OVERRIDE:47:I:WEAPON:WEAPON:5:_MDF_overrides_1:61]
-[OVERRIDE:47:I:WEAPON:WEAPON:6:_MDF_overrides_1:62]
-[OVERRIDE:47:I:WEAPON:WEAPON:7:_MDF_overrides_1:63]
-[OVERRIDE:47:I:WEAPON:WEAPON:8:_MDF_overrides_1:64]
-[OVERRIDE:47:I:WEAPON:WEAPON:9:_MDF_overrides_1:65]
-[OVERRIDE:47:I:WEAPON:WEAPON:10:_MDF_overrides_1:66]
-[OVERRIDE:47:I:WEAPON:WEAPON:11:_MDF_overrides_1:67]
-[OVERRIDE:47:I:WEAPON:WEAPON:12:_MDF_overrides_1:68]
-[OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_1:69]
-[OVERRIDE:47:I:WEAPON:WEAPON:14:_MDF_overrides_1:70]
-[OVERRIDE:47:I:WEAPON:WEAPON:15:_MDF_overrides_1:71]
-[OVERRIDE:47:I:WEAPON:WEAPON:16:_MDF_overrides_1:72]
-[OVERRIDE:47:I:WEAPON:WEAPON:17:_MDF_overrides_1:73]
-[OVERRIDE:47:I:WEAPON:WEAPON:18:_MDF_overrides_1:74]
-[OVERRIDE:47:I:WEAPON:WEAPON:19:_MDF_overrides_1:75]
-[OVERRIDE:47:I:WEAPON:WEAPON:20:_MDF_overrides_1:76]
-[OVERRIDE:47:I:WEAPON:WEAPON:21:_MDF_overrides_1:77]
-[OVERRIDE:47:I:WEAPON:WEAPON:22:_MDF_overrides_1:78]
-[OVERRIDE:47:I:WEAPON:WEAPON:23:_MDF_overrides_1:79]
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:0:_MDF_overrides_1:51] - axe blades
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:1:_MDF_overrides_1:52] - corkscrew
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:2:_MDF_overrides_1:53] - spiked ball
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:3:_MDF_overrides_1:54] - serrated disc
+[OVERRIDE:228:I:TRAPCOMP:TRAPCOMP:4:_MDF_overrides_1:55] - menacing spike
+
+[OVERRIDE:145:I:TOY:TOY:0:_MDF_overrides_1:249] - puzzleboxes
+[OVERRIDE:145:I:TOY:TOY:1:_MDF_overrides_1:250] - toy boat
+[OVERRIDE:145:I:TOY:TOY:2:_MDF_overrides_1:251] - toy hammers
+[OVERRIDE:145:I:TOY:TOY:3:_MDF_overrides_1:252] - toy axe
+[OVERRIDE:145:I:TOY:TOY:4:_MDF_overrides_1:253] - mini forge
+
+[OVERRIDE:255:I:TOOL:TOOL:0:_MDF_overrides_1:224] - cauldron
+[OVERRIDE:255:I:TOOL:TOOL:1:_MDF_overrides_1:225] - ladle
+[OVERRIDE:255:I:TOOL:TOOL:2:_MDF_overrides_1:226] - bowls
+[OVERRIDE:255:I:TOOL:TOOL:3:_MDF_overrides_1:227] - mortar
+[OVERRIDE:255:I:TOOL:TOOL:4:_MDF_overrides_1:228] - pestle
+[OVERRIDE:255:I:TOOL:TOOL:5:_MDF_overrides_1:229] - carving knives
+[OVERRIDE:255:I:TOOL:TOOL:6:_MDF_overrides_1:229] - boning knives
+[OVERRIDE:255:I:TOOL:TOOL:7:_MDF_overrides_1:229] - slicing knives
+[OVERRIDE:255:I:TOOL:TOOL:8:_MDF_overrides_1:230] - meat cleaver
+[OVERRIDE:255:I:TOOL:TOOL:9:_MDF_overrides_1:231] - carving fork
+[OVERRIDE:255:I:TOOL:TOOL:10:_MDF_overrides_1:180] - nest box
+[OVERRIDE:255:I:TOOL:TOOL:11:_MDF_overrides_1:232] - jugs
+[OVERRIDE:255:I:TOOL:TOOL:12:_MDF_overrides_1:233] - pot
+[OVERRIDE:255:I:TOOL:TOOL:13:_MDF_overrides_1:234] - hive
+[OVERRIDE:255:I:TOOL:TOOL:14:_MDF_overrides_1:235] - honeycomb
+[OVERRIDE:255:I:TOOL:TOOL:15:_MDF_overrides_1:236] - pouch
+[OVERRIDE:255:I:TOOL:TOOL:16:_MDF_overrides_1:221] - minecart
+[OVERRIDE:255:I:TOOL:TOOL:17:_MDF_overrides_1:237] - wheelbarrow
+[OVERRIDE:255:I:TOOL:TOOL:18:_MDF_overrides_1:238] - stepladder
+[OVERRIDE:255:I:TOOL:TOOL:19:_MDF_overrides_1:239] - scroll roller
+[OVERRIDE:255:I:TOOL:TOOL:20:_MDF_overrides_1:243] - book binding
+[OVERRIDE:255:I:TOOL:TOOL:21:_MDF_overrides_1:244] - scrolls
+[OVERRIDE:255:I:TOOL:TOOL:22:_MDF_overrides_1:245] - quires
+[OVERRIDE:255:I:TOOL:TOOL:23:_MDF_overrides_1:246:16] - bookcases
+[OVERRIDE:255:I:TOOL:TOOL:24:_MDF_overrides_1:247] - helves
+[OVERRIDE:255:I:TOOL:TOOL:25:_MDF_overrides_1:248] - axes
+[OVERRIDE:255:I:TOOL:TOOL:26:_MDF_overrides_2:204:16] - pedestal
+[OVERRIDE:255:I:TOOL:TOOL:27:_MDF_overrides_2:188:16] - display case
+
+[OVERRIDE:47:I:WEAPON:WEAPON:0:_MDF_overrides_1:56] - whips
+[OVERRIDE:47:I:WEAPON:WEAPON:1:_MDF_overrides_1:57] - battle axes
+[OVERRIDE:47:I:WEAPON:WEAPON:2:_MDF_overrides_1:58] - war hammers
+[OVERRIDE:47:I:WEAPON:WEAPON:3:_MDF_overrides_1:59] - short sword
+[OVERRIDE:47:I:WEAPON:WEAPON:4:_MDF_overrides_1:60] - spears
+[OVERRIDE:47:I:WEAPON:WEAPON:5:_MDF_overrides_1:61] - maces
+[OVERRIDE:47:I:WEAPON:WEAPON:6:_MDF_overrides_1:62] - crossbow
+[OVERRIDE:47:I:WEAPON:WEAPON:7:_MDF_overrides_1:63] - picks
+[OVERRIDE:47:I:WEAPON:WEAPON:8:_MDF_overrides_1:64] - bows
+[OVERRIDE:47:I:WEAPON:WEAPON:9:_MDF_overrides_1:65] - blowguns
+[OVERRIDE:47:I:WEAPON:WEAPON:10:_MDF_overrides_1:66] - pikes
+[OVERRIDE:47:I:WEAPON:WEAPON:11:_MDF_overrides_1:67] - halberds
+[OVERRIDE:47:I:WEAPON:WEAPON:12:_MDF_overrides_1:68] - two-handed swords
+OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_7:217::::INORGANIC:BRONZE - long swords
+OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_7:233::::INORGANIC:GOLD - long swords
+OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_7:185::::INORGANIC:IRON - long swords
+OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_7:201::::INORGANIC:STEEL - long swords
+OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_7:249::::INORGANIC:ADAMANTINE - long swords
+[OVERRIDE:47:I:WEAPON:WEAPON:13:_MDF_overrides_1:69] - long swords
+[OVERRIDE:47:I:WEAPON:WEAPON:14:_MDF_overrides_1:70] - mauls
+[OVERRIDE:47:I:WEAPON:WEAPON:15:_MDF_overrides_1:71] - great axe
+[OVERRIDE:47:I:WEAPON:WEAPON:16:_MDF_overrides_1:72] - dagger
+[OVERRIDE:47:I:WEAPON:WEAPON:17:_MDF_overrides_1:73] - scourges
+[OVERRIDE:47:I:WEAPON:WEAPON:18:_MDF_overrides_1:74] - flail
+[OVERRIDE:47:I:WEAPON:WEAPON:19:_MDF_overrides_1:75] - morningstart
+[OVERRIDE:47:I:WEAPON:WEAPON:20:_MDF_overrides_1:76] - scimitar
+[OVERRIDE:47:I:WEAPON:WEAPON:21:_MDF_overrides_1:77] - training axes
+[OVERRIDE:47:I:WEAPON:WEAPON:22:_MDF_overrides_1:78] - training sword
+[OVERRIDE:47:I:WEAPON:WEAPON:23:_MDF_overrides_1:79] - training spear
+Taffers revised adds clubs, giant clubs, atlatl and hardened spears.
 
 [OVERRIDE:31:T:RampTop:_MDF_overrides_1:207] was 112
 [OVERRIDE:30:T:SoilRamp:_MDF_overrides_1:206]
@@ -2554,6 +2579,44 @@ Frozen
 
 
 ##################################################################################
+#different wall tiles for wood 
+
+[OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:45:::WOOD]
+
+[OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:43:::WOOD]
+[OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:44:::WOOD]
+
+[OVERRIDE:186:T:ConstructedWallUD:_MDF_overrides_8:33:::WOOD]
+[OVERRIDE:205:T:ConstructedWallLR:_MDF_overrides_8:32:::WOOD]
+
+[OVERRIDE:200:T:ConstructedWallRU:_MDF_overrides_8:34:::WOOD]
+[OVERRIDE:211:T:ConstructedWallRU2:_MDF_overrides_8:34:::WOOD]
+[OVERRIDE:212:T:ConstructedWallR2U:_MDF_overrides_8:34:::WOOD]
+
+[OVERRIDE:188:T:ConstructedWallLU:_MDF_overrides_8:37:::WOOD]
+[OVERRIDE:189:T:ConstructedWallLU2:_MDF_overrides_8:37:::WOOD]
+[OVERRIDE:190:T:ConstructedWallL2U:_MDF_overrides_8:37:::WOOD]
+
+[OVERRIDE:201:T:ConstructedWallRD:_MDF_overrides_8:35:::WOOD]
+[OVERRIDE:214:T:ConstructedWallRD2:_MDF_overrides_8:35:::WOOD]
+[OVERRIDE:213:T:ConstructedWallR2D:_MDF_overrides_8:35:::WOOD]
+
+[OVERRIDE:187:T:ConstructedWallLD:_MDF_overrides_8:36:::WOOD]
+[OVERRIDE:183:T:ConstructedWallLD2:_MDF_overrides_8:36:::WOOD]
+[OVERRIDE:184:T:ConstructedWallL2D:_MDF_overrides_8:36:::WOOD]
+
+[OVERRIDE:202:T:ConstructedWallLRU:_MDF_overrides_8:41:::WOOD]
+[OVERRIDE:203:T:ConstructedWallLRD:_MDF_overrides_8:40:::WOOD]
+[OVERRIDE:185:T:ConstructedWallLUD:_MDF_overrides_8:39:::WOOD]
+[OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:38:::WOOD]
+
+[OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:42:::WOOD]
+
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:45:::WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:47:::WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:46:::WOOD]
+
+##################################################################################
 #different wall tiles
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_2:221]
@@ -2565,44 +2628,20 @@ Frozen
 [OVERRIDE:205:T:ConstructedWallLR:_MDF_overrides_2:170]
 
 [OVERRIDE:200:T:ConstructedWallRU:_MDF_overrides_2:181]
-[OVERRIDE:211:T:ConstructedWallRU:_MDF_overrides_2:181]
-[OVERRIDE:212:T:ConstructedWallRU:_MDF_overrides_2:181]
-[OVERRIDE:200:T:ConstructedWallRU2:_MDF_overrides_2:181]
 [OVERRIDE:211:T:ConstructedWallRU2:_MDF_overrides_2:181]
-[OVERRIDE:212:T:ConstructedWallRU2:_MDF_overrides_2:181]
-[OVERRIDE:200:T:ConstructedWallR2U:_MDF_overrides_2:181]
-[OVERRIDE:211:T:ConstructedWallR2U:_MDF_overrides_2:181]
 [OVERRIDE:212:T:ConstructedWallR2U:_MDF_overrides_2:181]
 
 [OVERRIDE:188:T:ConstructedWallLU:_MDF_overrides_2:169]
-[OVERRIDE:189:T:ConstructedWallLU:_MDF_overrides_2:169]
-[OVERRIDE:190:T:ConstructedWallLU:_MDF_overrides_2:169]
-[OVERRIDE:188:T:ConstructedWallLU2:_MDF_overrides_2:169]
 [OVERRIDE:189:T:ConstructedWallLU2:_MDF_overrides_2:169]
-[OVERRIDE:190:T:ConstructedWallLU2:_MDF_overrides_2:169]
-[OVERRIDE:188:T:ConstructedWallL2U:_MDF_overrides_2:169]
-[OVERRIDE:189:T:ConstructedWallL2U:_MDF_overrides_2:169]
 [OVERRIDE:190:T:ConstructedWallL2U:_MDF_overrides_2:169]
 
-[OVERRIDE:213:T:ConstructedWallRD:_MDF_overrides_2:164]
-[OVERRIDE:214:T:ConstructedWallRD:_MDF_overrides_2:164]
 [OVERRIDE:201:T:ConstructedWallRD:_MDF_overrides_2:164]
-[OVERRIDE:213:T:ConstructedWallRD2:_MDF_overrides_2:164]
 [OVERRIDE:214:T:ConstructedWallRD2:_MDF_overrides_2:164]
-[OVERRIDE:201:T:ConstructedWallRD2:_MDF_overrides_2:164]
 [OVERRIDE:213:T:ConstructedWallR2D:_MDF_overrides_2:164]
-[OVERRIDE:214:T:ConstructedWallR2D:_MDF_overrides_2:164]
-[OVERRIDE:201:T:ConstructedWallR2D:_MDF_overrides_2:164]
 
-[OVERRIDE:183:T:ConstructedWallLD:_MDF_overrides_2:168]
-[OVERRIDE:184:T:ConstructedWallLD:_MDF_overrides_2:168]
 [OVERRIDE:187:T:ConstructedWallLD:_MDF_overrides_2:168]
 [OVERRIDE:183:T:ConstructedWallLD2:_MDF_overrides_2:168]
-[OVERRIDE:184:T:ConstructedWallLD2:_MDF_overrides_2:168]
-[OVERRIDE:187:T:ConstructedWallLD2:_MDF_overrides_2:168]
-[OVERRIDE:183:T:ConstructedWallL2D:_MDF_overrides_2:168]
 [OVERRIDE:184:T:ConstructedWallL2D:_MDF_overrides_2:168]
-[OVERRIDE:187:T:ConstructedWallL2D:_MDF_overrides_2:168]
 
 [OVERRIDE:202:T:ConstructedWallLRU:_MDF_overrides_2:183]
 [OVERRIDE:203:T:ConstructedWallLRD:_MDF_overrides_2:172]
@@ -2643,6 +2682,88 @@ Frozen
 [OVERRIDE:187:T:SaplingDead:_MDF_overrides_5:187:7] 
 [OVERRIDE:231:T:Sapling:_MDF_overrides_2:39:15]
 
+#furniture overrides for wood  :::35:36:37:38:39:40:41:42:43:44:45:46:47
+[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_7:32:::WOOD]
+[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_7:32:::WOOD]
+[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_7:33:::WOOD]
+[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_7:33:::WOOD]
+[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_7:34:::WOOD]
+[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_7:34:::WOOD]
+[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_7:35:::WOOD]
+[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_7:35:::WOOD]
+[OVERRIDE:146:B:BOX:Box::_MDF_overrides_7:36:::WOOD]
+[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_7:36:::WOOD]
+[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_7:37:::WOOD]
+[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_7:37:::WOOD]
+[OVERRIDE:233:B:BED:Bed::_MDF_overrides_7:38:::WOOD]
+[OVERRIDE:233:I:BED:BED::_MDF_overrides_7:38:::WOOD]
+[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_7:39:::WOOD]
+[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_7:39:::WOOD]
+[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_7:40:::WOOD]
+[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_7:40:::WOOD]
+[OVERRIDE:48:B:COFFIN:Coffin::_MDF_overrides_7:41:::WOOD]
+[OVERRIDE:48:I:COFFIN:COFFIN::_MDF_overrides_7:41:::WOOD]
+[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:42:::WOOD]
+[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:42:::WOOD]
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_7:43:16::WOOD]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_7:44:16::WOOD]
+floor (see constructions)
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_7:46:7::WOOD]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_7:46:7::WOOD]
+
+#wooden doors
+[OVERRIDE:186:I:DOOR:DOOR::_MDF_overrides_7:47:7::WOOD]
+#wooden doors
+[OVERRIDE:186:B:DOOR:Door::_MDF_overrides_7:47:7::WOOD]
+
+###############################################################################
+
+#furniture
+[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_1:208]
+[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_1:208]
+[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_1:209]
+[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_1:209]
+[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_1:210]
+[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_1:210]
+[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_1:211]
+[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_1:211]
+[OVERRIDE:11:B:BOX:Box::_MDF_overrides_1:46] bag 
+[OVERRIDE:11:I:BOX:BOX::_MDF_overrides_1:46] bag 
+[OVERRIDE:146:B:BOX:Box::_MDF_overrides_1:212]
+[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_1:212]
+[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_1:222]
+[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_1:222]
+[OVERRIDE:233:B:BED:Bed::_MDF_overrides_1:214]
+[OVERRIDE:233:I:BED:BED::_MDF_overrides_1:214]
+[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_1:215]
+[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_1:215]
+[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_1:109]
+[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_1:109]
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_1:103:16]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_1:80:16:16]
+floor (see constructions)
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_1:220]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_1:220]
+
+# artifact gem doors
+[OVERRIDE:15:I:DOOR:DOOR::_MDF_overrides_1:185]
+#glass portal
+[OVERRIDE:79:I:DOOR:DOOR::_MDF_overrides_1:185]
+#stone doors
+[OVERRIDE:197:I:DOOR:DOOR::_MDF_overrides_1:186]
+#metal doors
+[OVERRIDE:240:I:DOOR:DOOR::_MDF_overrides_1:187]
+
+# artifact gem doors
+[OVERRIDE:15:B:DOOR:Door::_MDF_overrides_1:185:15]
+#glass portal
+[OVERRIDE:79:B:DOOR:Door::_MDF_overrides_1:185:12]
+#stone doors
+[OVERRIDE:197:B:DOOR:Door::_MDF_overrides_1:186:8]
+#metal doors
+[OVERRIDE:240:B:DOOR:Door::_MDF_overrides_1:187:9]
+
+
 [OVERRIDE:127:I:ANIMALTRAP:ANIMALTRAP::_MDF_overrides_1:48]
 [OVERRIDE:229:I:ANVIL:ANVIL::_MDF_overrides_1:242]
 [OVERRIDE:150:I:BUCKET:BUCKET::_MDF_overrides_1:164]
@@ -2650,38 +2771,21 @@ Frozen
 [OVERRIDE:167:I:CLOTH:CLOTH::_MDF_overrides_1:205]
 [OVERRIDE:20:I:GOBLET:GOBLET::_MDF_overrides_1:99]
 [OVERRIDE:128:I:TRAPPARTS:TRAPPARTS::_MDF_overrides_1:112]
- 
-[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_1:210]
-[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_1:210]
-[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_1:208]
-[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_1:208]
-[OVERRIDE:233:B:BED:Bed::_MDF_overrides_1:214]
-[OVERRIDE:233:I:BED:BED::_MDF_overrides_1:214]
-[OVERRIDE:11:B:BOX:Box::_MDF_overrides_1:46] bag 
-[OVERRIDE:11:I:BOX:BOX::_MDF_overrides_1:46] bag 
-[OVERRIDE:146:B:BOX:Box::_MDF_overrides_1:212]
-[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_1:212]
-[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_1:211]
-[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_1:211]
-[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_1:222]
-[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_1:222]
-[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_1:215]
-[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_1:215]
 [OVERRIDE:232:B:TRACTION_BENCH:TractionBench::_MDF_overrides_1:213]
 [OVERRIDE:232:I:TRACTION_BENCH:TRACTION_BENCH::_MDF_overrides_1:213]
-[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_1:209]
-[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_1:209]
 
+#crafts
 [OVERRIDE:12:I:AMULET:AMULET::_MDF_overrides_1:111]
-[OVERRIDE:237:I:THREAD:THREAD::_MDF_overrides_1:223]
 [OVERRIDE:148:I:BRACELET:BRACELET::_MDF_overrides_1:108]
-[OVERRIDE:36:I:COIN:COIN::_MDF_overrides_1:104]
 [OVERRIDE:230:I:CROWN:CROWN::_MDF_overrides_1:240]
 [OVERRIDE:235:I:EARRING:EARRING::_MDF_overrides_1:105]
 [OVERRIDE:143:I:FIGURINE:FIGURINE::_MDF_overrides_1:255]
+[OVERRIDE:148:I:RING:RING::_MDF_overrides_1:254]
+
+[OVERRIDE:237:I:THREAD:THREAD::_MDF_overrides_1:223]
+[OVERRIDE:36:I:COIN:COIN::_MDF_overrides_1:104]
 [OVERRIDE:173:I:FLASK:FLASK::_MDF_overrides_1:86]
 [OVERRIDE:224:I:MEAT:MEAT::_MDF_overrides_1:19]
-[OVERRIDE:148:I:RING:RING::_MDF_overrides_1:254]
 [OVERRIDE:225:I:SKIN_TANNED:SKIN_TANNED::_MDF_overrides_1:49]
 [OVERRIDE:135:I:TOTEM:TOTEM::_MDF_overrides_1:216]
 
@@ -2706,8 +2810,6 @@ Frozen
 [OVERRIDE:253:I:CORPSEPIECE:CORPSEPIECE::_MDF_overrides_2:253:16] bodyparts
 
 [OVERRIDE:255:B:DISPLAY_CASE:DisplayFurniture::_MDF_overrides_2:188:16]
-[OVERRIDE:255:I:TOOL:TOOL:27:_MDF_overrides_2:188:16] display case
-[OVERRIDE:255:I:TOOL:TOOL:26:_MDF_overrides_2:204:16] pedestal
 
 #test for smoothed mineral walls. Anything mined and smoothed that is not a layer-rock.
 #[OVERRIDE:205:T:MineralWallSmoothLR:_MDF_overrides_2:130]
