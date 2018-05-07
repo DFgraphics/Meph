@@ -1304,7 +1304,7 @@ With contributions from:
 		[STATE_NAME:ALL_SOLID:round lime wood]
 		[STATE_ADJ:ALL_SOLID:round lime wood]
 		[PREFIX:NONE]
-	 	[SOLID_DENSITY:590][DISPLAY_COLOR:216:0:0] http://www.fao.org/docrep/w4095e/w4095e0c.htm Did Citrus grandis wood density - same genus but couldn't find any for Citrus aurantifolia
+	 	[SOLID_DENSITY:590][DISPLAY_COLOR:195:0:0] http://www.fao.org/docrep/w4095e/w4095e0c.htm Did Citrus grandis wood density - same genus but couldn't find any for Citrus aurantifolia
 	 	[STATE_COLOR:ALL_SOLID:TAN] *** not yet searched
 	[USE_MATERIAL_TEMPLATE:LEAF:LEAF_TEMPLATE]
 		[STATE_COLOR:ALL:FERN_GREEN]
@@ -1594,7 +1594,7 @@ With contributions from:
 		[STATE_NAME:ALL_SOLID:date palm wood]
 		[STATE_ADJ:ALL_SOLID:date palm wood]
 		[PREFIX:NONE]
-	 	[SOLID_DENSITY:820][DISPLAY_COLOR:216:0:0]  http://www.wood-database.com/red-palm/
+	 	[SOLID_DENSITY:820][DISPLAY_COLOR:195:0:0]  http://www.wood-database.com/red-palm/
 	 	[STATE_COLOR:ALL_SOLID:BURNT_SIENNA] *** not yet searched
 	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
 		[STATE_NAME_ADJ:ALL_SOLID:frozen date wine]
@@ -2237,7 +2237,7 @@ With contributions from:
 	[NAME:bayberry tree][NAME_PLURAL:bayberry trees][ADJ:bayberry tree]
 	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL][DISPLAY_COLOR:201:0:0]
-	[USE_MATERIAL_TEMPLATE:WOOD:WOOD_TEMPLATE][DISPLAY_COLOR:216:0:0]
+	[USE_MATERIAL_TEMPLATE:WOOD:WOOD_TEMPLATE][DISPLAY_COLOR:195:0:0]
 		[STATE_NAME:ALL_SOLID:bayberry wood]
 		[STATE_ADJ:ALL_SOLID:bayberry wood]
 		[PREFIX:NONE]
@@ -2549,7 +2549,7 @@ With contributions from:
 		[STATE_NAME:ALL_SOLID:peach wood]
 		[STATE_ADJ:ALL_SOLID:peach wood]
 		[PREFIX:NONE]
-	 	[SOLID_DENSITY:795] [DISPLAY_COLOR:216:0:0] Same genus http://www.wood-database.com/plum/
+	 	[SOLID_DENSITY:795] [DISPLAY_COLOR:195:0:0] Same genus http://www.wood-database.com/plum/
 	 	[STATE_COLOR:ALL_SOLID:DARK_TAN] *** not yet searched
 	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
 		[STATE_NAME_ADJ:ALL_SOLID:frozen peach cider]
