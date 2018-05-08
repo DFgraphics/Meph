@@ -1,6 +1,6 @@
 graphics_Meph_dwarves
 
-YES_VORDAK!OBJECT:GRAPHICS]
+[OBJECT:GRAPHICS]
 
 [TILE_PAGE:MDF_DWARVES]
 	[FILE:Meph/dwarves.png]
