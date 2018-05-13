@@ -2758,6 +2758,45 @@ Frozen
 
 
 ##################################################################################
+#different wall tiles for obsidian      
+
+[OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:157::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:155::::INORGANIC:OBSIDIAN]
+[OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:156::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:186:T:ConstructedWallUD:_MDF_overrides_8:145::::INORGANIC:OBSIDIAN]
+[OVERRIDE:205:T:ConstructedWallLR:_MDF_overrides_8:144::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:200:T:ConstructedWallRU:_MDF_overrides_8:146::::INORGANIC:OBSIDIAN]
+[OVERRIDE:211:T:ConstructedWallRU2:_MDF_overrides_8:146::::INORGANIC:OBSIDIAN]
+[OVERRIDE:212:T:ConstructedWallR2U:_MDF_overrides_8:146::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:188:T:ConstructedWallLU:_MDF_overrides_8:149::::INORGANIC:OBSIDIAN]
+[OVERRIDE:189:T:ConstructedWallLU2:_MDF_overrides_8:149::::INORGANIC:OBSIDIAN]
+[OVERRIDE:190:T:ConstructedWallL2U:_MDF_overrides_8:149::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:201:T:ConstructedWallRD:_MDF_overrides_8:147::::INORGANIC:OBSIDIAN]
+[OVERRIDE:214:T:ConstructedWallRD2:_MDF_overrides_8:147::::INORGANIC:OBSIDIAN]
+[OVERRIDE:213:T:ConstructedWallR2D:_MDF_overrides_8:147::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:187:T:ConstructedWallLD:_MDF_overrides_8:148::::INORGANIC:OBSIDIAN]
+[OVERRIDE:183:T:ConstructedWallLD2:_MDF_overrides_8:148::::INORGANIC:OBSIDIAN]
+[OVERRIDE:184:T:ConstructedWallL2D:_MDF_overrides_8:148::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:202:T:ConstructedWallLRU:_MDF_overrides_8:153::::INORGANIC:OBSIDIAN]
+[OVERRIDE:203:T:ConstructedWallLRD:_MDF_overrides_8:152::::INORGANIC:OBSIDIAN]
+[OVERRIDE:185:T:ConstructedWallLUD:_MDF_overrides_8:151::::INORGANIC:OBSIDIAN]
+[OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:150::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:154::::INORGANIC:OBSIDIAN]
+
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:157::::INORGANIC:OBSIDIAN]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:159::::INORGANIC:OBSIDIAN]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:158::::INORGANIC:OBSIDIAN]
+
+
+##################################################################################
 #different wall tiles for flux       
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:29::::INORGANIC:MARBLE]
@@ -2982,6 +3021,48 @@ Frozen
 [OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:47:::WOOD]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:46:::WOOD]
 
+
+
+
+##################################################################################
+#different wall tiles for metal 
+
+[OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:77:::IS_METAL] 
+
+[OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:75:::IS_METAL]
+[OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:76:::IS_METAL]
+
+[OVERRIDE:186:T:ConstructedWallUD:_MDF_overrides_8:65:::IS_METAL]
+[OVERRIDE:205:T:ConstructedWallLR:_MDF_overrides_8:64:::IS_METAL]
+
+[OVERRIDE:200:T:ConstructedWallRU:_MDF_overrides_8:66:::IS_METAL]
+[OVERRIDE:211:T:ConstructedWallRU2:_MDF_overrides_8:66:::IS_METAL]
+[OVERRIDE:212:T:ConstructedWallR2U:_MDF_overrides_8:66:::IS_METAL]
+
+[OVERRIDE:188:T:ConstructedWallLU:_MDF_overrides_8:69:::IS_METAL]
+[OVERRIDE:189:T:ConstructedWallLU2:_MDF_overrides_8:69:::IS_METAL]
+[OVERRIDE:190:T:ConstructedWallL2U:_MDF_overrides_8:69:::IS_METAL]
+
+[OVERRIDE:201:T:ConstructedWallRD:_MDF_overrides_8:67:::IS_METAL]
+[OVERRIDE:214:T:ConstructedWallRD2:_MDF_overrides_8:67:::IS_METAL]
+[OVERRIDE:213:T:ConstructedWallR2D:_MDF_overrides_8:67:::IS_METAL]
+
+[OVERRIDE:187:T:ConstructedWallLD:_MDF_overrides_8:68:::IS_METAL]
+[OVERRIDE:183:T:ConstructedWallLD2:_MDF_overrides_8:68:::IS_METAL]
+[OVERRIDE:184:T:ConstructedWallL2D:_MDF_overrides_8:68:::IS_METAL]
+
+[OVERRIDE:202:T:ConstructedWallLRU:_MDF_overrides_8:73:::IS_METAL]
+[OVERRIDE:203:T:ConstructedWallLRD:_MDF_overrides_8:72:::IS_METAL]
+[OVERRIDE:185:T:ConstructedWallLUD:_MDF_overrides_8:71:::IS_METAL]
+[OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:70:::IS_METAL]
+
+[OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:74:::IS_METAL]
+
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:77:::IS_METAL]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:78:::IS_METAL]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:79:::IS_METAL]
+
+
 ##################################################################################
 #different wall tiles for stone 
 
@@ -3103,6 +3184,42 @@ Frozen
 [OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_7:199::::INORGANIC:SILTY_CLAY]
 [OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_7:199::::INORGANIC:SILTY_CLAY]
 
+
+######################################################################################
+
+#furniture overrides for obsidian    
+ 
+[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_7:144::::INORGANIC:OBSIDIAN]
+[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_7:144::::INORGANIC:OBSIDIAN]
+[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_7:145::::INORGANIC:OBSIDIAN]
+[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_7:145::::INORGANIC:OBSIDIAN]
+[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_7:146::::INORGANIC:OBSIDIAN]
+[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_7:146::::INORGANIC:OBSIDIAN]
+[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_7:147::::INORGANIC:OBSIDIAN]
+[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_7:147::::INORGANIC:OBSIDIAN]
+[OVERRIDE:146:B:BOX:Box::_MDF_overrides_7:148::::INORGANIC:OBSIDIAN]
+[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_7:148::::INORGANIC:OBSIDIAN]
+[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_7:149::::INORGANIC:OBSIDIAN]
+[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_7:149::::INORGANIC:OBSIDIAN]
+[OVERRIDE:233:B:BED:Bed::_MDF_overrides_7:150::::INORGANIC:OBSIDIAN]
+[OVERRIDE:233:I:BED:BED::_MDF_overrides_7:150::::INORGANIC:OBSIDIAN]
+[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_7:151::::INORGANIC:OBSIDIAN]
+[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_7:151::::INORGANIC:OBSIDIAN]
+[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_7:152::::INORGANIC:OBSIDIAN]
+[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_7:152::::INORGANIC:OBSIDIAN]
+[OVERRIDE:48:B:COFFIN:Coffin::_MDF_overrides_7:153::::INORGANIC:OBSIDIAN]
+[OVERRIDE:48:I:COFFIN:COFFIN::_MDF_overrides_7:153::::INORGANIC:OBSIDIAN]
+[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:154::::INORGANIC:OBSIDIAN]
+[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:154::::INORGANIC:OBSIDIAN]
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_7:155:16:::INORGANIC:OBSIDIAN]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_7:156:16:::INORGANIC:OBSIDIAN]
+floor (see constructions)
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_7:158::::INORGANIC:OBSIDIAN]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_7:158::::INORGANIC:OBSIDIAN]
+
+#obsidian doors
+[OVERRIDE:197:I:DOOR:DOOR::_MDF_overrides_7:159::::INORGANIC:OBSIDIAN]
+[OVERRIDE:197:B:DOOR:Door::_MDF_overrides_7:159::::INORGANIC:OBSIDIAN]
 
 ######################################################################################
 
@@ -3294,8 +3411,8 @@ floor (see constructions)
 [OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_7:40:::WOOD]
 [OVERRIDE:48:B:COFFIN:Coffin::_MDF_overrides_7:41:::WOOD]
 [OVERRIDE:48:I:COFFIN:COFFIN::_MDF_overrides_7:41:::WOOD]
-[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:42:::WOOD]
-[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:42:::WOOD]
+[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:42:7::WOOD]
+[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:42:7::WOOD]
 [OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_7:43:16::WOOD]
 [OVERRIDE:88:I:BIN:::_MDF_overrides_7:44:16::WOOD]
 floor (see constructions)
@@ -3307,7 +3424,43 @@ floor (see constructions)
 #wooden doors
 [OVERRIDE:186:B:DOOR:Door::_MDF_overrides_7:47:7::WOOD]
 
-###############################################################################
+
+
+######################################################################################
+#furniture overrides for metal 
+
+[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_7:64:::IS_METAL]
+[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_7:64:::IS_METAL]
+[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_7:65:::IS_METAL]
+[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_7:65:::IS_METAL]
+[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_7:66:::IS_METAL]
+[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_7:66:::IS_METAL]
+[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_7:67:::IS_METAL]
+[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_7:67:::IS_METAL]
+[OVERRIDE:146:B:BOX:Box::_MDF_overrides_7:68:::IS_METAL]
+[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_7:68:::IS_METAL]
+[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_7:69:::IS_METAL]
+[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_7:69:::IS_METAL]
+[OVERRIDE:233:B:BED:Bed::_MDF_overrides_7:70:::IS_METAL]
+[OVERRIDE:233:I:BED:BED::_MDF_overrides_7:70:::IS_METAL]
+[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_7:71:::IS_METAL]
+[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_7:71:::IS_METAL]
+[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_7:72:::IS_METAL]
+[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_7:72:::IS_METAL]
+[OVERRIDE:48:B:COFFIN:Coffin::_MDF_overrides_7:73:::IS_METAL]
+[OVERRIDE:48:I:COFFIN:COFFIN::_MDF_overrides_7:73:::IS_METAL]
+[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:74:::IS_METAL]
+[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:74:::IS_METAL]
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_7:75:::IS_METAL]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_7:76:::IS_METAL]
+floor (see constructions)
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_7:78:7::IS_METAL]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_7:78:7::IS_METAL]
+
+#IS_metal doors
+[OVERRIDE:240:I:DOOR:DOOR::_MDF_overrides_7:79:::IS_METAL]
+#IS_metal doors
+[OVERRIDE:240:B:DOOR:Door::_MDF_overrides_7:79:::IS_METAL]
 
 ######################################################################################
 
