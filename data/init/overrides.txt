@@ -3021,7 +3021,81 @@ Frozen
 [OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:47:::WOOD]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:46:::WOOD]
 
+##################################################################################
+#different wall tiles for silver   
 
+[OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:93::::INORGANIC:SILVER] 
+
+[OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:91::::INORGANIC:SILVER]
+[OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:92::::INORGANIC:SILVER]
+
+[OVERRIDE:186:T:ConstructedWallUD:_MDF_overrides_8:81::::INORGANIC:SILVER]
+[OVERRIDE:205:T:ConstructedWallLR:_MDF_overrides_8:80::::INORGANIC:SILVER]
+
+[OVERRIDE:200:T:ConstructedWallRU:_MDF_overrides_8:82::::INORGANIC:SILVER]
+[OVERRIDE:211:T:ConstructedWallRU2:_MDF_overrides_8:82::::INORGANIC:SILVER]
+[OVERRIDE:212:T:ConstructedWallR2U:_MDF_overrides_8:82::::INORGANIC:SILVER]
+
+[OVERRIDE:188:T:ConstructedWallLU:_MDF_overrides_8:85::::INORGANIC:SILVER]
+[OVERRIDE:189:T:ConstructedWallLU2:_MDF_overrides_8:85::::INORGANIC:SILVER]
+[OVERRIDE:190:T:ConstructedWallL2U:_MDF_overrides_8:85::::INORGANIC:SILVER]
+
+[OVERRIDE:201:T:ConstructedWallRD:_MDF_overrides_8:83::::INORGANIC:SILVER]
+[OVERRIDE:214:T:ConstructedWallRD2:_MDF_overrides_8:83::::INORGANIC:SILVER]
+[OVERRIDE:213:T:ConstructedWallR2D:_MDF_overrides_8:83::::INORGANIC:SILVER]
+
+[OVERRIDE:187:T:ConstructedWallLD:_MDF_overrides_8:84::::INORGANIC:SILVER]
+[OVERRIDE:183:T:ConstructedWallLD2:_MDF_overrides_8:84::::INORGANIC:SILVER]
+[OVERRIDE:184:T:ConstructedWallL2D:_MDF_overrides_8:84::::INORGANIC:SILVER]
+
+[OVERRIDE:202:T:ConstructedWallLRU:_MDF_overrides_8:89::::INORGANIC:SILVER]
+[OVERRIDE:203:T:ConstructedWallLRD:_MDF_overrides_8:88::::INORGANIC:SILVER]
+[OVERRIDE:185:T:ConstructedWallLUD:_MDF_overrides_8:87::::INORGANIC:SILVER]
+[OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:86::::INORGANIC:SILVER]
+
+[OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:90::::INORGANIC:SILVER]
+
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:93::::INORGANIC:SILVER]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:94::::INORGANIC:SILVER]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:95::::INORGANIC:SILVER]
+
+##################################################################################
+#different wall tiles for GOLD   
+
+[OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:109::::INORGANIC:GOLD] 
+
+[OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:107::::INORGANIC:GOLD]
+[OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:108::::INORGANIC:GOLD]
+
+[OVERRIDE:186:T:ConstructedWallUD:_MDF_overrides_8:97::::INORGANIC:GOLD]
+[OVERRIDE:205:T:ConstructedWallLR:_MDF_overrides_8:96::::INORGANIC:GOLD]
+
+[OVERRIDE:200:T:ConstructedWallRU:_MDF_overrides_8:98::::INORGANIC:GOLD]
+[OVERRIDE:211:T:ConstructedWallRU2:_MDF_overrides_8:98::::INORGANIC:GOLD]
+[OVERRIDE:212:T:ConstructedWallR2U:_MDF_overrides_8:98::::INORGANIC:GOLD]
+
+[OVERRIDE:188:T:ConstructedWallLU:_MDF_overrides_8:101::::INORGANIC:GOLD]
+[OVERRIDE:189:T:ConstructedWallLU2:_MDF_overrides_8:101::::INORGANIC:GOLD]
+[OVERRIDE:190:T:ConstructedWallL2U:_MDF_overrides_8:101::::INORGANIC:GOLD]
+
+[OVERRIDE:201:T:ConstructedWallRD:_MDF_overrides_8:99::::INORGANIC:GOLD]
+[OVERRIDE:214:T:ConstructedWallRD2:_MDF_overrides_8:99::::INORGANIC:GOLD]
+[OVERRIDE:213:T:ConstructedWallR2D:_MDF_overrides_8:99::::INORGANIC:GOLD]
+
+[OVERRIDE:187:T:ConstructedWallLD:_MDF_overrides_8:100::::INORGANIC:GOLD]
+[OVERRIDE:183:T:ConstructedWallLD2:_MDF_overrides_8:100::::INORGANIC:GOLD]
+[OVERRIDE:184:T:ConstructedWallL2D:_MDF_overrides_8:100::::INORGANIC:GOLD]
+
+[OVERRIDE:202:T:ConstructedWallLRU:_MDF_overrides_8:105::::INORGANIC:GOLD]
+[OVERRIDE:203:T:ConstructedWallLRD:_MDF_overrides_8:104::::INORGANIC:GOLD]
+[OVERRIDE:185:T:ConstructedWallLUD:_MDF_overrides_8:103::::INORGANIC:GOLD]
+[OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:102::::INORGANIC:GOLD]
+
+[OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:106::::INORGANIC:GOLD]
+
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:109::::INORGANIC:GOLD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:110::::INORGANIC:GOLD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:111::::INORGANIC:GOLD]
 
 
 ##################################################################################
@@ -3424,7 +3498,77 @@ floor (see constructions)
 #wooden doors
 [OVERRIDE:186:B:DOOR:Door::_MDF_overrides_7:47:7::WOOD]
 
+######################################################################################
+#furniture overrides for GOLD  
 
+[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_7:96::::INORGANIC:GOLD]
+[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_7:96::::INORGANIC:GOLD]
+[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_7:97::::INORGANIC:GOLD]
+[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_7:97::::INORGANIC:GOLD]
+[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_7:98::::INORGANIC:GOLD]
+[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_7:98::::INORGANIC:GOLD]
+[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_7:99::::INORGANIC:GOLD]
+[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_7:99::::INORGANIC:GOLD]
+[OVERRIDE:146:B:BOX:Box::_MDF_overrides_7:100::::INORGANIC:GOLD]
+[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_7:100::::INORGANIC:GOLD]
+[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_7:101::::INORGANIC:GOLD]
+[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_7:101::::INORGANIC:GOLD]
+[OVERRIDE:233:B:BED:Bed::_MDF_overrides_7:102::::INORGANIC:GOLD]
+[OVERRIDE:233:I:BED:BED::_MDF_overrides_7:102::::INORGANIC:GOLD]
+[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_7:103::::INORGANIC:GOLD]
+[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_7:103::::INORGANIC:GOLD]
+[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_7:104::::INORGANIC:GOLD]
+[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_7:104::::INORGANIC:GOLD]
+[OVERRIDE:48:B:COFFIN:Coffin::_MDF_overrides_7:105::::INORGANIC:GOLD]
+[OVERRIDE:48:I:COFFIN:COFFIN::_MDF_overrides_7:105::::INORGANIC:GOLD]
+[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:106::::INORGANIC:GOLD]
+[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:106::::INORGANIC:GOLD]
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_7:107::::INORGANIC:GOLD]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_7:108::::INORGANIC:GOLD]
+floor (see constructions)
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_7:110:16:::INORGANIC:GOLD]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_7:110:16:::INORGANIC:GOLD]
+
+#:INORGANIC:GOLD doors
+[OVERRIDE:240:I:DOOR:DOOR::_MDF_overrides_7:111::::INORGANIC:GOLD]
+#:INORGANIC:GOLD doors
+[OVERRIDE:240:B:DOOR:Door::_MDF_overrides_7:111::::INORGANIC:GOLD]
+
+######################################################################################
+#furniture overrides for SILVER  
+
+[OVERRIDE:14:B:ARMOR_STAND:Armorstand::_MDF_overrides_7:80::::INORGANIC:SILVER]
+[OVERRIDE:14:I:ARMORSTAND:ARMORSTAND::_MDF_overrides_7:80::::INORGANIC:SILVER]
+[OVERRIDE:251:B:WEAPON_RACK:Weaponrack::_MDF_overrides_7:81::::INORGANIC:SILVER]
+[OVERRIDE:251:I:WEAPONRACK:WEAPONRACK::_MDF_overrides_7:81::::INORGANIC:SILVER]
+[OVERRIDE:210:I:CHAIR:CHAIR::_MDF_overrides_7:82::::INORGANIC:SILVER]
+[OVERRIDE:210:B:CHAIR:Chair::_MDF_overrides_7:82::::INORGANIC:SILVER]
+[OVERRIDE:227:B:CABINET:Cabinet::_MDF_overrides_7:83::::INORGANIC:SILVER]
+[OVERRIDE:227:I:CABINET:CABINET::_MDF_overrides_7:83::::INORGANIC:SILVER]
+[OVERRIDE:146:B:BOX:Box::_MDF_overrides_7:84::::INORGANIC:SILVER]
+[OVERRIDE:146:I:BOX:BOX::_MDF_overrides_7:84::::INORGANIC:SILVER]
+[OVERRIDE:239:B:SLAB:Slab::_MDF_overrides_7:85::::INORGANIC:SILVER]
+[OVERRIDE:239:I:SLAB:SLAB::_MDF_overrides_7:85::::INORGANIC:SILVER]
+[OVERRIDE:233:B:BED:Bed::_MDF_overrides_7:86::::INORGANIC:SILVER]
+[OVERRIDE:233:I:BED:BED::_MDF_overrides_7:86::::INORGANIC:SILVER]
+[OVERRIDE:234:B:STATUE:Statue::_MDF_overrides_7:87::::INORGANIC:SILVER]
+[OVERRIDE:234:I:STATUE:STATUE::_MDF_overrides_7:87::::INORGANIC:SILVER]
+[OVERRIDE:209:B:TABLE:Table::_MDF_overrides_7:88::::INORGANIC:SILVER]
+[OVERRIDE:209:I:TABLE:TABLE::_MDF_overrides_7:88::::INORGANIC:SILVER]
+[OVERRIDE:48:B:COFFIN:Coffin::_MDF_overrides_7:89::::INORGANIC:SILVER]
+[OVERRIDE:48:I:COFFIN:COFFIN::_MDF_overrides_7:89::::INORGANIC:SILVER]
+[OVERRIDE:19:B:CAGE:Cage::_MDF_overrides_7:90::::INORGANIC:SILVER]
+[OVERRIDE:19:I:CAGE:CAGE::_MDF_overrides_7:90::::INORGANIC:SILVER]
+[OVERRIDE:246:I:BARREL:BARREL::_MDF_overrides_7:91::::INORGANIC:SILVER]
+[OVERRIDE:88:I:BIN:::_MDF_overrides_7:92::::INORGANIC:SILVER]
+floor (see constructions)
+[OVERRIDE:155:B:HATCH:Hatch::_MDF_overrides_7:94:16:::INORGANIC:SILVER]
+[OVERRIDE:155:I:HATCH_COVER:HATCH_COVER::_MDF_overrides_7:94:16:::INORGANIC:SILVER]
+
+#:INORGANIC:SILVER doors
+[OVERRIDE:240:I:DOOR:DOOR::_MDF_overrides_7:95::::INORGANIC:SILVER]
+#:INORGANIC:SILVER doors
+[OVERRIDE:240:B:DOOR:Door::_MDF_overrides_7:95::::INORGANIC:SILVER]
 
 ######################################################################################
 #furniture overrides for metal 
