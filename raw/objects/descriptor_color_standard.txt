@@ -12,47 +12,47 @@ Most of these are from Wikipedia's color list.
 [COLOR:AMETHYST]
 	[NAME:amethyst]
 	[WORD:AMETHYST]
-	[RGB:139:114:241]
+	[RGB:153:102:204]
 
 [COLOR:AQUA]
 	[NAME:aqua]
 	[WORD:AQUA]
-	[RGB:0:206:209]
+	[RGB:0:255:255]
 
 [COLOR:AQUAMARINE]
 	[NAME:aquamarine]
 	[WORD:AQUAMARINE]
-	[RGB:0:169:184]
+	[RGB:127:255:212]
 
 [COLOR:ASH_GRAY]
 	[NAME:ash gray]
 	[WORD:GRAY]
-	[RGB:163:164:171]
+	[RGB:178:190:181]
 
 [COLOR:AUBURN]
 	[NAME:auburn]
 	[WORD:AUBURN]
-	[RGB:141:93:55]
+	[RGB:111:53:26]
 
 [COLOR:AZURE]
 	[NAME:azure]
 	[WORD:AZURE]
-	[RGB:30:144:255]
+	[RGB:0:127:255]
 
 [COLOR:BEIGE]
 	[NAME:beige]
 	[WORD:BEIGE]
-	[RGB:187:160:150]
+	[RGB:245:245:220]
 
 [COLOR:BLACK]
 	[NAME:black]
 	[WORD:BLACK]
-	[RGB:58:56:58]
+	[RGB:0:0:0]
 
 [COLOR:BLUE]
 	[NAME:blue]
 	[WORD:BLUE]
-	[RGB:65:105:225]
+	[RGB:0:0:255]
 
 [COLOR:BRASS]
 	[NAME:brass]
@@ -62,7 +62,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:BRONZE]
 	[NAME:bronze]
 	[WORD:BRONZE]
-	[RGB:205:149:117]
+	[RGB:205:127:50]
 
 [COLOR:BROWN]
 	[NAME:brown]
@@ -72,7 +72,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:BUFF]
 	[NAME:buff]
 	[WORD:BUFF]
-	[RGB:253:219:109]
+	[RGB:240:220:130]
 
 [COLOR:BURNT_SIENNA]
 	[NAME:burnt sienna]
@@ -87,12 +87,12 @@ Most of these are from Wikipedia's color list.
 [COLOR:CARDINAL]
 	[NAME:cardinal]
 	[WORD:CARDINAL_COLOR]
-	[RGB:255:73:107]
+	[RGB:196:30:58]
 
 [COLOR:CARMINE]
 	[NAME:carmine]
 	[WORD:CARMINE]
-	[RGB:178:34:34]
+	[RGB:150:0:24]
 
 [COLOR:CERULEAN]
 	[NAME:cerulean]
@@ -102,7 +102,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:CHARCOAL]
 	[NAME:charcoal]
 	[WORD:CHARCOAL]
-	[RGB:99:94:101]
+	[RGB:54:69:79]
 
 [COLOR:CHARTREUSE]
 	[NAME:chartreuse]
@@ -117,17 +117,17 @@ Most of these are from Wikipedia's color list.
 [COLOR:CHOCOLATE]
 	[NAME:chocolate]
 	[WORD:CHOCOLATE]
-	[RGB:255:130:67]
+	[RGB:210:105:30]
 
 [COLOR:CINNAMON]
 	[NAME:cinnamon]
 	[WORD:CINNAMON]
-	[RGB:184:69:67]
+	[RGB:123:63:0]
 
 [COLOR:CLEAR]
 	[NAME:clear]
 	[WORD:CLEAR]
-	[RGB:136:143:159]
+	[RGB:128:128:128]
 
 [COLOR:COBALT]
 	[NAME:cobalt]
@@ -137,7 +137,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:COPPER]
 	[NAME:copper]
 	[WORD:COPPER]
-	[RGB:221:148:117]
+	[RGB:184:115:51]
 
 [COLOR:CREAM]
 	[NAME:cream]
@@ -147,17 +147,17 @@ Most of these are from Wikipedia's color list.
 [COLOR:CRIMSON]
 	[NAME:crimson]
 	[WORD:CRIMSON]
-	[RGB:224:73:87]
+	[RGB:220:20:60]
 
 [COLOR:DARK_BLUE]
 	[NAME:dark blue]
 	[WORD:BLUE]
-	[RGB:68:103:161]
+	[RGB:0:0:139]
 
 [COLOR:DARK_BROWN]
 	[NAME:dark brown]
 	[WORD:BROWN]
-	[RGB:102:73:61]
+	[RGB:101:67:33]
 
 [COLOR:DARK_CHESTNUT]
 	[NAME:dark chestnut]
@@ -167,12 +167,12 @@ Most of these are from Wikipedia's color list.
 [COLOR:DARK_GREEN]
 	[NAME:dark green]
 	[WORD:GREEN]
-	[RGB:0:119:55]
+	[RGB:1:50:32]
 
 [COLOR:DARK_INDIGO]
 	[NAME:dark indigo]
 	[WORD:INDIGO]
-	[RGB:84:62:146]
+	[RGB:49:0:98]
 
 [COLOR:DARK_OLIVE]
 	[NAME:dark olive]
@@ -182,12 +182,12 @@ Most of these are from Wikipedia's color list.
 [COLOR:DARK_PEACH]
 	[NAME:dark peach]
 	[WORD:PEACH]
-	[RGB:179:129:120]
+	[RGB:255:218:185]
 
 [COLOR:DARK_PINK]
 	[NAME:dark pink]
 	[WORD:PINK]
-	[RGB:255:67:164]
+	[RGB:231:84:128]
 
 [COLOR:DARK_SCARLET]
 	[NAME:dark scarlet]
@@ -221,7 +221,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:FERN_GREEN]
 	[NAME:fern green]
 	[WORD:GREEN]
-	[RGB:3:94:44]
+	[RGB:79:121:66]
 
 [COLOR:FLAX]
 	[NAME:flax]
@@ -231,7 +231,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:FUCHSIA]
 	[NAME:fuchsia]
 	[WORD:FUCHSIA]
-	[RGB:255:72:208]
+	[RGB:244:0:161]
 
 [COLOR:GOLD]
 	[NAME:gold]
@@ -252,7 +252,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:GRAY]
 	[NAME:gray]
 	[WORD:GRAY]
-	[RGB:120:124:13]
+	[RGB:128:128:128]
 
 [COLOR:GREEN]
 	[NAME:green]
@@ -268,17 +268,17 @@ Most of these are from Wikipedia's color list.
 [COLOR:HELIOTROPE]
 	[NAME:heliotrope]
 	[WORD:HELIOTROPE]
-	[RGB:186:85:211]
+	[RGB:223:115:255]
 
 [COLOR:INDIGO]
 	[NAME:indigo]
 	[WORD:INDIGO]
-	[RGB:108:45:126]
+	[RGB:75:0:130]
 
 [COLOR:IVORY]
 	[NAME:ivory]
 	[WORD:IVORY]
-	[RGB:228:224:215]
+	[RGB:255:255:240]
 
 [COLOR:JADE]
 	[NAME:jade]
@@ -288,12 +288,12 @@ Most of these are from Wikipedia's color list.
 [COLOR:LAVENDER]
 	[NAME:lavender]
 	[WORD:LAVENDER]
-	[RGB:176:183:198]
+	[RGB:230:230:250]
 
 [COLOR:LAVENDER_BLUSH]
 	[NAME:lavender blush]
 	[WORD:LAVENDER]
-	[RGB:232:218:211]
+	[RGB:255:240:245]
 
 [COLOR:LEMON]
 	[NAME:lemon]
@@ -303,17 +303,17 @@ Most of these are from Wikipedia's color list.
 [COLOR:LIGHT_BLUE]
 	[NAME:light blue]
 	[WORD:BLUE]
-	[RGB:143:210:218]
+	[RGB:173:216:230]
 
 [COLOR:LIGHT_BROWN]
 	[NAME:light brown]
 	[WORD:BROWN]
-	[RGB:180:103:77]
+	[RGB:205:133:63]
 
 [COLOR:LILAC]
 	[NAME:lilac]
 	[WORD:LILAC]
-	[RGB:218:112:214]
+	[RGB:200:162:200]
 
 [COLOR:LIME]
 	[NAME:lime]
@@ -323,7 +323,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:MAHOGANY]
 	[NAME:mahogany]
 	[WORD:MAHOGANY]
-	[RGB:203:65:84]
+	[RGB:192:64:0]
 
 [COLOR:MAROON]
 	[NAME:maroon]
@@ -333,7 +333,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:MAUVE]
 	[NAME:mauve]
 	[WORD:MAUVE]
-	[RGB:199:21:133]
+	[RGB:153:51:102]
 
 [COLOR:MAUVE_TAUPE]
 	[NAME:mauve taupe]
@@ -344,7 +344,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:MIDNIGHT_BLUE]
 	[NAME:midnight blue]
 	[WORD:BLUE]
-	[RGB:40:120:181]
+	[RGB:0:51:102]
 
 [COLOR:MINT_GREEN]
 	[NAME:mint green]
@@ -364,7 +364,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:OLIVE]
 	[NAME:olive]
 	[WORD:OLIVE]
-	[RGB:106:168:82]
+	[RGB:128:128:0]
 
 [COLOR:ORANGE]
 	[NAME:orange]
@@ -374,68 +374,68 @@ Most of these are from Wikipedia's color list.
 [COLOR:PALE_BLUE]
 	[NAME:pale blue]
 	[WORD:BLUE]
-	[RGB:135:206:250]
+	[RGB:175:238:238]
 
 [COLOR:PALE_BROWN]
 	[NAME:pale brown]
 	[WORD:BROWN]
-	[RGB:152:118:107]
+	[RGB:152:118:84]
 
 [COLOR:PALE_CHESTNUT]
 	[NAME:pale chestnut]
 	[WORD:CHESTNUT]
-	[RGB:234:188:136]
+	[RGB:221:173:175]
 
 [COLOR:PALE_PINK]
 	[NAME:pale pink]
 	[WORD:PINK]
-	[RGB:255:207:171]
+	[RGB:250:218:221]
 
 [COLOR:PEACH]
 	[NAME:peach]
 	[WORD:PEACH]
-	[RGB:182:119:78]
+	[RGB:255:229:180]
 
 [COLOR:PEARL]
 	[NAME:pearl]
 	[WORD:PEARL]
-	[RGB:222:190:149]
+	[RGB:240:234:214]
 
 [COLOR:PERIWINKLE]
 	[NAME:periwinkle]
 	[WORD:PERIWINKLE]
-	[RGB:197:208:230]
+	[RGB:204:204:255]
 
 [COLOR:PINE_GREEN]
 	[NAME:pine green]
 	[WORD:GREEN]
 	[WORD:PINE]
-	[RGB:3:109:86]
+	[RGB:1:121:111]
 
 [COLOR:PINK]
 	[NAME:pink]
 	[WORD:PINK]
-	[RGB:255:182:193]
+	[RGB:255:192:203]
 
 [COLOR:PLUM]
 	[NAME:plum]
 	[WORD:PLUM]
-	[RGB:149:69:133]
+	[RGB:102:0:102]
 
 [COLOR:PUCE]
 	[NAME:puce]
 	[WORD:PUCE]
-	[RGB:230:101:166]
+	[RGB:204:136:153]
 
 [COLOR:PUMPKIN]
 	[NAME:pumpkin]
 	[WORD:PUMPKIN]
-	[RGB:255:110:74]
+	[RGB:255:117:24]
 
 [COLOR:PURPLE]
 	[NAME:purple]
 	[WORD:PURPLE]
-	[RGB:173:90:255]
+	[RGB:102:0:153]
 
 [COLOR:RAW_UMBER]
 	[NAME:raw umber]
@@ -451,7 +451,7 @@ Most of these are from Wikipedia's color list.
 	[NAME:red-purple]
 	[WORD:RED]
 	[WORD:PURPLE]
-	[RGB:202:55:103]
+	[RGB:178:0:75]
 
 [COLOR:ROSE]
 	[NAME:rose]
@@ -461,7 +461,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:RUSSET]
 	[NAME:russet]
 	[WORD:RUSSET]
-	[RGB:115:129:135]
+	[RGB:117:90:87]
 
 [COLOR:RUST]
 	[NAME:rust]
@@ -476,7 +476,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:SCARLET]
 	[NAME:scarlet]
 	[WORD:SCARLET]
-	[RGB:254:76:30]
+	[RGB:255:36:0]
 
 [COLOR:SEA_GREEN]
 	[NAME:sea green]
@@ -493,7 +493,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:SILVER]
 	[NAME:silver]
 	[WORD:SILVER]
-	[RGB:164:173:179]
+	[RGB:192:192:192]
 
 [COLOR:SKY_BLUE]
 	[NAME:sky blue]
@@ -503,7 +503,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:SLATE_GRAY]
 	[NAME:slate gray]
 	[WORD:GRAY]
-	[RGB:112:128:141]
+	[RGB:112:128:144]
 
 [COLOR:SPRING_GREEN]
 	[NAME:spring green]
@@ -518,7 +518,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:TAUPE_DARK]
 	[NAME:dark taupe]
 	[WORD:TAUPE]
-	[RGB:112:72:73]
+	[RGB:72:60:50]
 
 [COLOR:TAUPE_GRAY]
 	[NAME:taupe gray]
@@ -529,7 +529,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:TAUPE_MEDIUM]
 	[NAME:taupe]
 	[WORD:TAUPE]
-	[RGB:152:118:84]
+	[RGB:103:76:71]
 
 [COLOR:TAUPE_PURPLE]
 	[NAME:purple taupe]
@@ -540,7 +540,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:TAUPE_PALE]
 	[NAME:pale taupe]
 	[WORD:TAUPE]
-	[RGB:238:202:157]
+	[RGB:188:152:126]
 
 [COLOR:TAUPE_ROSE]
 	[NAME:rose taupe]
@@ -550,7 +550,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:TAUPE_SANDY]
 	[NAME:sandy taupe]
 	[WORD:TAUPE]
-	[RGB:182:149:68]
+	[RGB:150:113:23]
 
 [COLOR:TEAL]
 	[NAME:teal]
@@ -570,7 +570,7 @@ Most of these are from Wikipedia's color list.
 [COLOR:VIOLET]
 	[NAME:violet]
 	[WORD:VIOLET]
-	[RGB:106:90:205]
+	[RGB:139:0:255]
 
 [COLOR:WHITE]
 	[NAME:white]
