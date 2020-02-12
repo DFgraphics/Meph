@@ -10,7 +10,7 @@ Damselflies were sponsored by the generous contributions of the Bay 12 community
 	[DESCRIPTION:A tiny, colorful, long-bodied insect.]
 	[NAME:damselfly:damselflies:damselfly]
 	[CASTE_NAME:damselfly:damselflies:damselfly]
-	[CREATURE_TILE:117][ALTTILE:118][COLOR:3:0:1]
+	[CREATURE_TILE:117]ALTTILE:118[COLOR:3:0:1]
 	[NATURAL]
 	[BIOME:ANY_POOL]
 	[VERMIN_GROUNDER][FREQUENCY:100]
@@ -1094,7 +1094,7 @@ Jumping spiders were sponsored by the generous contributions of the Bay 12 commu
 	[NAME:jumping spider:jumping spiders:jumping spider]
 	[CASTE_NAME:jumping spider:jumping spiders:jumping spider]
 	[CREATURE_TILE:115][COLOR:0:0:1]
-	[ALTTILE:27]
+	ALTTILE:27
 	[CARNIVORE]
 	[PET_EXOTIC]
 	[NATURAL]
@@ -1376,7 +1376,7 @@ Brown recluse spiders were sponsored by the generous contributions of the Bay 12
 	[NAME:brown recluse spider:brown recluse spiders:brown recluse spider]
 	[CASTE_NAME:brown recluse spider:brown recluse spiders:brown recluse spider]
 	[CREATURE_TILE:115][COLOR:6:0:0]
-	[ALTTILE:27]
+	ALTTILE:27
 	[CARNIVORE]
 	[PET_EXOTIC]
 	[WEBIMMUNE]

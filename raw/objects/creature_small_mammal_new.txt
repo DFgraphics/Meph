@@ -10,7 +10,7 @@ Hamsters were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A tiny rodent that burrows by day and scurries about at night.]
 	[NAME:hamster:hamsters:hamster]
 	[CASTE_NAME:hamster:hamsters:hamster]
-	[CREATURE_TILE:113][ALTTILE:114][COLOR:7:0:0]
+	[CREATURE_TILE:113]ALTTILE:114[COLOR:7:0:0]
 	[CREATURE_CLASS:MAMMAL]
 	[PETVALUE:10]
 	[VERMIN_EATER][PENETRATEPOWER:2][FREQUENCY:100][VERMIN_HATEABLE][VERMIN_GROUNDER]

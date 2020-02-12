@@ -655,7 +655,7 @@ Leeches were sponsored by the generous contributions of the Bay 12 community.
 	[DESCRIPTION:A tiny, aquatic, worm-like creature that feeds on blood.]
 	[NAME:leech:leeches:leech]
 	[CASTE_NAME:leech:leeches:leech]
-	[CREATURE_TILE:119][ALTTILE:120][COLOR:0:0:1]
+	[CREATURE_TILE:119]ALTTILE:120[COLOR:0:0:1]
 	[PETVALUE:10]
 	[VERMIN_SOIL]
 	[FREQUENCY:100][VERMIN_HATEABLE]
@@ -762,7 +762,7 @@ Axolotls were sponsored by the generous contributions of the Bay 12 community.
 	[NAME:axolotl:axolotls:axolotl]
 	[CASTE_NAME:axolotl:axolotls:axolotl]
 	[CREATURE_TILE:77][COLOR:5:0:0]
-	[ALTTILE:123]
+	ALTTILE:123
 	[PETVALUE:10]
 	[PET_EXOTIC]
 	[VERMIN_GROUNDER][FREQUENCY:100]

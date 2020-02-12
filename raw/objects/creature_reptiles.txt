@@ -7,7 +7,7 @@ creature_reptiles
 	[NAME:lizard:lizards:lizard]
 	[CASTE_NAME:lizard:lizards:lizard]
 	[CREATURE_TILE:77][COLOR:6:0:0]
-	[ALTTILE:123]
+	ALTTILE:123
 	[PETVALUE:10]
 	[VERMIN_EATER][PENETRATEPOWER:1][FREQUENCY:100][VERMIN_HATEABLE][VERMIN_GROUNDER]
 	[SMALL_REMAINS][NO_WINTER]
@@ -140,7 +140,7 @@ creature_reptiles
 	[NAME:skink:skinks:skink]
 	[CASTE_NAME:skink:skinks:skink]
 	[CREATURE_TILE:77][COLOR:7:0:0]
-	[ALTTILE:123]
+	ALTTILE:123
 	[PETVALUE:10]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[SMALL_REMAINS]
@@ -275,7 +275,7 @@ creature_reptiles
 	[NAME:chameleon:chameleons:chameleon]
 	[CASTE_NAME:chameleon:chameleons:chameleon]
 	[CREATURE_TILE:77][COLOR:2:0:1]
-	[ALTTILE:123]
+	ALTTILE:123
 	[PETVALUE:10]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[SMALL_REMAINS]
@@ -414,7 +414,7 @@ creature_reptiles
 	[NAME:anole:anoles:anole]
 	[CASTE_NAME:anole:anoles:anole]
 	[CREATURE_TILE:77][COLOR:2:0:1]
-	[ALTTILE:123]
+	ALTTILE:123
 	[PETVALUE:10]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[SMALL_REMAINS]

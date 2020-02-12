@@ -1,9 +1,9 @@
 {
-    "author": "Meph, Vordak",
+    "author": "Meph, Vordak, Denzi",
     "url": "http://www.bay12forums.com/smf/index.php?topic=165118.0",
-    "content_version": "3.0.0+0.8.2 (2018-05-15)",
+    "content_version": "5.4.0+1.1.2 (2018-05-15)",
     "df_min_version": "0.44.07",
-    "df_max_version": "0.44.10",
+    "df_max_version": "0.44.12",
     "title": "Meph+Vordak (lite) 32x",
     "tooltip": "Meph's tileset with Vordak's dwarf graphics."
 }

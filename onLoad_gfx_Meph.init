@@ -1,0 +1,8 @@
+#s#eason-palette start
+twbt unit_transparency 1
+twbt workshop_transparency 1
+twbt redraw_all 1
+multilevel shadowcolor 0 0 0 0.6
+multilevel fogcolor 0.1 0.1 0.17
+multilevel fogdensity 0.30 0.25 0.75
+#r#ealcolors
