@@ -2,7 +2,7 @@ plant_new_trees
 
 With contributions from:
 
-/u/XIILarxene - Alexis DeSilva
+/u/DyebrewsWitch - Alexis DeSilva
 /u/K3achas - Jenifer De Jager
 	My densities come from http://www.csudh.edu/oliver/chemdata/woods.htm (I got all the trees from there in plant_new_trees, color from https://www.woodworkerssource.com and http://www.forestryforum.com
 
@@ -104,7 +104,7 @@ With contributions from:
 	[ROOT_RADIUS:3]
 	[STANDARD_TILE_NAMES]
 	[PREFSTRING:fruit]
-	[DRY]	[SAPLING_TILE:88]
+	[DRY]	[SAPLING_TILE:100]
 	[DEAD_SAPLING_TILE:55]
 	[BIOME:ANY_TROPICAL]
 	[SAPLING]
@@ -397,7 +397,7 @@ With contributions from:
 	[TRUNK_PERIOD:10]
 	[HEAVY_BRANCH_DENSITY:25]
 	[BRANCH_DENSITY:50]
-	[MAX_TRUNK_HEIGHT:8]	[TREE_COLOR:2:0:0][DEAD_TREE_COLOR:6:0:0][SAPLING_TILE:88]
+	[MAX_TRUNK_HEIGHT:8]	[TREE_COLOR:2:0:0][DEAD_TREE_COLOR:6:0:0][SAPLING_TILE:100]
 	[DEAD_SAPLING_TILE:55]
 	[HEAVY_BRANCH_RADIUS:1]
 	[BRANCH_RADIUS:2]
@@ -566,7 +566,7 @@ With contributions from:
 	[TRUNK_WIDTH_PERIOD:200]
 	[ROOT_DENSITY:5]
 	[ROOT_RADIUS:3]
-	[STANDARD_TILE_NAMES]	[SAPLING_TILE:88]
+	[STANDARD_TILE_NAMES]	[SAPLING_TILE:100]
 	[DEAD_SAPLING_TILE:55]
 	[PREFSTRING:fruit]
 	[DRY]
@@ -1161,12 +1161,12 @@ With contributions from:
 [PLANT:BITTER_ORANGE] poncirus trifoliata
 	[NAME:bitter orange tree][NAME_PLURAL:bitter orange trees][ADJ:bitter orange tree]
 	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
-	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL][DISPLAY_COLOR:203:0:0]
+	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL][DISPLAY_COLOR:131:0:0]
 	[USE_MATERIAL_TEMPLATE:WOOD:WOOD_TEMPLATE]
 		[STATE_NAME:ALL_SOLID:bitter orange wood]
 		[STATE_ADJ:ALL_SOLID:bitter orange wood]
 		[PREFIX:NONE]
-	 	[SOLID_DENSITY:590] [DISPLAY_COLOR:186:0:0] http://www.fao.org/docrep/w4095e/w4095e0c.htm Did Citrus grandis wood density - same genus but couldn't find any for Citrus aurantifolia
+	 	[SOLID_DENSITY:590] [DISPLAY_COLOR:131:0:0] http://www.fao.org/docrep/w4095e/w4095e0c.htm Did Citrus grandis wood density - same genus but couldn't find any for Citrus aurantifolia
 	 	[STATE_COLOR:ALL_SOLID:TAUPE_PALE] *** not yet searched
 	[USE_MATERIAL_TEMPLATE:LEAF:LEAF_TEMPLATE]
 		[STATE_COLOR:ALL:SEA_GREEN]
@@ -1640,7 +1640,7 @@ With contributions from:
 	[ROOT_DENSITY:5]
 	[ROOT_RADIUS:3]
 	[STANDARD_TILE_NAMES]
-	[PREFSTRING:fruit]	[SAPLING_TILE:88]
+	[PREFSTRING:fruit]	[SAPLING_TILE:100]
 	[DEAD_SAPLING_TILE:55]
 	[WET][DRY]
 	[BIOME:ANY_TROPICAL]
@@ -1680,7 +1680,7 @@ With contributions from:
 		[STATE_NAME:ALL_SOLID:lychee wood]
 		[STATE_ADJ:ALL_SOLID:lychee wood]
 		[PREFIX:NONE]
-	 	[SOLID_DENSITY:880][DISPLAY_COLOR:186:0:0] http://www.fao.org/docrep/w4095e/w4095e0c.htm
+	 	[SOLID_DENSITY:880][DISPLAY_COLOR:131:0:0] http://www.fao.org/docrep/w4095e/w4095e0c.htm
 	 	[STATE_COLOR:ALL_SOLID:TAUPE_SANDY] *** not yet searched
 	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
 		[STATE_NAME_ADJ:ALL_SOLID:frozen lychee wine]
@@ -2630,12 +2630,12 @@ With contributions from:
 [PLANT:PEAR] pyrus spp.
 	[NAME:pear tree][NAME_PLURAL:pear trees][ADJ:pear tree]
 	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
-	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL][DISPLAY_COLOR:186:0:0]
+	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL][DISPLAY_COLOR:131:0:0]
 	[USE_MATERIAL_TEMPLATE:WOOD:WOOD_TEMPLATE]
 		[STATE_NAME:ALL_SOLID:pear wood]
 		[STATE_ADJ:ALL_SOLID:pear wood]
 		[PREFIX:NONE]
-	 	[SOLID_DENSITY:600][DISPLAY_COLOR:186:0:0] *** not yet searched
+	 	[SOLID_DENSITY:600][DISPLAY_COLOR:131:0:0] *** not yet searched
 	 	[STATE_COLOR:ALL_SOLID:BUFF] *** not yet searched
 	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
 		[STATE_NAME_ADJ:ALL_SOLID:frozen perry]

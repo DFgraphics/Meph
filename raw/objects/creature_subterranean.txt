@@ -1104,7 +1104,7 @@ creature_subterranean
 	[NAME:cave spider:cave spiders:cave spider]
 	[CASTE_NAME:cave spider:cave spiders:cave spider]
 	[CREATURE_TILE:115][COLOR:7:0:0]
-	[ALTTILE:27]
+	ALTTILE:27
 	[CREATURE_CLASS:POISONOUS]
 	[CARNIVORE]
 	[PET_EXOTIC]
@@ -1183,7 +1183,7 @@ creature_subterranean
 	[DESCRIPTION:A small pale creature found in underground streams and ponds.]
 	[NAME:cave fish:cave fish:cave fish]
 	[CASTE_NAME:cave fish:cave fish:cave fish]
-	[CREATURE_TILE:121][ALTTILE:122][COLOR:7:0:1]
+	[CREATURE_TILE:121]ALTTILE:122[COLOR:7:0:1]
 	[VERMIN_FISH][VERMIN_GROUNDER][FISHITEM][IMMOBILE_LAND][VERMIN_NOTRAP]
 	[AQUATIC][SMALL_REMAINS][UNDERSWIM]
 	[NATURAL]
@@ -1335,7 +1335,7 @@ creature_subterranean
 	[NAME:fire snake:fire snakes:fire snake]
 	[CASTE_NAME:fire snake:fire snakes:fire snake]
 	[CREATURE_TILE:102][COLOR:6:0:1]
-	[ALTTILE:93]
+	ALTTILE:93
 	[PETVALUE:10]
 	[PET_EXOTIC]
 	[NATURAL]
@@ -1382,7 +1382,7 @@ creature_subterranean
 	[NAME:olm:olms:olm]
 	[CASTE_NAME:olm:olms:olm]
 	[CREATURE_TILE:77][COLOR:7:0:1]
-	[ALTTILE:123]
+	ALTTILE:123
 	[PETVALUE:10]
 	[PET_EXOTIC]
 	[VERMIN_GROUNDER][FREQUENCY:100]
@@ -1479,7 +1479,7 @@ creature_subterranean
 	[NAME:bat:bats:bat]
 	[CASTE_NAME:bat:bats:bat]
 	[CREATURE_TILE:99][COLOR:0:0:1]
-	[ALTTILE:59]
+	ALTTILE:59
 	[CREATURE_CLASS:MAMMAL]
 	[PETVALUE:10]
 	[PET_EXOTIC]
@@ -1604,7 +1604,7 @@ creature_subterranean
 	[DESCRIPTION:A tiny larva which is prized for its milk.]
 	[NAME:purring maggot:purring maggots:purring maggot]
 	[CASTE_NAME:purring maggot:purring maggots:purring maggot]
-	[CREATURE_TILE:119][ALTTILE:120][COLOR:7:0:1]
+	[CREATURE_TILE:119]ALTTILE:120[COLOR:7:0:1]
 	[PETVALUE:10]
 	[PET_EXOTIC]
 	[VERMIN_GROUNDER][VERMIN_NOROAM][VERMIN_HATEABLE]

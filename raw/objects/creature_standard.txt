@@ -966,7 +966,7 @@ creature_standard
 	[NAME:goblin:goblins:goblin]
 	[CASTE_NAME:goblin:goblins:goblin]
 	[CREATURE_TILE:151][COLOR:7:0:0]
-	[GLOWCOLOR:4:0:1]
+	GLOWCOLOR:4:0:1
 	[CREATURE_CLASS:MAMMAL]
 	[EVIL]
 	[INTELLIGENT]
@@ -1217,7 +1217,7 @@ creature_standard
 	[NAME:kobold:kobolds:kobold]
 	[CASTE_NAME:kobold:kobolds:kobold]
 	[CREATURE_TILE:154][COLOR:6:0:0]
-	[GLOWCOLOR:6:0:1]
+	GLOWCOLOR:6:0:1
 	[LOCKPICKER][TRAPAVOID][FLEEQUICK]
 	[CAN_LEARN]
 	[UTTERANCES]
@@ -3692,7 +3692,7 @@ creature_standard
 	[NAME:blizzard man:blizzard men:blizzard man]
 	[CASTE_NAME:blizzard man:blizzard men:blizzard man]
 	[CREATURE_TILE:2][COLOR:3:0:1]
-	[GLOWCOLOR:4:0:1]
+	GLOWCOLOR:4:0:1
 	[BIOME:GLACIER]
 	[BIOME:TUNDRA]
 	[LARGE_ROAMING][EVIL][DIFFICULTY:2][FREQUENCY:5]

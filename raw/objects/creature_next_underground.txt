@@ -169,7 +169,7 @@ creature_next_underground
 	[CLUSTER_NUMBER:10:20]
 	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:unnerving stare]
-	[GLOWTILE:9][GLOWCOLOR:4:0:1]
+	GLOWTILE:9 GLOWCOLOR:4:0:1
 	[BODY:BASIC_1PARTBODY:4ARMS_STANCE:HEART:GUTS:4FINGERS:BODY_EYE:BODY_EYELID]
 	[NO_THOUGHT_CENTER_FOR_MOVEMENT]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
@@ -375,7 +375,7 @@ creature_next_underground
 	[NAME:cap hopper:cap hoppers:cap hopper]
 	[CASTE_NAME:cap hopper:cap hoppers:cap hopper]
 	[CREATURE_TILE:163][COLOR:2:0:0]
-	[ALTTILE:26]
+	ALTTILE:26
 	[PETVALUE:10]
 	[PET_EXOTIC]
 	[VERMIN_GROUNDER][FREQUENCY:100]
@@ -1130,8 +1130,8 @@ creature_next_underground
 	[DESCRIPTION:A tiny underground creature made of a mass of appendages resembling human fingers.  It creeps across the ground like a starfish and eats with a mouth on the bottom of its body.]
 	[NAME:creepy crawler:creepy crawlers:creepy crawler]
 	[CASTE_NAME:creepy crawler:creepy crawlers:creepy crawler]
-	[CREATURE_TILE:157][COLOR:6:0:0]
-	[ALTTILE:24]
+	[CREATURE_TILE:24][COLOR:6:0:0]
+	ALTTILE:157
 	[PETVALUE:20]
 	[PET_EXOTIC]
 	[EVIL]
