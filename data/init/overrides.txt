@@ -19,7 +19,7 @@
 #:new tile:foreground:background
 
 ##################################################################################
-[TILESET:_Meph_32x32.png:_Meph_32x32.png:_MDF_overrides_0]
+[TILESET:Meph_32x32.png:Meph_32x32.png:_MDF_overrides_0]
 [TILESET:_Meph_items.png:_Meph_items.png:_MDF_overrides_1]
 [TILESET:_Meph_trees.png:_Meph_trees.png:_MDF_overrides_2]
 [TILESET:_Meph_plants.png:_Meph_plants.png:_MDF_overrides_3]
