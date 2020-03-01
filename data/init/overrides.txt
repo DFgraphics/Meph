@@ -7592,6 +7592,7 @@ floor (see constructions)
 
 
 [OVERRIDE:255:B:DISPLAY_CASE:DisplayFurniture::_MDF_overrides_2:188:16]
+[OVERRIDE:255:B:91:OfferingPlace::_MDF_overrides_2:204] - altar
 
 
 ##################################################################################
