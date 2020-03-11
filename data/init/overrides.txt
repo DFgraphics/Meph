@@ -3522,8 +3522,6 @@ Taffers revised adds throwing spears. atlatl dart
 [OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_STONE_AXE:_MDF_overrides_1:248] - axes
 [OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_PEDESTAL:_MDF_overrides_2:204:16] - pedestal
 [OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_DISPLAY_CASE:_MDF_overrides_2:188:16] - display case
-[OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_ALTAR:_MDF_overrides_2:204] - altar
-[OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_DIE:_MDF_overrides_1:228] - die
 
 [OVERRIDE:47:I:WEAPON:WEAPON:ITEM_WEAPON_WHIP:_MDF_overrides_1:56] - whips
 [OVERRIDE:47:I:WEAPON:WEAPON:ITEM_WEAPON_AXE_BATTLE:_MDF_overrides_1:57] - battle axes
@@ -7592,7 +7590,6 @@ floor (see constructions)
 
 
 [OVERRIDE:255:B:DISPLAY_CASE:DisplayFurniture::_MDF_overrides_2:188:16]
-[OVERRIDE:255:B:91:OfferingPlace::_MDF_overrides_2:204] - altar
 
 
 ##################################################################################
@@ -9190,3 +9187,7 @@ wood
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 <><><><><><><><> 		    End of cultural exchange mod   		  <><><><><><><><><><>
 <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+[OVERRIDE:255:B:91:OfferingPlace::_MDF_overrides_2:204] - pedestal / altar
+[OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_ALTAR:_MDF_overrides_2:204] - pedestal / altar
+[OVERRIDE:255:I:TOOL:TOOL:ITEM_TOOL_DIE:_MDF_overrides_1:104] - die

@@ -1798,6 +1798,7 @@ Green tree frogs were sponsored by the generous contributions of the Bay 12 comm
 	[NAME:green tree frog:green tree frogs:green tree frog]
 	[CASTE_NAME:green tree frog:green tree frogs:green tree frog]
 	[CREATURE_TILE:163][COLOR:2:0:1]
+	ALTTILE:26
 	[PETVALUE:10]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[AMPHIBIOUS][SMALL_REMAINS][NO_WINTER][UNDERSWIM]
