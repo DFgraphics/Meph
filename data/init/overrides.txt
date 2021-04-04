@@ -1088,9 +1088,9 @@ STOCKPILE_THREAD_METAL adam
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_14:122::::INORGANIC:SAND_TAN]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:127::::INORGANIC:SAND_TAN]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:125::::INORGANIC:SAND_TAN]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:125::::INORGANIC:SAND_TAN]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:126::::INORGANIC:SAND_TAN]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:127::::INORGANIC:SAND_TAN]
 
 ######################################################################################
 
@@ -1162,9 +1162,9 @@ floor (see constructions)
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_14:122::::INORGANIC:SAND_YELLOW]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:127::::INORGANIC:SAND_YELLOW]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:125::::INORGANIC:SAND_YELLOW]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:125::::INORGANIC:SAND_YELLOW]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:126::::INORGANIC:SAND_YELLOW]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:127::::INORGANIC:SAND_YELLOW]
 
 ######################################################################################
 
@@ -1235,9 +1235,9 @@ floor (see constructions)
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_14:122::::INORGANIC:SAND_RED]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:127::::INORGANIC:SAND_RED]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:125::::INORGANIC:SAND_RED]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:125::::INORGANIC:SAND_RED]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:126::::INORGANIC:SAND_RED]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:127::::INORGANIC:SAND_RED]
 
 ######################################################################################
 
@@ -1308,9 +1308,9 @@ floor (see constructions)
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_14:122::::INORGANIC:SAND_BLACK]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:127::::INORGANIC:SAND_BLACK]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:125::::INORGANIC:SAND_BLACK]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:125::::INORGANIC:SAND_BLACK]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:126::::INORGANIC:SAND_BLACK]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:127::::INORGANIC:SAND_BLACK]
 
 ######################################################################################
 
@@ -1381,9 +1381,9 @@ floor (see constructions)
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_14:122::::INORGANIC:SAND_WHITE]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:127::::INORGANIC:SAND_WHITE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:125::::INORGANIC:SAND_WHITE]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:125::::INORGANIC:SAND_WHITE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:126::::INORGANIC:SAND_WHITE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:127::::INORGANIC:SAND_WHITE]
 
 ######################################################################################
 
@@ -1452,8 +1452,8 @@ floor (see constructions)
 [OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_15:220:::STRUCTURAL_PLANT_MAT]
 
 OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_15:13:::STRUCTURAL_PLANT_MAT
-OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_15:14:::STRUCTURAL_PLANT_MAT
-OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_15:15:::STRUCTURAL_PLANT_MAT
+OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_15:14:::STRUCTURAL_PLANT_MAT
+OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_15:15:::STRUCTURAL_PLANT_MAT
 
 ##################################################################################
 #different wall tiles for wool rugs / yarn, I cheat and use something unused: CHEESE_CREATURE  
@@ -1486,9 +1486,10 @@ OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_15:15:::STRUCTURAL_PLANT_MAT
 
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_14:11:::CHEESE_CREATURE]
 [OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_14:12:::CHEESE_CREATURE]
+
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:13:::CHEESE_CREATURE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:14:::CHEESE_CREATURE]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:15:::CHEESE_CREATURE]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:14:::CHEESE_CREATURE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:15:::CHEESE_CREATURE]
 ##################################################################################
 #different wall tiles for fiber    
 
@@ -1520,9 +1521,10 @@ OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_15:15:::STRUCTURAL_PLANT_MAT
 
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_14:75:::THREAD_PLANT]
 [OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_14:76:::THREAD_PLANT]
+
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:77:::THREAD_PLANT]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:78:::THREAD_PLANT]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:79:::THREAD_PLANT]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:78:::THREAD_PLANT]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:79:::THREAD_PLANT]
 ##################################################################################
 #different wall tiles for silk    
 
@@ -1554,9 +1556,10 @@ OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_15:15:::STRUCTURAL_PLANT_MAT
 
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_14:43:::SILK]
 [OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_14:44:::SILK]
+
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_14:45:::SILK]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:46:::SILK]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:47:::SILK]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_14:46:::SILK]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_14:47:::SILK]
 
 ##################################################################################
 
@@ -2587,8 +2590,8 @@ bone set
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:214::::INORGANIC:CERAMIC_EARTHENWARE]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:218::::INORGANIC:CERAMIC_EARTHENWARE]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:221::::INORGANIC:CERAMIC_EARTHENWARE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:223::::INORGANIC:CERAMIC_EARTHENWARE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:222::::INORGANIC:CERAMIC_EARTHENWARE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:223::::INORGANIC:CERAMIC_EARTHENWARE]
 
 
 [OVERRIDE:254:I:BLOCKS:BLOCKS::_MDF_overrides_7:202::::INORGANIC:CERAMIC_STONEWARE]
@@ -2627,8 +2630,8 @@ bone set
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:214::::INORGANIC:CERAMIC_STONEWARE]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:218::::INORGANIC:CERAMIC_STONEWARE]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:221::::INORGANIC:CERAMIC_STONEWARE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:223::::INORGANIC:CERAMIC_STONEWARE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:222::::INORGANIC:CERAMIC_STONEWARE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:223::::INORGANIC:CERAMIC_STONEWARE]
 
 
 [OVERRIDE:254:I:BLOCKS:BLOCKS::_MDF_overrides_7:202::::INORGANIC:CERAMIC_PORCELAIN]
@@ -2667,8 +2670,8 @@ bone set
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:214::::INORGANIC:CERAMIC_PORCELAIN]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:218::::INORGANIC:CERAMIC_PORCELAIN]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:221::::INORGANIC:CERAMIC_PORCELAIN]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:223::::INORGANIC:CERAMIC_PORCELAIN]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:222::::INORGANIC:CERAMIC_PORCELAIN]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:223::::INORGANIC:CERAMIC_PORCELAIN]
 ############################################################################################
 
 *varied wood logs, cut gems and large gems.
@@ -5392,8 +5395,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:122:::IS_GEM]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:125:::IS_GEM]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:127:::IS_GEM]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:126:::IS_GEM]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:127:::IS_GEM]
 
 ##################################################################################
 #different wall tiles for bone 
@@ -5430,8 +5433,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:138:::BONE]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:141:::BONE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:143:::BONE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:142:::BONE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:143:::BONE]
 
 ##################################################################################
 #different wall tiles for clay      
@@ -5470,8 +5473,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:202::::INORGANIC:SILTY_CLAY]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:205::::INORGANIC:SILTY_CLAY]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:SILTY_CLAY]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:206::::INORGANIC:SILTY_CLAY]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:SILTY_CLAY]
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:205::::INORGANIC:SANDY_CLAY]
 [OVERRIDE:43:T:MineralFloorSmooth:_MDF_overrides_7:205::::INORGANIC:SANDY_CLAY]
@@ -5507,8 +5510,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:202::::INORGANIC:SANDY_CLAY]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:205::::INORGANIC:SANDY_CLAY]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:SANDY_CLAY]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:206::::INORGANIC:SANDY_CLAY]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:SANDY_CLAY]
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:205::::INORGANIC:CLAY_LOAM]
 [OVERRIDE:43:T:MineralFloorSmooth:_MDF_overrides_7:205::::INORGANIC:CLAY_LOAM]
@@ -5544,8 +5547,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:202::::INORGANIC:CLAY_LOAM]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:205::::INORGANIC:CLAY_LOAM]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:CLAY_LOAM]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:206::::INORGANIC:CLAY_LOAM]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:CLAY_LOAM]
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:205::::INORGANIC:FIRE_CLAY]
 [OVERRIDE:43:T:MineralFloorSmooth:_MDF_overrides_7:205::::INORGANIC:FIRE_CLAY]
@@ -5581,8 +5584,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:202::::INORGANIC:FIRE_CLAY]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:205::::INORGANIC:FIRE_CLAY]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:FIRE_CLAY]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:206::::INORGANIC:FIRE_CLAY]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:FIRE_CLAY]
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:205::::INORGANIC:CLAY]
 [OVERRIDE:43:T:MineralFloorSmooth:_MDF_overrides_7:205::::INORGANIC:CLAY]
@@ -5618,8 +5621,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:202::::INORGANIC:CLAY]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:205::::INORGANIC:CLAY]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:CLAY]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:206::::INORGANIC:CLAY]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:207::::INORGANIC:CLAY]
 
 
 ##################################################################################
@@ -5659,8 +5662,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:154::::INORGANIC:OBSIDIAN]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:157::::INORGANIC:OBSIDIAN]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:159::::INORGANIC:OBSIDIAN]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:158::::INORGANIC:OBSIDIAN]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:159::::INORGANIC:OBSIDIAN]
 
 
 
@@ -5701,8 +5704,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:170::::INORGANIC:MARBLE]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:173::::INORGANIC:MARBLE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:175::::INORGANIC:MARBLE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:174::::INORGANIC:MARBLE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:175::::INORGANIC:MARBLE]
 
 
 
@@ -5740,8 +5743,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:26::::INORGANIC:LIMESTONE]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:29::::INORGANIC:LIMESTONE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:LIMESTONE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:30::::INORGANIC:LIMESTONE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:LIMESTONE]
 
 
 
@@ -5781,8 +5784,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:26::::INORGANIC:DOLOMITE]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:29::::INORGANIC:DOLOMITE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:DOLOMITE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:30::::INORGANIC:DOLOMITE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:DOLOMITE]
 
 
 
@@ -5820,8 +5823,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:26::::INORGANIC:CHALK]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:29::::INORGANIC:CHALK]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:CHALK]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:30::::INORGANIC:CHALK]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:CHALK]
 
 
 
@@ -5859,8 +5862,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:26::::INORGANIC:CALCITE]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:29::::INORGANIC:CALCITE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:CALCITE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:30::::INORGANIC:CALCITE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:31::::INORGANIC:CALCITE]
 ##################################################################################
 #different wall tiles for cavern wood.
        
@@ -5890,8 +5893,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:NETHER_CAP:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:NETHER_CAP:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:NETHER_CAP:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:NETHER_CAP:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:NETHER_CAP:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:NETHER_CAP:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:NETHER_CAP:WOOD]
 
 
 
@@ -5918,8 +5921,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:TUNNEL_TUBE:WOOD]
 
 
 
@@ -5946,8 +5949,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:TOWER_CAP:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:TOWER_CAP:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:TOWER_CAP:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:TOWER_CAP:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:TOWER_CAP:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:TOWER_CAP:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:TOWER_CAP:WOOD]
 
 
 
@@ -5974,8 +5977,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:SPORE_TREE:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:SPORE_TREE:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:SPORE_TREE:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:SPORE_TREE:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:SPORE_TREE:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:SPORE_TREE:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:SPORE_TREE:WOOD]
 
 
 
@@ -6002,8 +6005,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:BLOOD_THORN:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:BLOOD_THORN:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:BLOOD_THORN:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:BLOOD_THORN:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:BLOOD_THORN:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:BLOOD_THORN:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:BLOOD_THORN:WOOD]
 
 
 
@@ -6030,8 +6033,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:BLACK_CAP:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:BLACK_CAP:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:BLACK_CAP:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:BLACK_CAP:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:BLACK_CAP:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:BLACK_CAP:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:BLACK_CAP:WOOD]
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:61:::WOOD:PLANT:GOBLIN_CAP:WOOD]
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:59:::WOOD:PLANT:GOBLIN_CAP:WOOD]
@@ -6056,8 +6059,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:GOBLIN_CAP:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:GOBLIN_CAP:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:GOBLIN_CAP:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:GOBLIN_CAP:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:GOBLIN_CAP:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:GOBLIN_CAP:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:GOBLIN_CAP:WOOD]
 
 [OVERRIDE:43:T:ConstructedFloor:_MDF_overrides_7:61:::WOOD:PLANT:FUNGIWOOD:WOOD]
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:59:::WOOD:PLANT:FUNGIWOOD:WOOD]
@@ -6082,8 +6085,8 @@ Frozen
 [OVERRIDE:204:T:ConstructedWallRUD:_MDF_overrides_8:54:::WOOD:PLANT:FUNGIWOOD:WOOD]
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:58:::WOOD:PLANT:FUNGIWOOD:WOOD]
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:61:::WOOD:PLANT:FUNGIWOOD:WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:62:::WOOD:PLANT:FUNGIWOOD:WOOD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:63:::WOOD:PLANT:FUNGIWOOD:WOOD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:62:::WOOD:PLANT:FUNGIWOOD:WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:63:::WOOD:PLANT:FUNGIWOOD:WOOD]
 
 
 ##################################################################################
@@ -6121,8 +6124,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:42:::WOOD]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:45:::WOOD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:47:::WOOD]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:46:::WOOD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:47:::WOOD]
 
 ##################################################################################
 #different wall tiles for silver   
@@ -6160,8 +6163,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:90::::INORGANIC:SILVER]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:93::::INORGANIC:SILVER]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:94::::INORGANIC:SILVER]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:95::::INORGANIC:SILVER]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:94::::INORGANIC:SILVER]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:95::::INORGANIC:SILVER]
 
 ##################################################################################
 #different wall tiles for GOLD   
@@ -6199,8 +6202,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:106::::INORGANIC:GOLD]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:109::::INORGANIC:GOLD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:110::::INORGANIC:GOLD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:111::::INORGANIC:GOLD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:110::::INORGANIC:GOLD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:111::::INORGANIC:GOLD]
 
 ##################################################################################
 #different wall tiles for ROSE_GOLD   
@@ -6237,8 +6240,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_12:10::::INORGANIC:ROSE_GOLD]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_12:13::::INORGANIC:ROSE_GOLD]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_12:14::::INORGANIC:ROSE_GOLD]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_12:15::::INORGANIC:ROSE_GOLD]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_12:14::::INORGANIC:ROSE_GOLD]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_12:15::::INORGANIC:ROSE_GOLD]
 
 
 ##################################################################################
@@ -6278,8 +6281,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_12:42::::INORGANIC:SLADE]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_12:45::::INORGANIC:SLADE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_12:46::::INORGANIC:SLADE]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_12:47::::INORGANIC:SLADE]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_12:46::::INORGANIC:SLADE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_12:47::::INORGANIC:SLADE]
 
 
 ##################################################################################
@@ -6317,8 +6320,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_12:74::::INORGANIC:COPPER]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_12:77::::INORGANIC:COPPER]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_12:78::::INORGANIC:COPPER]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_12:79::::INORGANIC:COPPER]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_12:78::::INORGANIC:COPPER]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_12:79::::INORGANIC:COPPER]
 
 ##################################################################################
 #different wall tiles for ice    
@@ -6354,9 +6357,9 @@ Frozen
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:235:::EVAPORATES]
 [OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:236:::EVAPORATES]
 
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:237:::EVAPORATES]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:237:::EVAPORATES]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:238:::EVAPORATES]
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:239:::EVAPORATES]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:239:::EVAPORATES]
 
 ##################################################################################
 #different wall tiles for glass    
@@ -6391,9 +6394,9 @@ Frozen
 [OVERRIDE:206:T:ConstructedFortification:_MDF_overrides_8:251:::IS_GLASS]
 [OVERRIDE:199:T:ConstructedPillar:_MDF_overrides_8:252:::IS_GLASS]
 
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:253:::IS_GLASS]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:253:::IS_GLASS]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:254:::IS_GLASS]
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:255:::IS_GLASS]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:255:::IS_GLASS]
 
 
 
@@ -6432,8 +6435,8 @@ Frozen
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:74:::IS_METAL]
 
 [OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:77:::IS_METAL]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:78:::IS_METAL]
-[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:79:::IS_METAL]
+[OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:78:::IS_METAL]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:79:::IS_METAL]
 
 
 ##################################################################################
@@ -6472,9 +6475,9 @@ Frozen
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:10:::IS_STONE]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:15:::IS_STONE]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:13:::IS_STONE]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:13:::IS_STONE]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:14:::IS_STONE]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:15:::IS_STONE]
 
 ##################################################################################
 #different wall tiles  
@@ -6510,9 +6513,9 @@ Frozen
 
 [OVERRIDE:206:T:ConstructedWallLRUD:_MDF_overrides_8:10]
 
-[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:15]
-[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:13]
+[OVERRIDE:62:T:ConstructedStairD:_MDF_overrides_8:13]
 [OVERRIDE:88:T:ConstructedStairUD:_MDF_overrides_8:14]
+[OVERRIDE:60:T:ConstructedStairU:_MDF_overrides_8:15]
 
 ##################################################################################
 
